@@ -73,7 +73,6 @@ gSaveBlockTypeSizeLookup:
 #define EMS_CHUNK_EIDS_PERMANENT 6
 #define EMS_CHUNK_BONUSCLAIMDATA 7
 #define EMS_CHUNK_WMDATA         8
-#define EMS_CHUNK_ARENAUNITS 	 9
 
 // ===========
 // = MODULES =
@@ -84,13 +83,13 @@ gSaveBlockTypeSizeLookup:
 
 #include "SrcModules/Debuffs.lyn.event" // Debuffs module
 
+/*
 #ifdef USE_STRMAG_SPLIT
 	#ifdef STAIRS_ASM
 		MESSAGE EMS with strmag and Stair
 		#include "SrcModules/SaveUnitExpandedStrmagStairs.lyn.event" // Str/Mag and Stairs both require saving shenanigans.
 	#else
-		MESSAGE EMS with strmag and Stair at currentOffset
-		#include "SrcModules/SaveUnitExpandedStrmagStairsFatigue.lyn.event" // Only Str/Mag split.
+		#include "SrcModules/SaveUnitExpandedStrmag.lyn.event" // Only Str/Mag split.
 	#endif // STAIRS_ASM
 #else
 	#ifdef STAIRS_ASM
@@ -99,6 +98,9 @@ gSaveBlockTypeSizeLookup:
 		#include "SrcModules/SaveUnitExpanded.lyn.event" // Regular.
 	#endif // STAIRS_ASM
 #endif // USE_STRMAG_SPLIT
+*/
+MESSAGE EMS with strmag and Stair In
+#include "SrcModules/SaveUnitExpandedStrmagStairsFatigue.lyn.event" //Fatigue EMS
 
 DebuffTablePointer: // required for debuffs module
 	WORD DebuffTableRam
@@ -199,14 +201,22 @@ gSuspendSaveChunks:
 	// Save Debuffs (TODO: maybe reduce size)
 	DeclSaveChunk($2494, DebuffTableSize, SUD_SaveDebuffs,  SUD_LoadDebuffs)
 	
+	// Save 15 purple units (15 * 0x3C = $0384)
+   	DeclSaveChunk($2514, $0384, ESU_SavePurpleSuspendUnits,  ESU_LoadPurpleSuspendUnits)
+   	
+	//2514
+	// Save Debuffs (TODO: maybe reduce size) //$440
+	DeclSaveChunk($2898, DebuffTableSize, SUD_SaveDebuffs,  SUD_LoadDebuffs)
+	
 	//Save Arena progress
 	DeclSaveChunk($2CE0, $60, ESU_SaveArenaProgress, ESU_LoadArenaProgress)
 
+	//2898
 	// Permanent eids (moved here because of a mistake in the previous allocation)
-	DeclSaveChunk($2DA8, $0019, $0A3150+1, $0A3198+1)
-
-	// ends at $2DC1
-	// free up to $2E78 ($B7 free bytes)
+	DeclSaveChunk($2E54, $0019, $0A3150+1, $0A3198+1)
+	//2cD8
+	// ends at $2E6D
+	// free up to $2E78 ($0b free bytes)
 
 	DeclSaveChunk(0, 0, 0, MSu_LoadClaimFlagsFromParentSave) // Load Bonus Claim flags from parent save
 
