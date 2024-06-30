@@ -25,3 +25,5 @@
 #include "TitleScreen/Installer.event"
 
 #include "Difficulty/Installer.event"
+
+#include "TerrainBG/Background.event"
