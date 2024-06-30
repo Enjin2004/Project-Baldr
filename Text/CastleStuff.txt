@@ -171,3 +171,65 @@ are bound in holy matrimony![A][X]
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
 Thank you for coming.[N]
 I know we'll meet again.[A][X]
+
+##Castletorial1
+[OpenMidRight][LoadSigurd]
+Hmmmm[...][A][N][OpenMidLeft][LoadOifey]
+Hello, Sire! Let me[N]
+teach you about the castle.[A][N]
+Incase you forgot, of course.[A][X]
+
+##Castletorial2
+[OpenMidLeft][LoadVendorGuy][OpenMidRight][LoadOifey]
+This is the shop! You can use[N]
+the gold earned to buy stuff![A][N]
+Items change in every castle, so[N]
+make sure to check it out![A][X]
+
+##Castletorial3
+[OpenMidLeft][LoadPawnshop][OpenMidRight][LoadOifey]
+This doesn't do anything yet.[A][N][OpenMidLeft]
+I'm Leslie.[A][X]
+
+##Castletorial4
+[OpenMidLeft][LoadAugury][OpenMidRight][LoadOifey]
+This wise elder can[N]
+predict your romantic future![A][X]
+
+##Castletorial5
+[OpenMidLeft][LoadBlacksmith][OpenMidRight][LoadOifey]
+He can fix your weapons for[N]
+a really low price![A][N]
+Make sure to come here[N]
+frequently to ensure victory![A][X]
+
+##Castletorial6
+[OpenMidLeft][LoadArenaGuy][OpenMidRight][LoadOifey]
+Here you can fight an[N]
+assortment of powerful opponents.[A][N]
+Make sure everyone can get a[N]
+try to level up faster![A][X]
+
+##Castletorial7
+[OpenMidLeft][LoadAnna][OpenMidRight][LoadOifey]
+[...][A][N][OpenFarRight][LoadSigurd]
+Um[...] Oifey? What's wrong?[A][N][OpenMidRight]
+She helps store our items.[A][N]
+Please don't talk to her.[A][N][OpenFarRight]
+Okay?[A][N][ClearFace][OpenMidRight][ClearFace][OpenMidLeft]
+[...][ToggleSmile]Teehee.[A][X]
+
+##Castletorial8
+[OpenMidRight][LoadOifey]
+And I'm in charge of handling[N]
+the class promotions![A][N]
+Talk to me when you are ready[N]
+for a rise in power![A][N]
+[Beat]but I doubt you are ready now.[A][X]
+
+##Castletorial9
+Once you're done with the[N]
+activities, seize these tiles.[A][N]
+They will be pointed out[N]
+as the castles change.[A][N]
+Have fun![A][X]

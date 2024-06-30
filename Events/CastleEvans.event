@@ -83,6 +83,66 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x0 EvansGang
 LOAD1 0x1 HelperGuys
+CAM1 Sigurd
+Text(Castletorial1)
+FADI 16
+MOVE 120 Oifey [16,13]
+ENUN
+CAM1 [16,13]
+FADU 16
+CURSOR [16, 12]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial2)
+CURSOR [15, 13]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial3)
+FADI 16
+MOVE 120 Oifey [2,13]
+ENUN
+CAM1 [2,13]
+FADU 16
+CURSOR [0, 13]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial4)
+CURSOR [2, 12]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial5)
+FADI 16
+MOVE 120 Oifey [9,4]
+ENUN
+CAM1 [9,4]
+FADU 16
+CURSOR [8, 4]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial6)
+FADI 16
+MOVE 120 Oifey [0,4]
+ENUN
+CAM1 [0,4]
+FADU 16
+CURSOR [0, 3]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial7)
+FADI 16
+MOVE 120 Oifey [17,6]
+ENUN
+CAM1 [17,6]
+FADU 16
+CURSOR [17, 6]
+STAL 60
+REMOVE_CURSORS
+Text(Castletorial8)
+SystemText(Castletorial9)
+CAM1 [9,19]
+CURSOR [9, 19]
+STAL 60
+REMOVE_CURSORS
 EndEvent
 
 EndingScene:
@@ -883,14 +943,14 @@ UNIT Midir BowCav 0x0 Level(3,Ally,0) [5,3] 0x0 0x0 0x0 0x0 [0x0] NoAI
 UNIT
 
 HelperGuys:
-UNIT BlacksmithGuy Civil 0x0 Level(1,NPC,0) [17,13] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
+UNIT VendorDude Civil 0x0 Level(1,NPC,0) [17,13] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT Augury Civil 0x0 Level(1,NPC,0) [0,13] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
-UNIT VendorDude Civil 0x0 Level(1,NPC,0) [2,12] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
+UNIT BlacksmithGuy Civil 0x0 Level(1,NPC,0) [2,12] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT PawnshopGuy Civil 0x0 Level(1,NPC,0) [15,13] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT ArenaGuy Civil 0x0 Level(1,NPC,0) [8,4] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT Anna CivilF 0x0 Level(1,NPC,0) [0,3] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT Jake Civil 0x0 Level(1,NPC,0) [1,3] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
-UNIT Oifey UniCav 0x0 Level(1,NPC,0) [17,6] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
+UNIT Oifey Child 0x0 Level(1,NPC,0) [17,6] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
 UNIT
 
 EnemyUnits:

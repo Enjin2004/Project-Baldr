@@ -46,6 +46,7 @@ END_MAIN
 
 MiscBasedEvents:
 DefeatAll(EndingScene)
+AFEV 0xA ElliotEscapes 0x9
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -246,6 +247,12 @@ ENDWARP
 Text(Schemers)
 MNC2 0x4
 LABEL 0x33
+EndEvent
+
+ElliotEscapes:
+MOVE 120 Elliot [21,8]
+ENUN
+SilentKillUnit(Elliot)
 EndEvent
 
 NordionUnits:

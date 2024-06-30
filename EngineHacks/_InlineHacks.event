@@ -72,6 +72,13 @@ PUSH
 ORG TerrainHealAmount + TerrainChurch;   BYTE 100
 POP
 
+//Battle Screen Solo Fix
+
+PUSH
+ORG 0x5141C
+WORD 0x08802348
+POP
+
 // Weapon Rank Fix
 // by Serif 
 PUSH
