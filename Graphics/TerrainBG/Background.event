@@ -1,5 +1,5 @@
-#define SetBattleBG(index, terrain, bgIndex) "PUSH; ORG $80CD1B+(41*index)+terrain; BYTE bgIndex; POP"
-#define SetBattlePlatform(index, terrain, platformIndex) "PUSH; ORG $80C7C6+(41*index)+terrain; BYTE platformIndex; POP"
+#define SetBattleBG(index, terrain, bgIndex) "PUSH; ORG $80CD1B+(0x41*index)+terrain; BYTE bgIndex; POP"
+#define SetBattlePlatform(index, terrain, platformIndex) "PUSH; ORG $80C7C6+(0x41*index)+terrain; BYTE platformIndex; POP"
 
 //Battle Backgrounds
 //Night Fix
