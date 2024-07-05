@@ -55,12 +55,20 @@ SandimaPalette:
 #incbin "Sandima.dmp"
 
 ALIGN 4
+BurkaulPalette:
+#incbin "Burkaul.dmp"
+
+ALIGN 4
 BordeauxPalette:
 #incbin "Bordeaux.dmp"
 
 ALIGN 4
 SlayderPalette:
 #incbin "Slayder.dmp"
+
+ALIGN 4
+ArvisPalette:
+#incbin "Arvis.dmp"
 
 ALIGN 4
 HaroldPalette:
@@ -99,6 +107,10 @@ HeirheinArmPalette:
 #incbin "HeirheinKnight.dmp"
 
 ALIGN 4
+HeirheinMagePalette:
+#incbin "HeirheinMage.dmp"
+
+ALIGN 4
 AgustriaArmPalette:
 #incbin "AgustriaKnight.dmp"
 
@@ -121,6 +133,10 @@ AzelPalette:
 ALIGN 4
 EldiganPalette:
 #incbin "Eldigan.dmp"
+
+ALIGN 4
+DullesPalette:
+#incbin "Dulles.dmp"
 
 PUSH
 ORG $59BFC
