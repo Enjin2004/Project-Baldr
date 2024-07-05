@@ -143,7 +143,7 @@ CleanText(0x10,MidirRescueth)
 LABEL 0x31
 LOAD1 0x1 UsefulBoi
 ENUN
-SetChapterObjectiveText(_Seize,_SeizeEvans)
+SetChapterObjectiveText(_Seize, _SeizeEvans)
 ENDA
 
 DestroyBridge:
@@ -344,7 +344,7 @@ UNIT Ethlyn Troub 0x0 Level(1,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, SlimSw
 UNIT
 
 ArvisCometh:
-UNIT ArvisGen1 Sage 0x0 Level(25,NPC,0) [33,0] 0x0 0x0 0x1 REDA32R3 [Valflame, RecoverRing, SilverSword, Salamander] NoAI
+UNIT ArvisGen1 Sage 0x0 Level(25,NPC,0) [33,0] 0x0 0x0 0x1 REDA32R3 [Valflame, RecoverRing, SilverSword, Salamander] TalkyAI
 UNIT
 
 EnemyUnits:

@@ -14,6 +14,19 @@ ALIGN 4
 AiPerfomExtensionTable:
 	ORG AiPerfomExtensionTable + 4*(PERFORM_EXTENSION_COUNT)
 
+InjectAi2(0x8, ArvisAi)	
+InjectAi2(0xA, AttackCastleAi2)
+
+ALIGN 4
+AttackCastleAi2:
+AiMoveTowardsPoint(13,35)
+AiRestart
+
+ALIGN 4
+ArvisAi:
+AiTryTalkToCharacter(Sigurd)
+
+
 #include "Src/PerformHook.lyn.event"
 
 PUSH

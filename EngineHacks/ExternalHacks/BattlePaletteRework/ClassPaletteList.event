@@ -22,6 +22,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 GeneralPaletteList:
+PaletteAssociationEntry(Arena7, $15)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -62,6 +63,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SniperPaletteList:
+PaletteAssociationEntry(Burkaul, $12)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -91,10 +93,12 @@ ALIGN 4
 
 MagePaletteList:
 PaletteAssociationEntry(Azel, $0E)
+PaletteAssociationEntry(Heirhein, $14)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SagePaletteList:
+PaletteAssociationEntry(ArvisGen1, $13)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

@@ -190,6 +190,9 @@ POP
   //Ai Ferry by Stan 
   #include "ExternalHacks/FerryAi/FerryAi.event" 
   
+  //Talk Ai by Stan
+  #include "ExternalHacks/TalkAi/TalkAi.event"
+  
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"
   
@@ -204,6 +207,9 @@ POP
   
   //Experience formula
   #include "Baldr/NewExpFormula/NewExpFormula.lyn.event"
+
+  //Dynamic Equip by Gamma
+  #include "ExternalHacks/DynamicEquip/DynamicWeaponEquipInstaller.event"
 
   //FE4 Village Raid by Contro
   #include "Baldr/VillageRaid/Installer.event"
