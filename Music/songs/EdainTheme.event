@@ -1,0 +1,544 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Edin_grp  voicegroup000
+	#define	Edin_pri  0
+	#define	Edin_rev  0
+	#define	Edin_mvl  80
+	#define	Edin_key  0
+	#define	Edin_tbs  1
+	#define	Edin_exg  0
+	#define	Edin_cmp  1
+
+	// .rodata
+	//	Edin
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Edin_1:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   115*Edin_tbs/2
+	BYTE		VOICE   52
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     116*Edin_mvl/mxv
+	BYTE		PAN     c_v+6
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_1_B1:
+	BYTE	W02
+	BYTE		N44     Cs4   v116
+	BYTE	W48
+	BYTE		N23     Gs4 
+	BYTE	W24
+	BYTE		N11     Fs4 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE	W08
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N23     Ds4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W04
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     As3 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W28
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		N23     Cs4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W28
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fs4 
+	BYTE	W48
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W04
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     Cs4 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		N23   
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W04
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_1_B1
+Edin_1_B2:
+	BYTE	W02
+	BYTE		VOICE   52
+	BYTE		VOL     116*Edin_mvl/mxv
+	BYTE		PAN     c_v+6
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Edin_2:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     116*Edin_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_2_B1:
+	BYTE	W02
+	BYTE		N44     Cs4   v080
+	BYTE	W48
+	BYTE		N23     Gs4 
+	BYTE	W24
+	BYTE		N11     Fs4 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE	W08
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N23     Ds4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W04
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     As3 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W28
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		N23     Cs4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W28
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fs4 
+	BYTE	W48
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W04
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     Cs4 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		N23   
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W04
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_2_B1
+Edin_2_B2:
+	BYTE	W02
+	BYTE		VOICE   102
+	BYTE		VOL     116*Edin_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Edin_3:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v-28
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_3_B1:
+	BYTE	W02
+	BYTE		N92     Gs3   v072
+	BYTE	W76
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		N92   
+	BYTE	W76
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fn3 
+	BYTE	W76
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fs3 
+	BYTE	W76
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fn3 
+	BYTE	W76
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		N44   
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE	W28
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     Cs3 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		        Ds3 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_3_B1
+Edin_3_B2:
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v-28
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Edin_4:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v-4
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_4_B1:
+	BYTE	W02
+	BYTE		N92     Fn3   v100
+	BYTE	W76
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		N92   
+	BYTE	W76
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cs3 
+	BYTE	W76
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		        Ds3 
+	BYTE	W76
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cs3 
+	BYTE	W76
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		N44   
+	BYTE	W48
+	BYTE		        Cn3 
+	BYTE	W28
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     As2 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cn3 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_4_B1
+Edin_4_B2:
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v-4
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+Edin_5:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_5_B1:
+	BYTE	W02
+	BYTE		N92     Gs2   v084
+	BYTE	W76
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		N92   
+	BYTE	W76
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fn2 
+	BYTE	W76
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fs2 
+	BYTE	W76
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fn2 
+	BYTE	W76
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		N44   
+	BYTE	W48
+	BYTE		        Ds2 
+	BYTE	W28
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     Cs2 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		        Ds2 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_5_B1
+Edin_5_B2:
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+Edin_6:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+18
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_6_B1:
+	BYTE	W02
+	BYTE		N92     Fn2   v088
+	BYTE	W76
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		N92   
+	BYTE	W76
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cs2 
+	BYTE	W76
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		        Ds2 
+	BYTE	W76
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cs2 
+	BYTE	W76
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		N44   
+	BYTE	W48
+	BYTE		        Cn2 
+	BYTE	W28
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     As1 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		        Cn2 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_6_B1
+Edin_6_B2:
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+18
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+Edin_7:
+	BYTE	KEYSH   Edin_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+0
+	BYTE		VOL     41*Edin_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		MOD     0
+	BYTE		BENDR   64
+	BYTE		        64
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+32
+	BYTE		BEND    c_v+0
+	BYTE	W18
+Edin_7_B1:
+	BYTE	W02
+	BYTE		N92     Cs2   v100
+	BYTE	W76
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		        As1 
+	BYTE	W76
+// 002   ----------------------------------------
+	BYTE	W20
+	BYTE		        Fs1 
+	BYTE	W76
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     Gs1 
+	BYTE	W48
+	BYTE		N21     As1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W20
+	BYTE		N44     Cs2 
+	BYTE	W48
+	BYTE		        Cn2 
+	BYTE	W28
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		        As1 
+	BYTE	W48
+	BYTE		        Gs1 
+	BYTE	W28
+// 006   ----------------------------------------
+	BYTE	W20
+	BYTE		N92     Fs1 
+	BYTE	W76
+// 007   ----------------------------------------
+	BYTE	W20
+	BYTE		        Gs1 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	Edin_7_B1
+Edin_7_B2:
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     80*Edin_mvl/mxv
+	BYTE		PAN     c_v+32
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Edin:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Edin_pri	// Priority
+	BYTE	Edin_rev	// Reverb.
+
+	POIN2	Edin_grp
+
+	POIN2	Edin_1
+	POIN2	Edin_2
+	POIN2	Edin_3
+	POIN2	Edin_4
+	POIN2	Edin_5
+	POIN2	Edin_6
+	POIN2	Edin_7
+
+	
