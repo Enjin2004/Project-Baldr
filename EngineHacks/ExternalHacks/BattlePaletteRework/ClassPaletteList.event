@@ -6,23 +6,60 @@ WORD 0 0
 ALIGN 4
 
 CavalierPaletteList:
+PaletteAssociationEntry(Agusti, $24)
+PaletteAssociationEntry(CrossKnight, $2F)
+PaletteAssociationEntry(BeigeRitter, $46)
+// PaletteAssociationEntry(Miletos, $88)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 PaladinPaletteList:
-PaletteAssociationEntry(Eldigan, $0F)
+PaletteAssociationEntry(Eldigan, $0D)
+PaletteAssociationEntry(Agusti, $27)
+// PaletteAssociationEntry(Grannvale, $79)
+PaletteAssociationEntry(Ross, $C6)
+// PaletteAssociationEntry(Ava, $F0)
+// PaletteAssociationEntry(Eva, $F1)
+// PaletteAssociationEntry(Eve, $F2)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ArmorPaletteList:
-PaletteAssociationEntry(Arden, $0D)
-PaletteAssociationEntry(Heirhein, $10)
-PaletteAssociationEntry(Agusty, $11)
+PaletteAssociationEntry(Arden, $0B)
+PaletteAssociationEntry(Heirhein, $11)
+PaletteAssociationEntry(Infini, $17)
+PaletteAssociationEntry(Mackily, $1A)
+PaletteAssociationEntry(Agusti, $20)
+PaletteAssociationEntry(Madino, $2B)
+PaletteAssociationEntry(Sylvale, $30)
+PaletteAssociationEntry(Tofa, $34)
+PaletteAssociationEntry(Silesse, $38)
+PaletteAssociationEntry(Lubeck, $4A)
+// PaletteAssociationEntry(Friege, $5B)
+// PaletteAssociationEntry(Melgen, $5B)
+// PaletteAssociationEntry(Ulster, $5B)
+// PaletteAssociationEntry(Connacht, $5B)
+// PaletteAssociationEntry(RotenRitter, $6F)
+// PaletteAssociationEntry(Kapathogia, $7C)
+// PaletteAssociationEntry(Hopper, $EE)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 GeneralPaletteList:
-PaletteAssociationEntry(Arena7, $15)
+PaletteAssociationEntry(Madino, $2D)
+PaletteAssociationEntry(Zaxon, $3A)
+PaletteAssociationEntry(Lubeck, $4F)
+// PaletteAssociationEntry(Friege, $60)
+// PaletteAssociationEntry(Ulster, $60)
+// PaletteAssociationEntry(Connacht, $60)
+PaletteAssociationEntry(Arena7, $C0)
+PaletteAssociationEntry(Philip, $C3)
+PaletteAssociationEntry(Bordeaux, $C5)
+PaletteAssociationEntry(Macbeth, $C9)
+PaletteAssociationEntry(Myos, $DA)
+PaletteAssociationEntry(Donovan, $DD)
+// PaletteAssociationEntry(Donovan, $E2)
+PaletteAssociationEntry(Harold, $FA)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -31,10 +68,22 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MercPaletteList:
+PaletteAssociationEntry(Mackily, $1C)
+PaletteAssociationEntry(Orgahil, $32)
+PaletteAssociationEntry(Tofa, $35)
+// PaletteAssociationEntry(Ulster, $65)
+// PaletteAssociationEntry(Mercenary, $A1)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 HeroPaletteList:
+// PaletteAssociationEntry(Friege, $61)
+// PaletteAssociationEntry(Loptrian, $95)
+// PaletteAssociationEntry(Mercenary, $9F)
+PaletteAssociationEntry(Arena7, $C1)
+PaletteAssociationEntry(Jacobin, $CF)
+PaletteAssociationEntry(Marlon, $D7)
+// PaletteAssociationEntry(Galzus, $F9)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -43,14 +92,18 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MyrmFPaletteList:
+PaletteAssociationEntry(Assassin, $43)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SwordmasterMPaletteList:
+// PaletteAssociationEntry(Mariccle, $F7)
+// PaletteAssociationEntry(Mananan, $F8)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SwordmasterFPaletteList:
+PaletteAssociationEntry(Lamia, $DE)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -59,79 +112,135 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ArcherPaletteList:
+PaletteAssociationEntry(Heirhein, $10)
+PaletteAssociationEntry(Mackily, $19)
+PaletteAssociationEntry(Agusti, $1F)
+PaletteAssociationEntry(Madino, $2A)
+PaletteAssociationEntry(Assassin, $40)
+// PaletteAssociationEntry(Melgen, $5A)
+// PaletteAssociationEntry(Thracia, $7B)
+// PaletteAssociationEntry(Grutia, $7B)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SniperPaletteList:
-PaletteAssociationEntry(Burkaul, $12)
+PaletteAssociationEntry(Burkaul, $0F)
+// PaletteAssociationEntry(Friege, $67)
+// PaletteAssociationEntry(Loptrian, $99)
+// PaletteAssociationEntry(Mercenary, $A3)
+PaletteAssociationEntry(Arena7, $C2)
+// PaletteAssociationEntry(Ring, $E8)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 RangerPaletteList:
+// PaletteAssociationEntry(Grannvale, $7A)
+// PaletteAssociationEntry(Mercenary, $A2)
+PaletteAssociationEntry(Waltz, $C8)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WandererPaletteList:
+PaletteAssociationEntry(Lino, $CD)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvRiderMPaletteList:
+// PaletteAssociationEntry(Thracia, $83)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvRiderFPaletteList:
+// PaletteAssociationEntry(Thracia, $84)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvLordPaletteList:
+// PaletteAssociationEntry(Thracia, $82)
+PaletteAssociationEntry(Magorn, $ED)
+PaletteAssociationEntry(Travant, $ED)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvKnightPaletteList:
+// PaletteAssociationEntry(Thracia, $81)
+// PaletteAssociationEntry(Papillon, $D1)
+// PaletteAssociationEntry(Callista, $F4)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MagePaletteList:
-PaletteAssociationEntry(Azel, $0E)
-PaletteAssociationEntry(Heirhein, $14)
+PaletteAssociationEntry(Azel, $0C)
+PaletteAssociationEntry(Heirhein, $16)
+PaletteAssociationEntry(Madino, $2E)
+PaletteAssociationEntry(Loptrian, $96)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SagePaletteList:
-PaletteAssociationEntry(ArvisGen1, $13)
+PaletteAssociationEntry(ArvisGen1, $0E)
+// PaletteAssociationEntry(Loptrian, $97)
+// PaletteAssociationEntry(Kurth, $E9)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MageKnightPaletteList:
+// PaletteAssociationEntry(GelbenRitter, $6B)
+// PaletteAssociationEntry(RotenRitter, $75)
+// PaletteAssociationEntry(Miletos, $8C)
+// PaletteAssociationEntry(Mercenary, $A0)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 BishopPaletteList:
+PaletteAssociationEntry(Madino, $2C)
+// PaletteAssociationEntry(Connacht, $5E)
+// PaletteAssociationEntry(RotenRitter, $70)
+// PaletteAssociationEntry(Edda, $90)
+PaletteAssociationEntry(Cuvuli, $D6)
+// PaletteAssociationEntry(Clement, $EF)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ShamanPaletteList:
 PaletteAssociationEntry(Sandima, $05)
+// PaletteAssociationEntry(Loptrian, $98)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 DruidPaletteList:
+// PaletteAssociationEntry(Loptrian, $93)
+PaletteAssociationEntry(Estrella, $CE)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MageFighterPaletteList:
+PaletteAssociationEntry(Snevejr, $D8)
+PaletteAssociationEntry(Aida, $EA)
+PaletteAssociationEntry(Vaja, $EB)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 RoguePaletteList:
+PaletteAssociationEntry(Ruffian, $A9)
+PaletteAssociationEntry(Payne, $D2)
+// PaletteAssociationEntry(Arena7, $F6)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 GKPaletteList:
+PaletteAssociationEntry(GrauenRitter, $57)
+// PaletteAssociationEntry(RotenRitter, $73)
+// PaletteAssociationEntry(Grannvale, $78)
+// PaletteAssociationEntry(Miletos, $8A)
+PaletteAssociationEntry(Banquo, $C7)
+PaletteAssociationEntry(Thorton, $E0)
+PaletteAssociationEntry(Slayder, $E4)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MaligKntPaletteList:
+// PaletteAssociationEntry(Thracia, $80)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -139,13 +248,19 @@ AxeFighterPaletteList:
 PaletteAssociationEntry(Verdane1, $06)
 PaletteAssociationEntry(Verdane2, $06)
 PaletteAssociationEntry(Gerrard, $01)
+PaletteAssociationEntry(Silesse, $39)
+PaletteAssociationEntry(Ganeishire, $4E)
+PaletteAssociationEntry(Sophara, $55)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WarriorMPaletteList:
 PaletteAssociationEntry(Verdane2, $0A)
-PaletteAssociationEntry(Kinbois, $02)
+PaletteAssociationEntry(Cimbaeth, $02)
 PaletteAssociationEntry(Munnir, $03)
+PaletteAssociationEntry(Silesse, $3D)
+// PaletteAssociationEntry(Mercenary, $A5)
+PaletteAssociationEntry(Pizare, $D4)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -156,6 +271,12 @@ ALIGN 4
 BrigandMPaletteList:
 PaletteAssociationEntry(Verdane1, $09)
 PaletteAssociationEntry(DiMaggio, $00)
+PaletteAssociationEntry(Lubeck, $4C)
+PaletteAssociationEntry(Ganeishire, $4C)
+PaletteAssociationEntry(Sophara, $4C)
+PaletteAssociationEntry(Isaach, $4C)
+PaletteAssociationEntry(Ribaut, $4C)
+PaletteAssociationEntry(Ruffian, $A6)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -164,6 +285,10 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 PirateMPaletteList:
+PaletteAssociationEntry(Orgahil, $33)
+PaletteAssociationEntry(Silesse, $3C)
+PaletteAssociationEntry(Ruffian, $A7)
+// PaletteAssociationEntry(Scragg, $D3)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -176,6 +301,9 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 BerserkerPaletteList:
+// PaletteAssociationEntry(Loptrian, $92)
+PaletteAssociationEntry(Ruffian, $A8)
+PaletteAssociationEntry(Duvall, $D5)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -184,10 +312,16 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WindMagePaletteList:
+// PaletteAssociationEntry(Tofa, $37)
+PaletteAssociationEntry(Silesse, $3E)
+PaletteAssociationEntry(Ivan, $DB)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 PriestPaletteList:
+PaletteAssociationEntry(Heirhein, $15)
+PaletteAssociationEntry(Velthomer, $76)
+PaletteAssociationEntry(RotenRitter, $76)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -196,22 +330,41 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 PegKnightPaletteList:
+// PaletteAssociationEntry(Tofa, $36)
+PaletteAssociationEntry(Silesse, $3B)
+PaletteAssociationEntry(AnnandSquad, $3F)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 FalcoknightPaletteList:
+PaletteAssociationEntry(Dithorba, $D9)
+PaletteAssociationEntry(Pamela, $DC)
+PaletteAssociationEntry(Annand, $F5)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ClericPaletteList:
+PaletteAssociationEntry(Assassin, $42)
+// PaletteAssociationEntry(Melgen, $5F)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 TroubadourPaletteList:
+PaletteAssociationEntry(Agusti, $28)
+PaletteAssociationEntry(BeigeRitter, $48)
+PaletteAssociationEntry(GrauenRitter, $58)
+// PaletteAssociationEntry(Connacht, $69)
+// PaletteAssociationEntry(GelbenRitter, $6C)
+// PaletteAssociationEntry(Miletos, $8E)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ValkyriePaletteList:
+PaletteAssociationEntry(BeigeRitter, $49)
+PaletteAssociationEntry(GrauenRitter, $59)
+// PaletteAssociationEntry(GelbenRitter, $6D)
+// PaletteAssociationEntry(Miletos, $8F)
+// PaletteAssociationEntry(Mercenary, $A4)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -220,6 +373,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SoldierPaletteList:
+// PaletteAssociationEntry(Miletos, $8D)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -228,23 +382,46 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 FireMagePaletteList:
+PaletteAssociationEntry(Mackily, $1D)
+PaletteAssociationEntry(Velthomer, $72)
+PaletteAssociationEntry(RotenRitter, $72)
+PaletteAssociationEntry(Elling, $CA)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ThunderMagePaletteList:
+PaletteAssociationEntry(Mackily, $1E)
+PaletteAssociationEntry(Assassin, $44)
+PaletteAssociationEntry(Lubeck, $51)
+// PaletteAssociationEntry(Friege, $68)
+// PaletteAssociationEntry(Melgen, $68)
+// PaletteAssociationEntry(Ulster, $68)
+// PaletteAssociationEntry(Connacht, $68)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 HighPriestPaletteList:
+// PaletteAssociationEntry(Friege, $62)
+// PaletteAssociationEntry(RotenRitter, $74)
+// PaletteAssociationEntry(Kapathogia, $7F)
+// PaletteAssociationEntry(Edda, $91)
+// PaletteAssociationEntry(Loptrian, $94)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 AxeCavPaletteList:
-PaletteAssociationEntry(Heirhein, $0C)
+PaletteAssociationEntry(Heirhein, $12)
+PaletteAssociationEntry(Agusti, $21)
+PaletteAssociationEntry(Lubeck, $4B)
+PaletteAssociationEntry(Ribaut, $4B)
+PaletteAssociationEntry(Isaach, $54)
+PaletteAssociationEntry(GrauenRitter, $56)
+// PaletteAssociationEntry(Miletos, $86)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 DrgMasterPaletteList:
+// PaletteAssociationEntry(Thracia, $7E)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -265,28 +442,65 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 BowCavPaletteList:
+PaletteAssociationEntry(Agusti, $23)
+PaletteAssociationEntry(Assassin, $41)
+PaletteAssociationEntry(BeigeRitter, $47)
+// PaletteAssociationEntry(Miletos, $87)
+// PaletteAssociationEntry(Mercenary, $9C)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 BaronPaletteList:
+// PaletteAssociationEntry(GelbenRitter, $6A)
+PaletteAssociationEntry(Chagall, $CC)
+PaletteAssociationEntry(Daccar, $DF)
+PaletteAssociationEntry(Lombard, $E5)
+PaletteAssociationEntry(Reptor, $E6)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ArchKntPaletteList:
+// PaletteAssociationEntry(BeigeRitter, $45)
+// PaletteAssociationEntry(RotenRitter, $6E)
+// PaletteAssociationEntry(Miletos, $85)
+// PaletteAssociationEntry(Mercenary, $9A)
+// PaletteAssociationEntry(Mario, $E1)
+// PaletteAssociationEntry(Andrey, $E3)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 DukeKntPaletteList:
 PaletteAssociationEntry(Elliot, $04)
+PaletteAssociationEntry(Agusti, $25)
+// PaletteAssociationEntry(RotenRitter, $71)
+// PaletteAssociationEntry(Grannvale, $77)
+// PaletteAssociationEntry(Miletos, $89)
+// PaletteAssociationEntry(Mercenary, $9D)
+PaletteAssociationEntry(Graham, $C4)
+PaletteAssociationEntry(Zane, $CB)
+PaletteAssociationEntry(Othello, $D0)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 LncCavPaletteList:
-PaletteAssociationEntry(Heirhein, $0B)
+PaletteAssociationEntry(Heirhein, $14)
+PaletteAssociationEntry(Infini, $18)
+PaletteAssociationEntry(Agusti, $26)
+// PaletteAssociationEntry(Connacht, $63)
+// PaletteAssociationEntry(Miletos, $8B)
+PaletteAssociationEntry(Leonster, $AA)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 BallistaPaletteList:
+PaletteAssociationEntry(Heirhein, $13)
+PaletteAssociationEntry(Mackily, $1B)
+PaletteAssociationEntry(Agusti, $22)
+PaletteAssociationEntry(Madino, $2B)
+PaletteAssociationEntry(Lubeck, $4D)
+// PaletteAssociationEntry(Melgen, $5C)
+// PaletteAssociationEntry(Thracia, $7D)
+// PaletteAssociationEntry(Grutia, $7D)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -301,12 +515,14 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 FreeCavPaletteList:
+// PaletteAssociationEntry(Mercenary, $9E)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 HunterPaletteList:
 PaletteAssociationEntry(Verdane1, $07)
 PaletteAssociationEntry(Verdane2, $07)
+PaletteAssociationEntry(Orgahil, $31)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -315,10 +531,12 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 HolyKntPaletteList:
+// PaletteAssociationEntry(Indech, $F3)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 AdventurerPaletteList:
+// PaletteAssociationEntry(Mercenary, $9B)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -327,6 +545,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MasterKntPaletteList:
+// PaletteAssociationEntry(Byron, $E7)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

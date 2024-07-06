@@ -39,8 +39,8 @@ GerrardPalette:
 #incbin "Gerrard.dmp"
 
 ALIGN 4
-KinboisPalette:
-#incbin "Kinbois.dmp"
+CimbaethPalette:
+#incbin "Cimbaeth.dmp"
 
 ALIGN 4
 MunnirPalette:
@@ -59,23 +59,139 @@ BurkaulPalette:
 #incbin "Burkaul.dmp"
 
 ALIGN 4
+GrahamPalette:
+#incbin "Graham.dmp"
+
+ALIGN 4
+PhilipPalette:
+#incbin "Philip.dmp"
+
+ALIGN 4
 BordeauxPalette:
 #incbin "Bordeaux.dmp"
+
+ALIGN 4
+BanquoPalette:
+#incbin "Banquo.dmp"
+
+ALIGN 4
+RossPalette:
+#incbin "Ross.dmp"
+
+ALIGN 4
+MacbethPalette:
+#incbin "Macbeth.dmp"
+
+ALIGN 4
+WaltzPalette:
+#incbin "Waltz.dmp"
+
+ALIGN 4
+EllingPalette:
+#incbin "Elling.dmp"
+
+ALIGN 4
+ZanePalette:
+#incbin "Zane.dmp"
+
+ALIGN 4
+ChagallPalette:
+#incbin "Chagall.dmp"
+
+ALIGN 4
+LinoPalette:
+#incbin "Lino.dmp"
+
+ALIGN 4
+EstrellaPalette:
+#incbin "Estrella.dmp"
+
+ALIGN 4
+OthelloPalette:
+#incbin "Othello.dmp"
+
+ALIGN 4
+PapillonPalette:
+#incbin "Papillon.dmp"
+
+ALIGN 4
+PaynePalette:
+#incbin "Payne.dmp"
+
+ALIGN 4
+PizarePalette:
+#incbin "Pizare.dmp"
+
+ALIGN 4
+DuvallPalette:
+#incbin "Duvall.dmp"
+
+ALIGN 4
+CuvuliPalette:
+#incbin "Cuvuli.dmp"
+
+ALIGN 4
+MarlonPalette:
+#incbin "Marlon.dmp"
+
+ALIGN 4
+SnevejrPalette:
+#incbin "Snevejr.dmp"
+
+ALIGN 4
+DithorbaPalette:
+#incbin "Dithorba.dmp"
+
+ALIGN 4
+MyosPalette:
+#incbin "Myos.dmp"
+
+ALIGN 4
+IvanPalette:
+#incbin "Ivan.dmp"
+
+ALIGN 4
+DonovanPalette:
+#incbin "Donovan.dmp"
+
+ALIGN 4
+PamelaPalette:
+#incbin "Pamela.dmp"
+
+ALIGN 4
+LamiaPalette:
+#incbin "Lamia.dmp"
+
+ALIGN 4
+DaccarPalette:
+#incbin "Daccar.dmp"
 
 ALIGN 4
 SlayderPalette:
 #incbin "Slayder.dmp"
 
 ALIGN 4
+MagornPalette:
+#incbin "Magorn.dmp"
+
+ALIGN 4
+VajaPalette:
+#incbin "Vaja.dmp"
+
+ALIGN 4
 ArvisPalette:
 #incbin "Arvis.dmp"
+
+ALIGN 4
+AnnandPalette:
+#incbin "Annand.dmp"
 
 ALIGN 4
 HaroldPalette:
 #incbin "Harold.dmp"
 
 ALIGN 4
-VerdaneFighterPalette:
+VerdaneAxeFighterPalette:
 #incbin "VerdaneFighter.dmp"
 
 ALIGN 4
@@ -95,32 +211,352 @@ VerdaneWarriorPalette:
 #incbin "VerdaneWarrior.dmp"
 
 ALIGN 4
-HeirheinAxePalette:
-#incbin "HeirheinAxe.dmp"
+HeirheinArcherPalette:
+#incbin "HeirheinArcher.dmp"
 
 ALIGN 4
-HeirheinLancePalette:
-#incbin "HeirheinLance.dmp"
+HeirheinArmorPalette:
+#incbin "HeirheinArmor.dmp"
 
 ALIGN 4
-HeirheinArmPalette:
-#incbin "HeirheinKnight.dmp"
+HeirheinAxeCavPalette:
+#incbin "HeirheinAxeCav.dmp"
+
+ALIGN 4
+HeirheinBallistaPalette:
+#incbin "HeirheinBallist.dmp"
+
+ALIGN 4
+HeirheinLncCavPalette:
+#incbin "HeirheinLncCav.dmp"
+
+ALIGN 4
+HeirheinPriestPalette:
+#incbin "HeirheinPriest.dmp"
 
 ALIGN 4
 HeirheinMagePalette:
 #incbin "HeirheinMage.dmp"
 
 ALIGN 4
-AgustriaArmPalette:
-#incbin "AgustriaKnight.dmp"
+InfiniArmorPalette:
+#incbin "InfiniArmor.dmp"
+
+ALIGN 4
+InfiniLncCavPalette:
+#incbin "InfiniLncCav.dmp"
+
+ALIGN 4
+MackilyArcherPalette:
+#incbin "MackilyArcher.dmp"
+
+ALIGN 4
+MackilyArmorPalette:
+#incbin "MackilyArmor.dmp"
+
+ALIGN 4
+MackilyBallistaPalette:
+#incbin "MackilyBallist.dmp"
+
+ALIGN 4
+MackilyMercPalette:
+#incbin "MackilyMerc.dmp"
+
+ALIGN 4
+MackilyFireMagePalette:
+#incbin "MackilyFMage.dmp"
+
+ALIGN 4
+MackilyThunderMagePalette:
+#incbin "MackilyTMage.dmp"
+
+ALIGN 4
+AgustiArcherPalette:
+#incbin "AgustiArcher.dmp"
+
+ALIGN 4
+AgustiArmorPalette:
+#incbin "AgustiArmor.dmp"
+
+ALIGN 4
+AgustiAxeCavPalette:
+#incbin "AgustiAxeCav.dmp"
+
+ALIGN 4
+AgustiBallistaPalette:
+#incbin "AgustiBallist.dmp"
+
+ALIGN 4
+AgustiBowCavFPalette:
+#incbin "AgustiBowCavF.dmp"
+
+ALIGN 4
+AgustiCavalierPalette:
+#incbin "AgustiUniCav.dmp"
+
+ALIGN 4
+AgustiDukeKntPalette:
+#incbin "AgustiDukeKnt.dmp"
+
+ALIGN 4
+AgustiLncCavPalette:
+#incbin "AgustiLncCav.dmp"
+
+ALIGN 4
+AgustiPaladinPalette:
+#incbin "AgustiPalM.dmp"
+
+ALIGN 4
+AgustiTroubadourPalette:
+#incbin "AgustiTroub.dmp"
+
+ALIGN 4
+MadinoArcherPalette:
+#incbin "MadinoArcher.dmp"
+
+ALIGN 4
+MadinoArmorPalette:
+#incbin "MadinoArmor.dmp"
+
+ALIGN 4
+MadinoBallistaPalette:
+#incbin "MadinoBallist.dmp"
+
+ALIGN 4
+MadinoBishopPalette:
+#incbin "MadinoBishop.dmp"
+
+ALIGN 4
+MadinoGeneralPalette:
+#incbin "MadinoGeneral.dmp"
+
+ALIGN 4
+MadinoMagePalette:
+#incbin "MadinoMage.dmp"
+
+ALIGN 4
+CrossKnightPalette:
+#incbin "CrossKnightUniCav.dmp"
+
+ALIGN 4
+SylvalePalette:
+#incbin "SylvaleArmor.dmp"
+
+ALIGN 4
+OrgahilHunterPalette:
+#incbin "OrgahilHunter.dmp"
+
+ALIGN 4
+OrgahilMercPalette:
+#incbin "OrgahilMerc.dmp"
+
+ALIGN 4
+OrgahilPiratePalette:
+#incbin "OrgahilPirate.dmp"
+
+ALIGN 4
+TofaArmorPalette:
+#incbin "TofaArmor.dmp"
+
+ALIGN 4
+TofaMercPalette:
+#incbin "SilesseMerc.dmp"
+
+ALIGN 4
+SilesseArmorPalette:
+#incbin "SilesseArmor.dmp"
+
+ALIGN 4
+SilesseAxeFighterPalette:
+#incbin "SilesseFighter.dmp"
+
+ALIGN 4
+SilesseGeneralPalette:
+#incbin "SilesseGeneral.dmp"
+
+ALIGN 4
+SilessePegKnightPalette:
+#incbin "SilessePegKnt.dmp"
+
+ALIGN 4
+SilessePiratePalette:
+#incbin "SilessePirate.dmp"
+
+ALIGN 4
+SilesseWarriorPalette:
+#incbin "SilesseWarrior.dmp"
+
+ALIGN 4
+SilesseWindMagePalette:
+#incbin "SilesseWMage.dmp"
+
+ALIGN 4
+AnnandSquadPalette:
+#incbin "SilesseAnnand.dmp"
+
+ALIGN 4
+AssassinArcherPalette:
+#incbin "AssassinArcherF.dmp"
+
+ALIGN 4
+AssassinBowCavFPalette:
+#incbin "AssassinBowCavF.dmp"
+
+ALIGN 4
+AssassinClericPalette:
+#incbin "AssassinCleric.dmp"
+
+ALIGN 4
+AssassinMyrmidonPalette:
+#incbin "AssassinMyrmF.dmp"
+
+ALIGN 4
+AssassinThunderMagePalette:
+#incbin "AssassinTMageF.dmp"
+
+ALIGN 4
+BeigenRitterBowCavPalette:
+#incbin "BeigenRitterBowCav.dmp"
+
+ALIGN 4
+BeigenRitterBowCavFPalette:
+#incbin "BeigenRitterBowCavF.dmp"
+
+ALIGN 4
+BeigenRitterTroubadourPalette:
+#incbin "BeigenRitterTroub.dmp"
+
+ALIGN 4
+BeigenRitterValkyriePalette:
+#incbin "BeigenRitterValk.dmp"
+
+ALIGN 4
+DozelArmorPalette:
+#incbin "DozelArmor.dmp"
+
+ALIGN 4
+DozelAxeCavPalette:
+#incbin "DozelAxeCav.dmp"
+
+ALIGN 4
+DozelBrigandPalette:
+#incbin "DozelBrigand.dmp"
+
+ALIGN 4
+DozelBallistaPalette:
+#incbin "DozelBallist.dmp"
+
+ALIGN 4
+DozelAxeFighterPalette:
+#incbin "DozelFighter.dmp"
+
+ALIGN 4
+DozelGeneralPalette:
+#incbin "DozelGeneral.dmp"
+
+ALIGN 4
+DozelGKPalette:
+#incbin "DozelGrtKnt.dmp"
+
+ALIGN 4
+DozelThunderMagePalette:
+#incbin "DozelTMage.dmp"
+
+ALIGN 4
+DozelTroubadourPalette:
+#incbin "DozelTroub.dmp"
+
+ALIGN 4
+DozelValkyriePalette:
+#incbin "DozelValk.dmp"
+
+ALIGN 4
+IucharSquadPalette:
+#incbin "DozelIucharAxeCav.dmp"
+
+ALIGN 4
+IucharbaSquadPalette:
+#incbin "DozelIucharbaFighter.dmp"
+
+ALIGN 4
+LeonsterPalette:
+#incbin "LeonsterLncCav.dmp"
+
+ALIGN 4
+ThraciaWyvRiderMPalette:
+#incbin "ThraciaWyvRider.dmp"
+
+ALIGN 4
+ThraciaWyvKntPalette:
+#incbin "ThraciaWyvKnt.dmp"
+
+ALIGN 4
+RotenRitterFireMagePalette:
+#incbin "RotenRitterFMage.dmp"
+
+ALIGN 4
+RotenRitterPriestPalette:
+#incbin "RotenRitterPriest.dmp"
 
 ALIGN 4
 GranvalleArmPalette:
 #incbin "GranvalleKnight.dmp"
 
 ALIGN 4
-SilesseArmPalette:
-#incbin "SilesseKnight.dmp"
+GrauenRitterAxeCavPalette:
+#incbin "GrauenRitterAxeCav.dmp"
+
+ALIGN 4
+GrauenRitterGKPalette:
+#incbin "GrauenRitterGrtKnt.dmp"
+
+ALIGN 4
+GrauenRitterTroubadourPalette:
+#incbin "GrauenRitterTroub.dmp"
+
+ALIGN 4
+GrauenRitterValkyriePalette:
+#incbin "GrauenRitterValk.dmp"
+
+ALIGN 4
+LoptousMagePalette:
+#incbin "LoptousMageF.dmp"
+
+ALIGN 4
+MercAdventurerPalette:
+#incbin "MercAdvent.dmp"
+
+ALIGN 4
+MercBowCavPalette:
+#incbin "MercBowCav.dmp"
+
+ALIGN 4
+MercFreeCavPalette:
+#incbin "MercFreeCav.dmp"
+
+ALIGN 4
+LinoSquadBowCavPalette:
+#incbin "MercLinoBowCavF.dmp"
+
+ALIGN 4
+WaltzSquadFreeCavPalette:
+#incbin "MercWaltzFreeCav.dmp"
+
+ALIGN 4
+RuffiansBrigandPalette:
+#incbin "RuffiansBrigand.dmp"
+
+ALIGN 4
+RuffiansPiratePalette:
+#incbin "RuffiansPirate.dmp"
+
+ALIGN 4
+RuffiansBerserkerPalette:
+#incbin "RuffiansBerserk.dmp"
+
+ALIGN 4
+RuffiansRoguePalette:
+#incbin "RuffiansRogue.dmp"
 
 ALIGN 4
 ArdenPalette:
@@ -137,6 +573,18 @@ EldiganPalette:
 ALIGN 4
 DullesPalette:
 #incbin "Dulles.dmp"
+
+ALIGN 4
+KeimosPalette:
+#incbin "Keimos.dmp"
+
+ALIGN 4
+MarilynPalette:
+#incbin "Marilyn.dmp"
+
+ALIGN 4
+ThortonPalette:
+#incbin "Thorton.dmp"
 
 PUSH
 ORG $59BFC

@@ -556,8 +556,8 @@ Verdane[X]
 ##Name_Heirhein
 Heirhein[X]
 
-##Name_Anphony
-Anphony[X]
+##Name_Infini
+Infini[X]
 
 ##Name_Mackily
 Mackily[X]
@@ -565,14 +565,14 @@ Mackily[X]
 ##Name_Silesse
 Silesse[X]
 
-##Name_Agusty
-Agusty[X]
+##Name_Agusti
+Agusti[X]
 
 ##Name_Madino
 Madino[X]
 
-##Name_Silvail
-Silvail[X]
+##Name_Sylvale
+Sylvale[X]
 
 ##Name_Orgahil
 Orgahil[X]
@@ -580,8 +580,8 @@ Orgahil[X]
 ##Name_CrossKnight
 CrossKnight[X]
 
-##Name_Thove
-Thove[X]
+##Name_Tofa
+Tofa[X]
 
 ##Name_Zaxon
 Zaxon[X]
@@ -619,14 +619,14 @@ Rivough[X]
 ##Name_Loptrian
 Loptrian[X]
 
-##Name_Alster
-Alster[X]
+##Name_Ulster
+Ulster[X]
 
 ##Name_Melgen
 Melgen[X]
 
-##Name_Connaught
-Connaught[X]
+##Name_Connacht
+Connacht[X]
 
 ##Name_Kapathogia
 Kapathogia[X]
