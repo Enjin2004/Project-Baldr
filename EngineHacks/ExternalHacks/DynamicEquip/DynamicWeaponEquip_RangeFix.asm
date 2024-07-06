@@ -15,11 +15,6 @@
 @ hooks at 2A8BC	
 	
 	push {r3}				@to be safe
-	ldrb r0, [r4, #0xB] @r0 = unit index
-    mov  r1, #0xC0
-    and  r0, r1         @r0 = unit faction bits
-    cmp  r0, #0x0       @0 means the unit is a player, so end
-    beq  StatusChecks
 	CheckCurrentWeapon:		@Start loop for weapon checking.
     LDRH r0, [r4, #0x0]		@item ID 
     LDR r1, =0x0203A4D4 	@some battle buffer
@@ -32,7 +27,7 @@
 	.short 0xf800
 
     CMP r0, #0x0
-    BEQ CheckNextWeapon		//this is where we loop for best possible weapon.
+    BEQ CheckPlayerUnit		//this is where we loop for best possible weapon.
 
         MOV r1, r8
         LDRB r0, [r1, #0x0]
@@ -48,6 +43,13 @@
         MOV r0, r9
         STRB r1, [r0, #0x0]
 		B StatusChecks
+
+    CheckPlayerUnit:
+	ldrb r0, [r5, #0xB] @r0 = unit index
+    mov  r1, #0xC0
+    and  r0, r1         @r0 = unit faction bits
+    cmp  r0, #0x0       @0 means the unit is a player, so end
+    beq  CantCounter
 		
 	CheckNextWeapon:	
 	//counter is r4
