@@ -171,6 +171,10 @@ SlayderPalette:
 #incbin "Slayder.dmp"
 
 ALIGN 4
+AndreyPalette:
+#incbin "Andrey.dmp"
+
+ALIGN 4
 MagornPalette:
 #incbin "Magorn.dmp"
 
@@ -183,8 +187,36 @@ ArvisPalette:
 #incbin "Arvis.dmp"
 
 ALIGN 4
+AidaPalette:
+#incbin "Aida.dmp"
+
+ALIGN 4
 AnnandPalette:
 #incbin "Annand.dmp"
+
+ALIGN 4
+AlvaPalette:
+#incbin "Alva.dmp"
+
+ALIGN 4
+EvaPalette:
+#incbin "Eva.dmp"
+
+ALIGN 4
+EvePalette:
+#incbin "Eve.dmp"
+
+ALIGN 4
+ByronPalette:
+#incbin "Byron.dmp"
+
+ALIGN 4
+RingPalette:
+#incbin "Ring.dmp"
+
+ALIGN 4
+KurthPalette:
+#incbin "Kurth.dmp"
 
 ALIGN 4
 HaroldPalette:
@@ -356,7 +388,7 @@ OrgahilPiratePalette:
 
 ALIGN 4
 TofaArmorPalette:
-#incbin "TofaArmor.dmp"
+#incbin "SilesseArmor.dmp"
 
 ALIGN 4
 TofaMercPalette:
@@ -365,6 +397,14 @@ TofaMercPalette:
 ALIGN 4
 SilesseArmorPalette:
 #incbin "SilesseArmor.dmp"
+
+ALIGN 4
+TofaPegKnightPalette:
+#incbin "SilessePegKnt.dmp"
+
+ALIGN 4
+TofaWindMagePalette:
+#incbin "SilesseWMage.dmp"
 
 ALIGN 4
 SilesseAxeFighterPalette:
@@ -413,6 +453,10 @@ AssassinMyrmidonPalette:
 ALIGN 4
 AssassinThunderMagePalette:
 #incbin "AssassinTMageF.dmp"
+
+ALIGN 4
+BeigenRitterArchKntPalette:
+#incbin "BeigenRitterArchKnt.dmp"
 
 ALIGN 4
 BeigenRitterBowCavPalette:
@@ -528,18 +572,10 @@ MercAdventurerPalette:
 
 ALIGN 4
 MercBowCavPalette:
-#incbin "MercBowCav.dmp"
-
-ALIGN 4
-MercFreeCavPalette:
-#incbin "MercFreeCav.dmp"
-
-ALIGN 4
-LinoSquadBowCavPalette:
 #incbin "MercLinoBowCavF.dmp"
 
 ALIGN 4
-WaltzSquadFreeCavPalette:
+MercFreeCavPalette:
 #incbin "MercWaltzFreeCav.dmp"
 
 ALIGN 4
@@ -585,6 +621,10 @@ MarilynPalette:
 ALIGN 4
 ThortonPalette:
 #incbin "Thorton.dmp"
+
+ALIGN 4
+MarioPalette:
+#incbin "Mario.dmp"
 
 PUSH
 ORG $59BFC
