@@ -304,6 +304,9 @@ Pizare[X]
 ##Name_Duvall
 Duvall[X]
 
+##Name_Ayron
+Ayron[X]
+
 ##Name_Cuvuli
 Cuvuli[X]
 

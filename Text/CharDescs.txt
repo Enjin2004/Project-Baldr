@@ -566,6 +566,9 @@ A sorcerer with dubious origins. [NL]
 He however always stayed faithful [N]
 to Silesse and especially Myos.[X]
 
+##Desc_Ayron ^ 
+Ayron[X]
+
 ##Desc_Marlon ^
 A mercenary acting under Myos, [N]
 no one dare ask how he lost his right eye.[X]
