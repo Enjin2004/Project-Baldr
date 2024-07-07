@@ -126,7 +126,7 @@ ALIGN 4
 //Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
 Chapter3ArenaBow:
 BYTE 0xF5 BowCav LevelSetter(9) SteelBow 0 0 0 0  39 9 0 8 8 8 0 0 0 101 SteelBow 0 0 0 0  39 9 0 8 8 8 0 0 0 201 
-BYTE 0xF6 AxeCav LevelSetter(12) SteelAxe 0 0 0 0   42 10 1 9 9 9 1 0 0 101 SilverAxe 0 0 0 0  42 10 1 9 9 9 1 0 0 201 
+BYTE 0xF6 AxeCav LevelSetter(12) HandAxe 0 0 0 0   42 10 1 9 9 9 1 0 0 101 Tomahawk 0 0 0 0  42 10 1 9 9 9 1 0 0 201 
 BYTE 0xF7 BowArm LevelSetter(15) SteelBow 0 0 0 0   45 11 1 14 14 9 1 0 0 151 SilverBow 0 0 0 0    45 11 1 14 14 9 1 0 0 201 
 BYTE 0xF8 LncArm LevelSetter(18) Javelin 0 0 0 0   58 14 1 10 8 15 1 0 0 101 Spear 0 0 0 0    58 14 1 10 8 15 1 0 0 201 
 BYTE 0xF9 DMage LevelSetter(21) Jormugandr DefRing 0 0 0   61 2 16 14 14 9 16 0 0 151 Jormugandr DefRing 0 0 0    61 2 16 14 14 9 16 0 0 201

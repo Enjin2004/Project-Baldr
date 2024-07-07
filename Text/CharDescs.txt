@@ -36,16 +36,14 @@ relationship with his half-brother and caretaker.[X]
 
 ##Desc_Quan ^
 Prince of Leonster, descendant of the Crusader [N]
-Njöurn and Ethlyn's husband. Very altruistic [N]
+Njourn and Ethlyn's husband. Very altruistic [N]
 for those he cares for, yet a bit shortsighted.[X]
-
-##Desc_Quan2 ^
 // Prince of Leonster and inheritor of the lance[N]
 // Gae Bolg. Husband of Ethlyn, the younger sister [N]
 // of his close friend Sigurd.[X]
 
 ##Desc_Finn ^
-A young page under Quan's direct tutelage. [NL] 
+A young page under Quan's direct tutelage. [NL]
 His dedication to virtue is only second [N]
 to his loyalty.[X]
 // A knight of Leonster and fervent
@@ -58,7 +56,7 @@ his loyalty to Leif's father, Quan. [NL]
 His main objective in life is to protect Leif.[X]
 
 ##Desc_Ethlyn ^
-The younger sister of Sigurd and Quan's wife. [NL] 
+The younger sister of Sigurd and Quan's wife. [NL]
 An adventurous and assertive lady that [N]
 always looks out for her loved ones. [X]
 // The younger sister of Lord Sigurd of Chalphy
@@ -319,7 +317,7 @@ insecure about her feelings, she always [N]
 maintains a positive outlook no matter what. [X]
 
 ##Desc_Deimne ^
-Brother of Muirne and a mounted archer. [NL}
+Brother of Muirne and a mounted archer. [NL]
 Very self-critical and pessimistic to a fault, [N]
 but it doesn't stop him from giving it his all.[X]
 

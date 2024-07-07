@@ -222,7 +222,7 @@ to monster units.[X]
 Summon: Can conjure a phantom[N]
 soldier to fight alongside you.[X]
 
-## SD_Dance
+## SD_Dance ^ 
 Dance: Refreshes up to four units adjacent[N]
 to this unit, allowing them to act again.[X]
 
