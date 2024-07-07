@@ -119,12 +119,20 @@ PaynePalette:
 #incbin "Payne.dmp"
 
 ALIGN 4
+ScraggPalette:
+#incbin "Scragg.dmp"
+
+ALIGN 4
 PizarePalette:
 #incbin "Pizare.dmp"
 
 ALIGN 4
 DuvallPalette:
 #incbin "Duvall.dmp"
+
+ALIGN 4
+AyronPalette:
+#incbin "Ayron.dmp"
 
 ALIGN 4
 CuvuliPalette:
@@ -523,6 +531,86 @@ IucharbaSquadPalette:
 #incbin "DozelIucharbaFighter.dmp"
 
 ALIGN 4
+FriegeArcherPalette:
+#incbin "FriegeArcher.dmp"
+
+ALIGN 4
+FriegeArmorPalette:
+#incbin "FriegeArmor.dmp"
+
+ALIGN 4
+FriegeBallistaPalette:
+#incbin "FriegeBallist.dmp"
+
+ALIGN 4
+FriegeBaronPalette:
+#incbin "FriegeBaron.dmp"
+
+ALIGN 4
+FriegeBishopPalette:
+#incbin "FriegeBishop.dmp"
+
+ALIGN 4
+FriegeClericPalette:
+#incbin "FriegeCleric.dmp"
+
+ALIGN 4
+FriegeGeneralPalette:
+#incbin "FriegeGeneral.dmp"
+
+ALIGN 4
+FriegeHeroPalette:
+#incbin "FriegeHero.dmp"
+
+ALIGN 4
+FriegeHighPriestPalette:
+#incbin "FriegeHighPriest.dmp"
+
+ALIGN 4
+FriegeLncCavPalette:
+#incbin "FriegeLncCav.dmp"
+
+ALIGN 4
+FriegeMageKnightPalette:
+#incbin "FriegeMageKnight.dmp"
+
+ALIGN 4
+FriegeMercPalette:
+#incbin "FriegeMerc.dmp"
+
+ALIGN 4
+FriegePriestPalette:
+#incbin "FriegePriest.dmp"
+
+ALIGN 4
+FriegeSniperPalette:
+#incbin "FriegeSniper.dmp"
+
+ALIGN 4
+FriegeThunderMagePalette:
+#incbin "FriegeTMage.dmp"
+
+ALIGN 4
+FriegeTroubadourPalette:
+#incbin "FriegeTroub.dmp"
+
+ALIGN 4
+GelbenRitterValkyriePalette:
+#incbin "FriegeValk.dmp"
+
+ALIGN 4
+GelbenRitterBaronPalette:
+#incbin "GelbenRitterBaron.dmp"
+
+ALIGN 4
+GelbenRitterMageKnightPalette:
+#incbin "GelbenRitterMageKnight.dmp"
+
+ALIGN 4
+GelbenRitterTroubadourPalette:
+#incbin "GelbenRitterTroub.dmp"
+
+ALIGN 4
 LeonsterPalette:
 #incbin "LeonsterLncCav.dmp"
 
@@ -601,6 +689,18 @@ ArdenPalette:
 ALIGN 4
 AzelPalette:
 #incbin "Azel.dmp"
+
+ALIGN 4
+HopperPalette:
+#incbin "HopperKnight.dmp"
+
+ALIGN 4
+CallistaPalette:
+#incbin "CallistaWyvKnt.dmp"
+
+ALIGN 4
+IndechPalette:
+#incbin "Indech.dmp"
 
 ALIGN 4
 EldiganPalette:
