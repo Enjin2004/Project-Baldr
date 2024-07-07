@@ -270,6 +270,6 @@ Hahahaha![A][X]
 
 ##ThiefBattle
 [OpenMidLeft][LoadAnna]
-Me?[A][N] Don’t mind me,[N]
+Me?[A] Don’t mind me,[N]
 I’m just a regular merchant![A][X]
 //can people wink?
