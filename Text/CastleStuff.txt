@@ -233,3 +233,43 @@ activities, seize these tiles.[A][N]
 They will be pointed out[N]
 as the castles change.[A][N]
 Have fun![A][X]
+
+##DullesBattle
+[OpenMidLeft][LoadDulles]
+No one ever pierced[N]
+through my defence,[A][N]
+and today's not[N]
+going to change![A][X]
+
+##KeimosBattle
+[OpenMidLeft][LoadKeimos]
+You guys actually beat Chulainn?![A][N]
+Not bad, let’s see how[N]
+you fare against me![A][X]
+
+##MarilynBattle
+[OpenMidLeft][LoadMarilyn]
+You lot won against Chulainn?[A][N]
+Impressive, I won’t[N]
+hold back then![A][X]
+
+##ThortonBattle
+[OpenMidLeft][LoadThorton]
+Your win streak ends here![A][N]
+Come at me with[N]
+all you’ve got![A][X]
+
+##MarioBattle
+[OpenMidLeft][LoadMario]
+Lets-a-go![A][X]
+
+##AtlasBattle
+[OpenMidLeft[LoadAtlas]
+You’ll learn to fear my magic![N]
+Hahahaha![A][X]
+
+##ThiefBattle
+[OpenMidLeft][LoadAnna]
+Me?[A][N] Don’t mind me,[N]
+I’m just a regular merchant![A][X]
+//can people wink?
