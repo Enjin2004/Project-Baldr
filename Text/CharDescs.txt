@@ -886,8 +886,8 @@ Verdane[X]
 ##Desc_Heirhein ^
 Heirhein[X]
 
-##Desc_Anphony ^
-Anphony[X]
+##Desc_Infini ^
+Infini[X]
 
 ##Desc_Mackily ^
 Mackily[X]
@@ -895,14 +895,14 @@ Mackily[X]
 ##Desc_Silesse ^
 Silesse[X]
 
-##Desc_Agusty ^
-Agusty[X]
+##Desc_Agusti ^
+Agusti[X]
 
 ##Desc_Madino ^
 Madino[X]
 
-##Desc_Silvail ^
-Silvail[X]
+##Desc_Sylvale ^
+Sylvale[X]
 
 ##Desc_Orgahil ^
 Orgahil[X]
@@ -910,8 +910,8 @@ Orgahil[X]
 ##Desc_CrossKnight ^
 CrossKnight[X]
 
-##Desc_Thove ^
-Thove[X]
+##Desc_Tofa ^
+Tofa[X]
 
 ##Desc_Zaxon ^
 Zaxon[X]
@@ -943,20 +943,20 @@ Sophara[X]
 ##Desc_Isaach ^
 Isaach[X]
 
-##Desc_Rivough ^
-Rivough[X]
+##Desc_Ribaut ^
+Ribaut[X]
 
 ##Desc_Loptrian ^
 Loptrian[X]
 
-##Desc_Alster ^
-Alster[X]
+##Desc_Ulster ^
+Ulster[X]
 
 ##Desc_Melgen ^
 Melgen[X]
 
-##Desc_Connaught ^
-Connaught[X]
+##Desc_Connacht ^
+Connacht[X]
 
 ##Desc_Kapathogia ^
 Kapathogia[X]

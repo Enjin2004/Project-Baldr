@@ -2,15 +2,15 @@
 #define Verdane1 0xB1
 #define Verdane2 0xB2 //for chapter 1
 #define Heirhein 0xB3
-#define Anphony 0xB4
+#define Infini 0xB4
 #define Mackily 0xB5
 #define Silesse 0xB6
-#define Agusty 0xB7
+#define Agusti 0xB7
 #define Madino 0xB8
-#define Silvail 0xB9
+#define Sylvale 0xB9
 #define Orgahil 0xBA
 #define CrossKnight 0xBB
-#define Thove 0xBC
+#define Tofa 0xBC
 #define Zaxon 0xBD
 #define BeigeRitter 0xBE
 #define AssassinFaction 0xBF
@@ -21,11 +21,11 @@
 #define Ganeishire 0xC4
 #define Sophara 0xC5
 #define Isaach 0xC6
-#define Rivough 0xC7
+#define Ribaut 0xC7
 #define Loptrian 0xC8
 #define Alster 0xC9
 #define Melgen 0xCA
-#define Connaught 0xCB
+#define Connacht 0xCB
 #define Kapathogia 0xCC
 #define Grutia 0xCD
 #define Grannvale 0xCE
