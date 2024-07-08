@@ -839,6 +839,14 @@ ScraggPortrait:
 setMugEntry(0x156,ScraggPortrait,2,5,3,3)
 
 ALIGN 4
+AyronPortrait:
+#incbin "Ayron_mug.dmp"
+#incbin "Ayron_frames.dmp"
+#incbin "Ayron_palette.dmp"
+#incbin "Ayron_minimug.dmp"
+setMugEntry(0x15D,AyronPortrait,3,5,3,3)
+
+ALIGN 4
 PizarePortrait:
 #incbin "Pizare_mug.dmp"
 #incbin "Pizare_frames.dmp"
@@ -1943,6 +1951,14 @@ MarioPortrait:
 #incbin "Mario_palette.dmp"
 #incbin "Mario_minimug.dmp"
 setMugEntry(0x15B,MarioPortrait,2,5,2,3)
+
+ALIGN 4
+AtlasPortrait:
+#incbin "Atlas_mug.dmp"
+#incbin "Atlas_frames.dmp"
+#incbin "Atlas_palette.dmp"
+#incbin "Atlas_minimug.dmp"
+setMugEntry(0x15C,AtlasPortrait,2,5,2,3)
 
 ALIGN 4
 BaronPhotoPortrait:

@@ -104,6 +104,13 @@ Defeat bosses[X]
 ##_Defend
 Defend[X]
 
+##_CH1xObjective
+Rout/Protect[X]
+
+##_CH1xObjective2
+Rout Heirhein and[N]
+Protect Palmarch[X]
+
 ##_CH3_1Objective
 Defend/Kill[X]
 

@@ -616,8 +616,8 @@ Sophara[X]
 ##Name_Isaach
 Isaach[X]
 
-##Name_Rivough
-Rivough[X]
+##Name_Ribaut
+Ribaut[X]
 
 ##Name_Loptrian
 Loptrian[X]

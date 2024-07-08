@@ -195,6 +195,10 @@ ArvisPalette:
 #incbin "Arvis.dmp"
 
 ALIGN 4
+TravantPalette:
+#incbin "Travant.dmp"
+
+ALIGN 4
 AidaPalette:
 #incbin "Aida.dmp"
 

@@ -264,7 +264,7 @@ all you’ve got![A][X]
 Lets-a-go![A][X]
 
 ##AtlasBattle
-[OpenMidLeft[LoadAtlas]
+[OpenMidLeft][LoadAtlas]
 You’ll learn to fear my magic![N]
 Hahahaha![A][X]
 
