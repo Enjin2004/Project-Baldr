@@ -1,0 +1,36 @@
+#define ForceDeployEntry(unit,chapterID) "SHORT unit; BYTE 0xFF chapterID"
+#define EndForceDeploy "SHORT 0xFFFF 0x00"
+
+ALIGN 4
+ForceDeployList:
+//sigurd force deploys
+ForceDeployEntry(Sigurd,0x0)
+ForceDeployEntry(Sigurd,0x2)
+ForceDeployEntry(Sigurd,0x4)
+ForceDeployEntry(Sigurd,0x5)
+ForceDeployEntry(Sigurd,0x1C)
+ForceDeployEntry(Sigurd,0x7)
+ForceDeployEntry(Sigurd,0x8)
+ForceDeployEntry(Sigurd,0xA)
+ForceDeployEntry(Sigurd,0xB)
+ForceDeployEntry(Sigurd,0xD)
+ForceDeployEntry(Sigurd,0xF)
+ForceDeployEntry(Sigurd,0x10)
+ForceDeployEntry(Sigurd,0x12)
+ForceDeployEntry(Sigurd,0x14)
+ForceDeployEntry(Sigurd,0x15)
+ForceDeployEntry(Sigurd,0x16)
+//one off force deploys
+ForceDeployEntry(Lewyn,0x8)
+ForceDeployEntry(Lachesis,0xA)
+ForceDeployEntry(Erinys,0xD)
+ForceDeployEntry(Callista,0xD)
+ForceDeployEntry(Lewyn,0x10)
+//seliph force deploys
+ForceDeployEntry(Seliph,0x18)
+EndForceDeploy
+
+PUSH
+ORG 0x8483C
+POIN ForceDeployList
+POP

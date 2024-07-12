@@ -1961,6 +1961,30 @@ AtlasPortrait:
 setMugEntry(0x15C,AtlasPortrait,2,5,2,3)
 
 ALIGN 4
+LyamPortrait:
+#incbin "Lyam_mug.dmp"
+#incbin "Lyam_frames.dmp"
+#incbin "Lyam_palette.dmp"
+#incbin "Lyam_minimug.dmp"
+setMugEntry(0x15E,LyamPortrait,2,5,3,3)
+
+ALIGN 4
+TreborPortrait:
+#incbin "Trebor_mug.dmp"
+#incbin "Trebor_frames.dmp"
+#incbin "Trebor_palette.dmp"
+#incbin "Trebor_minimug.dmp"
+setMugEntry(0x15F,TreborPortrait,2,5,2,3)
+
+ALIGN 4
+NagaPortrait:
+#incbin "Naga_mug.dmp"
+#incbin "Naga_frames.dmp"
+#incbin "Naga_palette.dmp"
+#incbin "Naga_minimug.dmp"
+setMugEntry(0x160,NagaPortrait,3,5,3,3)
+
+ALIGN 4
 BaronPhotoPortrait:
 #incbin "BaronPhoto_mug.dmp"
 #incbin "BaronPhoto_frames.dmp"

@@ -711,6 +711,10 @@ EldiganPalette:
 #incbin "Eldigan.dmp"
 
 ALIGN 4
+ClementPalette:
+#incbin "Clement.dmp"
+
+ALIGN 4
 DullesPalette:
 #incbin "Dulles.dmp"
 
@@ -729,6 +733,10 @@ ThortonPalette:
 ALIGN 4
 MarioPalette:
 #incbin "Mario.dmp"
+
+ALIGN 4
+PlaceholderPalette:
+#incbin "Eden.dmp"
 
 PUSH
 ORG $59BFC

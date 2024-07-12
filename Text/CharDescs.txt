@@ -304,7 +304,8 @@ Persephone[X]
 
 ##Desc_Creidne ^
 The twin sister of Dalvin and a hotheaded swordsman. [NL]
-Scarred by a past event, she's hostile towards most men. [X]
+Scarred by a past event, she's [N]
+hostile towards most men. [X]
 
 ##Desc_Dalvin ^
 he twin brother of Creidne and an opportunistic [N]
@@ -504,7 +505,7 @@ This first league mercenary is [N]
 very cautious and wary of everyone.[X]
 
 ##Desc_Elling ^
-He went to the same school of magic as [N] 
+He went to the same school of magic as [N]
 other important Granvalle nobles, [N]
 but no one remembers him.[X]
 

@@ -15,11 +15,11 @@ AiPerfomExtensionTable:
 	ORG AiPerfomExtensionTable + 4*(PERFORM_EXTENSION_COUNT)
 
 InjectAi2(0x8, ArvisAi)	
-InjectAi2(0xA, AttackCastleAi2)
+InjectAi2(0x7, AttackCastleAi2)
 
 ALIGN 4
 AttackCastleAi2:
-AiMoveTowardsPoint(13,35)
+AiMoveTowardsTerrain(0x23)
 AiRestart
 
 ALIGN 4

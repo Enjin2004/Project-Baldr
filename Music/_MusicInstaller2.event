@@ -152,6 +152,10 @@ SongTable(0x5D,BadToPal,0)
 #include "songs/EnemyToFriend.event"
 }
 {
+SongTable(0x64,FE0Battle,0)
+#include "songs/FE0Battle.event"
+}
+{
 SongTable(0x5E,DewTheme,1)
 #include "songs/Dew.event"
 }

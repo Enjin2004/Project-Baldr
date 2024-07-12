@@ -16,8 +16,8 @@ title_shorter_version__0:
 @ 000   ----------------------------------------
         .byte   TEMPO , 126/2
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W92
         .byte   W02
 @ 001   ----------------------------------------
@@ -27,7 +27,7 @@ title_shorter_version__0:
         .byte   W03
 title_shorter_version__0_LOOP:
         .byte           PAN   , c_v+11
-        .byte           VOL   , 112
+        .byte           VOL   , 48
         .byte           VOICE , 48
         .byte           N48   , Cs4 , v127
         .byte   W44
@@ -98,43 +98,43 @@ title_shorter_version__0_LOOP:
 @ 010   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 57
         .byte           N42   , Cs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 011   ----------------------------------------
 title_shorter_version__0_11:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v127
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N42
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 012   ----------------------------------------
 title_shorter_version__0_12:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N42   , Ds3 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N42
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 013   ----------------------------------------
 title_shorter_version__0_13:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N05   , Fn3 , v127
         .byte   W12
         .byte                   Fs3
@@ -143,53 +143,53 @@ title_shorter_version__0_13:
         .byte   W12
         .byte           N42   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 014   ----------------------------------------
 title_shorter_version__0_14:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N42   , Fn3 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N42   , Cs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 015   ----------------------------------------
 title_shorter_version__0_15:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v127
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N42   , Cs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 016   ----------------------------------------
 title_shorter_version__0_16:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Bn3 , v127
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N60   , Ds3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 017   ----------------------------------------
 title_shorter_version__0_17:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N06   , Fn3 , v127
         .byte   W12
         .byte                   Fs3
@@ -198,7 +198,7 @@ title_shorter_version__0_17:
         .byte   W12
         .byte           N72   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 018   ----------------------------------------
@@ -207,7 +207,7 @@ title_shorter_version__0_18:
         .byte   TEMPO , 120/2
         .byte   W24
         .byte   TEMPO , 116/2
-        .byte           MOD   , 0
+
         .byte           VOICE , 72
         .byte           N12   , Fs4 , v102
         .byte   W12
@@ -221,7 +221,7 @@ title_shorter_version__0_18:
 @ 019   ----------------------------------------
 title_shorter_version__0_19:
         .byte   W03
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Gs4 , v102
@@ -232,7 +232,7 @@ title_shorter_version__0_19:
         .byte   W12
         .byte           N36   , Cs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , As4
@@ -255,7 +255,7 @@ title_shorter_version__0_20:
 @ 021   ----------------------------------------
 title_shorter_version__0_21:
         .byte   W03
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Cs5 , v102
@@ -266,7 +266,7 @@ title_shorter_version__0_21:
         .byte   W12
         .byte           N84   , As4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 022   ----------------------------------------
@@ -275,7 +275,7 @@ title_shorter_version__0_22:
         .byte   W03
         .byte   TEMPO , 120/2
         .byte   W12
-        .byte           MOD   , 0
+
         .byte           N24   , Ds4 , v127
         .byte   W24
         .byte           N36   , Bn4
@@ -284,7 +284,7 @@ title_shorter_version__0_22:
 @ 023   ----------------------------------------
 title_shorter_version__0_23:
         .byte   W03
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Gs4 , v127
@@ -295,7 +295,7 @@ title_shorter_version__0_23:
         .byte   W12
         .byte           N36   , Cs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , As4
@@ -318,7 +318,7 @@ title_shorter_version__0_24:
 @ 025   ----------------------------------------
 title_shorter_version__0_25:
         .byte   W03
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Fn5 , v112
@@ -330,7 +330,7 @@ title_shorter_version__0_25:
         .byte   TEMPO , 122/2
         .byte           N48   , Fs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 026   ----------------------------------------
@@ -339,12 +339,12 @@ title_shorter_version__0_25:
         .byte                   0
         .byte           N48   , Fn5 , v107
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte           VOICE , 48
         .byte           N48   , Cs4 , v127
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte   GOTO
          .word  title_shorter_version__0_LOOP
         .byte   W24
@@ -353,34 +353,34 @@ title_shorter_version__0_25:
 @ 027   ----------------------------------------
 title_shorter_version__0_27:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs4 , v127
         .byte   W24
         .byte                   As4
         .byte   W24
         .byte           N48
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 028   ----------------------------------------
 title_shorter_version__0_28:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N48   , Ds4 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N48
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 029   ----------------------------------------
 title_shorter_version__0_29:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N16   , Fn4 , v127
         .byte   W16
         .byte                   Fs4
@@ -389,53 +389,53 @@ title_shorter_version__0_29:
         .byte   W16
         .byte           N48   , Fs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 030   ----------------------------------------
 title_shorter_version__0_30:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N48   , Fn4 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N48   , Cs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 031   ----------------------------------------
 title_shorter_version__0_31:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs4 , v127
         .byte   W24
         .byte                   As4
         .byte   W24
         .byte           N48   , Cs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 032   ----------------------------------------
 title_shorter_version__0_32:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Bn4 , v127
         .byte   W24
         .byte                   As4
         .byte   W24
         .byte           N60   , Ds4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 033   ----------------------------------------
 title_shorter_version__0_33:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N07   , Fn4 , v127
         .byte   W12
         .byte                   Fs4
@@ -444,19 +444,19 @@ title_shorter_version__0_33:
         .byte   W12
         .byte           N72   , Fs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 034   ----------------------------------------
 title_shorter_version__0_34:
         .byte   W48
         .byte   W03
-        .byte           VOL   , 104
-        .byte           MOD   , 0
+        .byte           VOL   , 40
+
         .byte           VOICE , 57
         .byte           N42   , Cs3 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 035   ----------------------------------------
@@ -507,17 +507,17 @@ title_shorter_version__0_34:
 @ 050   ----------------------------------------
         .byte   W03
         .byte   TEMPO , 126/2
-        .byte           MOD   , 0
+
         .byte           N48   , Fn5 , v107
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           VOICE , 48
         .byte           N48   , Cs4 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 051   ----------------------------------------
         .byte   PATT
@@ -571,12 +571,12 @@ title_shorter_version__0_34:
         .byte   TEMPO , 116/2
         .byte   W24
         .byte   TEMPO , 128/2
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           VOICE , 48
         .byte           N60   , Ds4 , v127 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 067   ----------------------------------------
         .byte   W24
@@ -590,7 +590,7 @@ title_shorter_version__0_34:
         .byte   W08
         .byte           N84   , Fn4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 068   ----------------------------------------
         .byte   W48
@@ -598,7 +598,7 @@ title_shorter_version__0_34:
         .byte                   0
         .byte           N60   , Fn4 , v127 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 069   ----------------------------------------
         .byte   W24
@@ -612,16 +612,16 @@ title_shorter_version__0_34:
         .byte   W08
         .byte           N84   , Fs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 070   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 96
-        .byte           MOD   , 0
+        .byte           VOL   , 32
+
         .byte           N60   , Fs4 , v127 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 071   ----------------------------------------
         .byte   W24
@@ -635,17 +635,17 @@ title_shorter_version__0_34:
         .byte   W08
         .byte           N42   , Fn4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 072   ----------------------------------------
         .byte   W03
         .byte                   0
         .byte           N42   , Cs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           N10   , As3
         .byte   W24
         .byte           N07
@@ -700,31 +700,31 @@ title_shorter_version__0_73:
         .byte                   Cn4
         .byte   W24
         .byte   TEMPO , 126/2
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N84   , Gs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 077   ----------------------------------------
 title_shorter_version__0_77:
         .byte   W60
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N52   , Fs3 , v127
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 078   ----------------------------------------
 title_shorter_version__0_78:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N10   , As3 , v127
         .byte   W24
         .byte           N84   , Gs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 079   ----------------------------------------
@@ -747,8 +747,8 @@ title_shorter_version__1:
 @ 000   ----------------------------------------
 title_shorter_version__1_0:
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W92
         .byte   W02
         .byte   PEND
@@ -759,7 +759,7 @@ title_shorter_version__1_0:
         .byte   W03
 title_shorter_version__1_LOOP:
         .byte           PAN   , c_v+6
-        .byte           VOL   , 112
+        .byte           VOL   , 48
         .byte           VOICE , 48
         .byte           N48   , Cs3 , v127
         .byte   W44
@@ -832,46 +832,46 @@ title_shorter_version__1_LOOP:
         .byte   W03
         .byte           VOICE , 57
         .byte           PAN   , c_v+11
-        .byte           VOL   , 104
-        .byte           MOD   , 30
+        .byte           VOL   , 40
+
         .byte   W12
         .byte                   0
         .byte           N42   , Cs3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
 @ 011   ----------------------------------------
 title_shorter_version__1_11:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N42
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 012   ----------------------------------------
 title_shorter_version__1_12:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N42   , Ds3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N42
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 013   ----------------------------------------
 title_shorter_version__1_13:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N05   , Fn3 , v097
         .byte   W12
         .byte                   Fs3
@@ -880,54 +880,54 @@ title_shorter_version__1_13:
         .byte   W12
         .byte           N42   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 014   ----------------------------------------
 title_shorter_version__1_14:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N42   , Fn3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N42   , Cs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 015   ----------------------------------------
 title_shorter_version__1_15:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N42   , Cs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 016   ----------------------------------------
 title_shorter_version__1_16:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N18   , Bn3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N60   , Ds3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 017   ----------------------------------------
 title_shorter_version__1_17:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N06   , Fn3 , v097
         .byte   W12
         .byte                   Fs3
@@ -936,14 +936,14 @@ title_shorter_version__1_17:
         .byte   W12
         .byte           N72   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 018   ----------------------------------------
 title_shorter_version__1_18:
         .byte   W36
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           VOICE , 72
         .byte           N12   , Fs4 , v072
         .byte   W12
@@ -957,7 +957,7 @@ title_shorter_version__1_18:
 @ 019   ----------------------------------------
 title_shorter_version__1_19:
         .byte   W15
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Gs4 , v072
@@ -968,13 +968,13 @@ title_shorter_version__1_19:
         .byte   W12
         .byte           N36   , Cs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 020   ----------------------------------------
 title_shorter_version__1_20:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N12   , As4 , v072
         .byte   W12
         .byte           N15   , Fs4
@@ -991,7 +991,7 @@ title_shorter_version__1_20:
 @ 021   ----------------------------------------
 title_shorter_version__1_21:
         .byte   W15
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Cs5 , v072
@@ -1002,14 +1002,14 @@ title_shorter_version__1_21:
         .byte   W12
         .byte           N84   , As4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 022   ----------------------------------------
 title_shorter_version__1_22:
         .byte   W60
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N24   , Ds4 , v097
         .byte   W24
         .byte           N36   , Bn4
@@ -1018,7 +1018,7 @@ title_shorter_version__1_22:
 @ 023   ----------------------------------------
 title_shorter_version__1_23:
         .byte   W15
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Gs4 , v097
@@ -1029,13 +1029,13 @@ title_shorter_version__1_23:
         .byte   W12
         .byte           N36   , Cs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 024   ----------------------------------------
 title_shorter_version__1_24:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N12   , As4 , v097
         .byte   W12
         .byte           N21   , Fs5
@@ -1052,7 +1052,7 @@ title_shorter_version__1_24:
 @ 025   ----------------------------------------
 title_shorter_version__1_25:
         .byte   W15
-        .byte           MOD   , 30
+
         .byte   W12
         .byte                   0
         .byte           N12   , Fn5 , v082
@@ -1063,7 +1063,7 @@ title_shorter_version__1_25:
         .byte   W12
         .byte           N48   , Fs5
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 026   ----------------------------------------
@@ -1071,13 +1071,13 @@ title_shorter_version__1_25:
         .byte                   0
         .byte           N36   , Fn5 , v077
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W12
         .byte           VOICE , 48
         .byte           N48   , Cs3 , v097
-        .byte           VOL   , 112
+        .byte           VOL   , 48
         .byte           PAN   , c_v+6
-        .byte           MOD   , 0
+
         .byte   GOTO
          .word  title_shorter_version__1_LOOP
         .byte   W24
@@ -1086,34 +1086,34 @@ title_shorter_version__1_25:
 @ 027   ----------------------------------------
 title_shorter_version__1_27:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N48
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 028   ----------------------------------------
 title_shorter_version__1_28:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N48   , Ds3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N48
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 029   ----------------------------------------
 title_shorter_version__1_29:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N16   , Fn3 , v097
         .byte   W16
         .byte                   Fs3
@@ -1122,53 +1122,53 @@ title_shorter_version__1_29:
         .byte   W16
         .byte           N48   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 030   ----------------------------------------
 title_shorter_version__1_30:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N48   , Fn3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
         .byte                   0
         .byte           N48   , Cs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 031   ----------------------------------------
 title_shorter_version__1_31:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Fs3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N48   , Cs4
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 032   ----------------------------------------
 title_shorter_version__1_32:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Bn3 , v097
         .byte   W24
         .byte                   As3
         .byte   W24
         .byte           N60   , Ds3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 033   ----------------------------------------
 title_shorter_version__1_33:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N07   , Fn3 , v097
         .byte   W12
         .byte                   Fs3
@@ -1177,7 +1177,7 @@ title_shorter_version__1_33:
         .byte   W12
         .byte           N72   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 034   ----------------------------------------
@@ -1186,12 +1186,12 @@ title_shorter_version__1_34:
         .byte   W03
         .byte           VOICE , 57
         .byte           PAN   , c_v+11
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte   W12
-        .byte           MOD   , 0
+
         .byte           N42   , Cs3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 035   ----------------------------------------
@@ -1241,18 +1241,18 @@ title_shorter_version__1_34:
          .word  title_shorter_version__1_25
 @ 050   ----------------------------------------
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N36   , Fn5 , v077
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W12
         .byte           PAN   , c_v+6
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           VOICE , 48
         .byte           N48   , Cs3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 051   ----------------------------------------
         .byte   PATT
@@ -1303,12 +1303,12 @@ title_shorter_version__1_34:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v+26
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           VOICE , 48
         .byte           N60   , Ds3 , v097 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 067   ----------------------------------------
         .byte   W24
@@ -1322,7 +1322,7 @@ title_shorter_version__1_34:
         .byte   W08
         .byte           N84   , Fn3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 068   ----------------------------------------
         .byte   W48
@@ -1330,7 +1330,7 @@ title_shorter_version__1_34:
         .byte                   0
         .byte           N60   , Fn3 , v097 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 069   ----------------------------------------
         .byte   W24
@@ -1344,16 +1344,16 @@ title_shorter_version__1_34:
         .byte   W08
         .byte           N84   , Fs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 070   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 96
-        .byte           MOD   , 0
+        .byte           VOL   , 32
+
         .byte           N60   , Fs3 , v097 , gtp3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 071   ----------------------------------------
         .byte   W24
@@ -1367,17 +1367,17 @@ title_shorter_version__1_34:
         .byte   W08
         .byte           N42   , Fn3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 072   ----------------------------------------
         .byte   W03
         .byte                   0
         .byte           N42   , Cs3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W24
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           N10   , As2
         .byte   W24
         .byte           N07
@@ -1429,31 +1429,31 @@ title_shorter_version__1_73:
         .byte   W24
         .byte                   Cn3
         .byte   W24
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N84   , Fn3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
 @ 077   ----------------------------------------
 title_shorter_version__1_77:
         .byte   W60
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N52   , Ds3 , v097
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W09
         .byte   PEND
 @ 078   ----------------------------------------
 title_shorter_version__1_78:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N10   , Fs3 , v097
         .byte   W24
         .byte           N84   , Fn3
         .byte   W24
-        .byte           MOD   , 30
+
         .byte   W21
         .byte   PEND
 @ 079   ----------------------------------------
@@ -1475,8 +1475,8 @@ title_shorter_version__2:
         .byte   KEYSH , title_shorter_version__key+0
 @ 000   ----------------------------------------
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W48
         .byte   W01
         .byte           PAN   , c_v-20
@@ -1527,7 +1527,7 @@ title_shorter_version__2_1:
         .byte           EOT   , Fs2
 title_shorter_version__2_LOOP:
         .byte           PAN   , c_v-14
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 48
         .byte           N48   , As2 , v127
         .byte   W44
@@ -1608,18 +1608,18 @@ title_shorter_version__2_10:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v-4
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           VOICE , 60
         .byte           N42   , As2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 011   ----------------------------------------
 title_shorter_version__2_11:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , As2 , v127
         .byte   W24
         .byte                   Cs3
@@ -1627,7 +1627,7 @@ title_shorter_version__2_11:
         .byte           N30   , Bn2 , v127 , gtp1
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N05
@@ -1647,7 +1647,7 @@ title_shorter_version__2_12:
         .byte           N30   , Gs2 , v127 , gtp1
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N05
@@ -1667,29 +1667,29 @@ title_shorter_version__2_13:
         .byte           N42   , As2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 014   ----------------------------------------
 title_shorter_version__2_14:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N42   , Gs2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
         .byte                   0
         .byte           N42   , As2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 015   ----------------------------------------
 title_shorter_version__2_15:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , As2 , v127
         .byte   W24
         .byte                   Cs3
@@ -1697,13 +1697,13 @@ title_shorter_version__2_15:
         .byte           N42   , Ds3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 016   ----------------------------------------
 title_shorter_version__2_16:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N18   , Ds3 , v127
         .byte   W24
         .byte                   Cs3
@@ -1711,13 +1711,13 @@ title_shorter_version__2_16:
         .byte           N60   , Gs2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 017   ----------------------------------------
 title_shorter_version__2_17:
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N06   , Cs3 , v127
         .byte   W12
         .byte                   As2
@@ -1727,16 +1727,16 @@ title_shorter_version__2_17:
         .byte           N84   , As2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 018   ----------------------------------------
 title_shorter_version__2_18:
         .byte   W48
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           PAN   , c_v-14
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           VOICE , 49
         .byte           N48   , Gs3 , v109
         .byte   W44
@@ -1804,14 +1804,14 @@ title_shorter_version__2_25:
         .byte   W03
         .byte           N48   , Cn4 , v127
         .byte   W48
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           N48   , Cs4
         .byte   W44
         .byte   W01
         .byte   PEND
 @ 026   ----------------------------------------
         .byte   W03
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N24   , Gs4
         .byte   W24
         .byte                   Cs5
@@ -1893,7 +1893,7 @@ title_shorter_version__2_25:
          .word  title_shorter_version__2_25
 @ 050   ----------------------------------------
         .byte   W03
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N24   , Gs4 , v127
         .byte   W24
         .byte                   Cs5
@@ -1951,13 +1951,13 @@ title_shorter_version__2_25:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v-14
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           VOICE , 48
         .byte           N60   , Fs3 , v127 , gtp3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 067   ----------------------------------------
         .byte   W24
@@ -1972,7 +1972,7 @@ title_shorter_version__2_25:
         .byte           N42   , Gs3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 068   ----------------------------------------
         .byte   W03
@@ -1984,7 +1984,7 @@ title_shorter_version__2_25:
         .byte           N60   , Gs3 , v127 , gtp3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 069   ----------------------------------------
         .byte   W24
@@ -1999,7 +1999,7 @@ title_shorter_version__2_25:
         .byte           N42   , As3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 070   ----------------------------------------
         .byte   W03
@@ -2007,14 +2007,14 @@ title_shorter_version__2_25:
         .byte           N42   , Cs4
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
-        .byte           VOL   , 96
-        .byte           MOD   , 0
+        .byte           VOL   , 32
+
         .byte           N60   , Cs4 , v127 , gtp3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 071   ----------------------------------------
         .byte   W24
@@ -2029,7 +2029,7 @@ title_shorter_version__2_25:
         .byte           N42
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 072   ----------------------------------------
         .byte   W03
@@ -2037,10 +2037,10 @@ title_shorter_version__2_25:
         .byte           N42   , Gs3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
-        .byte           VOL   , 112
-        .byte           MOD   , 0
+        .byte           VOL   , 48
+
         .byte           N10   , Fs3
         .byte   W24
         .byte           N07
@@ -2092,34 +2092,34 @@ title_shorter_version__2_73:
         .byte   W24
         .byte                   Gs3
         .byte   W24
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N84   , Cs3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 077   ----------------------------------------
 title_shorter_version__2_77:
         .byte   W60
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N52   , Bn2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W06
         .byte   PEND
 @ 078   ----------------------------------------
 title_shorter_version__2_78:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N10   , Cs3 , v127
         .byte   W24
         .byte           N84
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 079   ----------------------------------------
@@ -2141,8 +2141,8 @@ title_shorter_version__3:
         .byte   KEYSH , title_shorter_version__key+0
 @ 000   ----------------------------------------
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W48
         .byte   W01
         .byte           PAN   , c_v-20
@@ -2173,7 +2173,7 @@ title_shorter_version__3:
         .byte           EOT   , Cs2
 title_shorter_version__3_LOOP:
         .byte           PAN   , c_v-24
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 48
         .byte           N42   , Fs2 , v127
         .byte   W44
@@ -2238,29 +2238,29 @@ title_shorter_version__3_10:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v-4
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           VOICE , 60
         .byte           N84   , Fs2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 011   ----------------------------------------
 title_shorter_version__3_11:
         .byte   W48
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N42   , Fs2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 012   ----------------------------------------
 title_shorter_version__3_12:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , Ds2 , v127
         .byte   W24
         .byte           N10
@@ -2270,7 +2270,7 @@ title_shorter_version__3_12:
         .byte           N30   , Ds2 , v127 , gtp1
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N05
@@ -2290,13 +2290,13 @@ title_shorter_version__3_13:
         .byte           N42   , Cs2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 014   ----------------------------------------
 title_shorter_version__3_14:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , Cs2 , v127
         .byte   W24
         .byte                   Gs1
@@ -2304,26 +2304,26 @@ title_shorter_version__3_14:
         .byte           N60   , Fs2 , v127 , gtp3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 015   ----------------------------------------
 title_shorter_version__3_15:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , As2 , v127
         .byte   W24
         .byte           N42   , Bn2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 016   ----------------------------------------
 title_shorter_version__3_16:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , Bn2 , v127
         .byte   W24
         .byte                   As2
@@ -2331,32 +2331,32 @@ title_shorter_version__3_16:
         .byte           N42   , Ds2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 017   ----------------------------------------
 title_shorter_version__3_17:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N42   , Gs2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
         .byte                   0
         .byte           N72   , Fs2 , v127 , gtp1
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
         .byte   PEND
 @ 018   ----------------------------------------
 title_shorter_version__3_18:
         .byte   W48
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           PAN   , c_v+26
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           VOICE , 49
         .byte           N42   , Gs2 , v109
         .byte   W44
@@ -2424,14 +2424,14 @@ title_shorter_version__3_25:
         .byte   W03
         .byte           N42   , Cn3 , v127
         .byte   W48
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           N42   , Cs3
         .byte   W44
         .byte   W01
         .byte   PEND
 @ 026   ----------------------------------------
         .byte   W03
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N21   , Gs3
         .byte   W24
         .byte                   Cs4
@@ -2514,7 +2514,7 @@ title_shorter_version__3_25:
          .word  title_shorter_version__3_25
 @ 050   ----------------------------------------
         .byte   W03
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N21   , Gs3 , v127
         .byte   W24
         .byte                   Cs4
@@ -2573,11 +2573,11 @@ title_shorter_version__3_25:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v-19
-        .byte           MOD   , 0
+
         .byte           N54   , Gs2 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 067   ----------------------------------------
         .byte   W24
@@ -2592,7 +2592,7 @@ title_shorter_version__3_25:
         .byte           N72
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 068   ----------------------------------------
         .byte   W48
@@ -2601,7 +2601,7 @@ title_shorter_version__3_25:
         .byte           N54   , Bn2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 069   ----------------------------------------
         .byte   W24
@@ -2616,7 +2616,7 @@ title_shorter_version__3_25:
         .byte           N72   , As2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 070   ----------------------------------------
         .byte   W48
@@ -2625,7 +2625,7 @@ title_shorter_version__3_25:
         .byte           N54   , An2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 071   ----------------------------------------
         .byte   W24
@@ -2640,7 +2640,7 @@ title_shorter_version__3_25:
         .byte           N72   , Gs2
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W18
 @ 072   ----------------------------------------
         .byte   W48
@@ -2699,7 +2699,7 @@ title_shorter_version__3_73:
         .byte   W24
         .byte           VOICE , 32
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
         .byte                   0
         .byte           N18
@@ -2707,19 +2707,19 @@ title_shorter_version__3_73:
 @ 077   ----------------------------------------
 title_shorter_version__3_77:
         .byte   W06
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N18   , Gs1 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W21
         .byte                   0
         .byte           N18   , Fs1
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W06
         .byte   PEND
 @ 078   ----------------------------------------
@@ -2728,7 +2728,7 @@ title_shorter_version__3_77:
         .byte           N18
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W32
         .byte   W01
         .byte                   0
@@ -2739,24 +2739,24 @@ title_shorter_version__3_77:
          .word  title_shorter_version__3_77
 @ 080   ----------------------------------------
         .byte   W15
-        .byte           MOD   , 0
+
         .byte           N18   , Fs1 , v127
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N24   , Gs1 , v127 , gtp3
         .byte   W24
         .byte   W03
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N24   , Gs1 , v127 , gtp3
         .byte   W09
 @ 081   ----------------------------------------
         .byte   W18
-        .byte           MOD   , 35
+
         .byte   W09
         .byte                   0
         .byte           N18
@@ -2776,8 +2776,8 @@ title_shorter_version__4:
 @ 000   ----------------------------------------
         .byte           VOICE , 66
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W92
         .byte   W02
 @ 001   ----------------------------------------
@@ -2787,7 +2787,7 @@ title_shorter_version__4:
         .byte   W03
 title_shorter_version__4_LOOP:
         .byte           PAN   , c_v+16
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           N07   , Cs3 , v127
         .byte   W36
         .byte           N03
@@ -2904,7 +2904,7 @@ title_shorter_version__4_10:
         .byte   W48
         .byte   W03
         .byte           PAN   , c_v-39
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte   W44
         .byte   W01
         .byte   PEND
@@ -2984,7 +2984,7 @@ title_shorter_version__4_17:
 @ 018   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
 @ 019   ----------------------------------------
@@ -3026,7 +3026,7 @@ title_shorter_version__4_24:
         .byte                   Fn5
         .byte   W12
         .byte           PAN   , c_v+36
-        .byte           VOL   , 80
+        .byte           VOL   , 16
         .byte           N06   , Ds4
         .byte   W06
         .byte                   Fn4
@@ -3075,7 +3075,7 @@ title_shorter_version__4_25:
         .byte                   Cs5
         .byte   W24
         .byte           N07   , Cs3
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           PAN   , c_v+16
         .byte   GOTO
          .word  title_shorter_version__4_LOOP
@@ -3131,7 +3131,7 @@ title_shorter_version__4_25:
 @ 042   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
 @ 043   ----------------------------------------
@@ -3159,7 +3159,7 @@ title_shorter_version__4_25:
         .byte                   Cs5
         .byte   W24
         .byte           PAN   , c_v+16
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           N07   , Cs3
         .byte   W36
         .byte           N03
@@ -3213,7 +3213,7 @@ title_shorter_version__4_25:
 @ 066   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
 @ 067   ----------------------------------------
@@ -3341,16 +3341,16 @@ title_shorter_version__4_76:
         .byte   W48
         .byte                   Cs3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W01
         .byte   PEND
 @ 077   ----------------------------------------
 title_shorter_version__4_77:
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , Gs3 , v127
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W04
         .byte                   0
         .byte           N07   , Fs3
@@ -3363,22 +3363,22 @@ title_shorter_version__4_77:
         .byte   W12
         .byte           N42   , Fs3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W01
         .byte   PEND
 @ 078   ----------------------------------------
 title_shorter_version__4_78:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N21   , As3 , v127
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W04
         .byte                   0
         .byte           N60   , Gs3 , v127 , gtp3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W24
         .byte   W01
         .byte   PEND
@@ -3386,7 +3386,7 @@ title_shorter_version__4_78:
 title_shorter_version__4_79:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N07   , Fs3 , v127
         .byte   W12
         .byte                   Fn3
@@ -3397,21 +3397,21 @@ title_shorter_version__4_79:
         .byte   W12
         .byte           N42   , Fs3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W01
         .byte   PEND
 @ 080   ----------------------------------------
 title_shorter_version__4_80:
         .byte   W24
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N07   , As3 , v127
         .byte   W12
         .byte                   Fs3
         .byte   W12
         .byte           N96   , Gs3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W24
         .byte   W01
         .byte   PEND
@@ -3421,7 +3421,7 @@ title_shorter_version__4_80:
         .byte                   0
         .byte           N24   , Cs3
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W24
         .byte   W01
 @ 082   ----------------------------------------
@@ -3443,7 +3443,7 @@ title_shorter_version__5:
         .byte   W03
 title_shorter_version__5_LOOP:
         .byte           PAN   , c_v+46
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           VOICE , 60
         .byte           N07   , Fs2 , v127
         .byte   W36
@@ -3562,7 +3562,7 @@ title_shorter_version__5_10:
         .byte   W03
         .byte           VOICE , 74
         .byte           PAN   , c_v+36
-        .byte           VOL   , 80
+        .byte           VOL   , 16
         .byte   W44
         .byte   W01
         .byte   PEND
@@ -3618,7 +3618,7 @@ title_shorter_version__5_14:
         .byte           N36   , Gs4 , v127
         .byte   W48
         .byte           PAN   , c_v-29
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           VOICE , 49
         .byte           N72   , Fs4
         .byte   W44
@@ -3663,7 +3663,7 @@ title_shorter_version__5_18:
         .byte   W48
         .byte   W03
         .byte           VOICE , 48
-        .byte           VOL   , 112
+        .byte           VOL   , 48
         .byte   W44
         .byte   W01
         .byte   PEND
@@ -3729,7 +3729,7 @@ title_shorter_version__5_25:
         .byte   W48
         .byte           VOICE , 60
         .byte           N07   , Fs2
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           PAN   , c_v+46
         .byte   GOTO
          .word  title_shorter_version__5_LOOP
@@ -3808,7 +3808,7 @@ title_shorter_version__5_25:
         .byte           N48   , Fn4 , v127
         .byte   W48
         .byte           PAN   , c_v+46
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte           VOICE , 60
         .byte           N07   , Fs2
         .byte   W36
@@ -3956,10 +3956,10 @@ title_shorter_version__5_25:
 @ 081   ----------------------------------------
         .byte   W48
         .byte   W03
-        .byte           MOD   , 0
+
         .byte           N24   , Gs2 , v127
         .byte   W20
-        .byte           MOD   , 50
+
         .byte   W24
         .byte   W01
 @ 082   ----------------------------------------
@@ -3973,13 +3973,13 @@ title_shorter_version__6:
         .byte   KEYSH , title_shorter_version__key+0
 @ 000   ----------------------------------------
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W48
         .byte   W01
         .byte           VOICE , 47
         .byte           PAN   , c_v+21
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte   W44
         .byte   W01
 @ 001   ----------------------------------------
@@ -4004,7 +4004,7 @@ title_shorter_version__6:
         .byte                   Cs1
         .byte   W12
 title_shorter_version__6_LOOP:
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           N36   , Fs1 , v127
         .byte   W36
         .byte           N06   , Fs1 , v107
@@ -4499,7 +4499,7 @@ title_shorter_version__6_73:
         .byte                   Cs2
         .byte   W06
         .byte           PAN   , c_v+11
-        .byte           VOL   , 112
+        .byte           VOL   , 48
         .byte           VOICE , 55
         .byte           N96
         .byte   W44
@@ -4524,7 +4524,7 @@ title_shorter_version__7:
 title_shorter_version__7_LOOP:
         .byte           VOICE , 63
         .byte           PAN   , c_v+46
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte   W44
         .byte   W01
 @ 003   ----------------------------------------
@@ -4613,7 +4613,7 @@ title_shorter_version__7_10:
         .byte   W48
         .byte   W03
         .byte           VOICE , 48
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
         .byte   PEND
@@ -4669,7 +4669,7 @@ title_shorter_version__7_16:
         .byte   W24
         .byte                   Fn3
         .byte   W24
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 63
         .byte           N24   , Gs3 , v127 , gtp3
         .byte   W36
@@ -4889,7 +4889,7 @@ title_shorter_version__7_25:
         .byte   W48
         .byte   W03
         .byte           VOICE , 60
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte   W44
         .byte   W01
 @ 067   ----------------------------------------
@@ -4964,7 +4964,7 @@ title_shorter_version__7_25:
         .byte   W24
         .byte           VOICE , 48
         .byte           PAN   , c_v+56
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte   W44
         .byte   W01
 @ 077   ----------------------------------------
@@ -5004,7 +5004,7 @@ title_shorter_version__8:
         .byte   W03
 title_shorter_version__8_LOOP:
         .byte           PAN   , c_v+7
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 32
         .byte           N48   , Fs1 , v127
         .byte   W44
@@ -5132,7 +5132,7 @@ title_shorter_version__8_18:
         .byte   W12
         .byte                   Fn1
         .byte   W12
-        .byte           VOL   , 120
+        .byte           VOL   , 54
         .byte           VOICE , 48
         .byte           N48   , Ds1
         .byte   W44
@@ -5173,7 +5173,7 @@ title_shorter_version__8_22:
         .byte   W03
         .byte           N24   , As1 , v127
         .byte   W24
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte           VOICE , 32
         .byte           N24   , Ds1
         .byte   W24
@@ -5551,7 +5551,7 @@ title_shorter_version__9:
 title_shorter_version__9_LOOP:
         .byte           VOICE , 73
         .byte           PAN   , c_v+36
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
 @ 003   ----------------------------------------
@@ -5571,19 +5571,19 @@ title_shorter_version__9_4:
 @ 005   ----------------------------------------
 title_shorter_version__9_5:
         .byte   W09
-        .byte           VOL   , 88
+        .byte           VOL   , 24
         .byte   W06
-        .byte                   80
+        .byte                   20
         .byte   W06
-        .byte                   72
+        .byte                   18
         .byte   W06
-        .byte                   64
+        .byte                   16
         .byte   W06
-        .byte                   56
+        .byte                   14
         .byte   W06
-        .byte                   48
+        .byte                   12
         .byte   W06
-        .byte                   40
+        .byte                   10
         .byte   W48
         .byte   W03
         .byte   PEND
@@ -5621,7 +5621,7 @@ title_shorter_version__9_10:
         .byte   W06
         .byte                   0
         .byte   W18
-        .byte                   80
+        .byte                   40
         .byte           VOICE , 45
         .byte           N06   , Cs3 , v127
         .byte           N06   , Fs3
@@ -5750,7 +5750,7 @@ title_shorter_version__9_18:
         .byte   W48
         .byte           VOICE , 57
         .byte           PAN   , c_v-44
-        .byte           VOL   , 104
+        .byte           VOL   , 40
         .byte   W44
         .byte   W01
         .byte   PEND
@@ -5793,7 +5793,7 @@ title_shorter_version__9_25:
         .byte                   Cs3
         .byte   W48
         .byte           VOICE , 73
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte           PAN   , c_v+36
         .byte   GOTO
          .word  title_shorter_version__9_LOOP
@@ -5866,7 +5866,7 @@ title_shorter_version__9_25:
         .byte   W48
         .byte           VOICE , 73
         .byte           PAN   , c_v+36
-        .byte           VOL   , 96
+        .byte           VOL   , 32
         .byte   W44
         .byte   W01
 @ 051   ----------------------------------------
@@ -5959,11 +5959,11 @@ title_shorter_version__10:
 @ 000   ----------------------------------------
         .byte           VOICE , 121
         .byte   W02
-        .byte           BENDR , 12
-        .byte           VOL   , 64
+
+        .byte           VOL   , 20
         .byte   W48
         .byte   W01
-        .byte                   96
+        .byte                   48
         .byte           N04   , Dn1 , v127
         .byte   W04
         .byte                   Dn1 , v077

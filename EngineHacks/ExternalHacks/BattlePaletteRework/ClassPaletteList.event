@@ -199,7 +199,7 @@ PaletteAssociationEntry(Connacht, $5E)
 // PaletteAssociationEntry(RotenRitter, $70)
 // PaletteAssociationEntry(Edda, $90)
 PaletteAssociationEntry(Cuvuli, $D6)
-// PaletteAssociationEntry(Clement, $EF)
+PaletteAssociationEntry(Clement, $EF)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

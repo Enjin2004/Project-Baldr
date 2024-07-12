@@ -1340,6 +1340,11 @@ UnarmedAnim(0x2d)
 EndAnim
 
 ALIGN 4
+BallistaAnims:
+BowAnim(0x9F)
+EndAnim
+
+ALIGN 4
 AdventurerAnims:
 BowAnim(0x100)
 StaffAnim(0x101)
