@@ -1,6 +1,9 @@
 ##Desc_Sigurd ^
-Heir to Chalphy, descendant of the crusader Baldr.[NL]
-He's courageous and has a strong sense of justice.[X]
+Son of Byron, lord of Chalphy and descendant [N]
+of the Crusader Baldr. A brave, but headstrong [N]
+man with a great sense of justice. [X]
+// Heir to Chalphy, descendant of the crusader Baldr.
+// He's courageous and has a strong sense of justice.
 
 ##Desc_Alec ^
 Knight of Chalphy. The polar opposite of Naoise, [N]
@@ -16,24 +19,36 @@ Dreams of fighting on the front lines, [N]
 but is often assigned to castle defense.[X]
 
 ##Desc_Lex ^
-Second son of Duke Lombard of House Dozel. [NL]
-Joins the army under Sigurd's command [N]
-along with his friend Azelle.[X]
+Second son of Duke Lombard and [N]
+the "black sheep" of House Dozel. [NL]
+A brash, but well meaning nobleman.[X]
+// Second son of Duke Lombard of House Dozel.
+// Joins the army under Sigurd's command
+// along with his friend Azelle.
 
 ##Desc_Azelle ^
-Half brother to the head of House Velthomer, Arvis. [NL]
-Compares himself to his older brother and [N]
-suffers from an inferiority complex.[X]
+Half-brother of the Duke of Velthomer, Arvis. [NL]
+A passionate and just youth with a difficult [N]
+relationship with his half-brother and caretaker.[X]
+// Half brother to the head of House Velthomer, Arvis.
+// Compares himself to his older brother and
+// suffers from an inferiority complex.
 
 ##Desc_Quan ^
-Prince of Leonster and inheritor of the lance[N]
-Gae Bolg. Husband of Ethlyn, the younger sister [N]
-of his close friend Sigurd.[X]
+Prince of Leonster, descendant of the Crusader [N]
+Njourn and Ethlyn's husband. Very altruistic [N]
+for those he cares for, yet a bit shortsighted.[X]
+// Prince of Leonster and inheritor of the lance[N]
+// Gae Bolg. Husband of Ethlyn, the younger sister [N]
+// of his close friend Sigurd.[X]
 
 ##Desc_Finn ^
-A knight of Leonster and fervent [N]
-servant of Prince Quan, [N]
-he pursues the same goals as him.[X]
+A young page under Quan's direct tutelage. [NL]
+His dedication to virtue is only second [N]
+to his loyalty.[X]
+// A knight of Leonster and fervent
+// servant of Prince Quan,
+// he pursues the same goals as him.
 
 ##Desc_Finn2  ^
 A servant of Leonster who swore [N]
@@ -41,19 +56,28 @@ his loyalty to Leif's father, Quan. [NL]
 His main objective in life is to protect Leif.[X]
 
 ##Desc_Ethlyn ^
-The younger sister of Lord Sigurd of Chalphy [N]
-with an adventurous spirit. [NL]
-She cares deeply for her family.[X]
+The younger sister of Sigurd and Quan's wife. [NL]
+An adventurous and assertive lady that [N]
+always looks out for her loved ones. [X]
+// The younger sister of Lord Sigurd of Chalphy
+// with an adventurous spirit.
+// She cares deeply for her family.
 
 ##Desc_Ayra ^
-Princess of Isaach, master of the sword, [N]
-and descendant of the crusader Od. [NL]
-She fights for her homeland. [X]
+Princess of Isaach, aunt of Shannan and [N]
+descendant of the crusader Od. A dutiful [N]
+swordsman with quite a temper.[X]
+// Princess of Isaach, master of the sword,
+// and descendant of the crusader Od.
+// She fights for her homeland. 
 
 ##Desc_Jamke ^
-The youngest prince of Verdane. [NL]
-He does not carry the blood of [N]
-a crusader in his veins. [X]
+Youngest child of King Batu and [N]
+prince of Verdane. Considerate towards [N]
+others and has a great sense of justice.[X]
+// The youngest prince of Verdane.
+// He does not carry the blood of
+// a crusader in his veins.
 
 ##Desc_Jamke2  ^
 The youngest prince of Verdane. [NL]
@@ -61,38 +85,69 @@ He turns his bow against his homeland [N]
 to try to stop the war.[X]
 
 ##Desc_Edain ^
-Sigurd's childhood friend, and one of [N]
-the two daughters of Duke Ring of Yngvi. [NL]
-She tries finding her long lost twin sister, Brigid.[X]
+Daughter of Duke Ring of Yngvi and [N]
+childhood friend of Sigurd. A serene [N]
+lady with unyielding integrity.[X]
+// Sigurd's childhood friend, and one of
+// the two daughters of Duke Ring of Yngvi.
+// She tries finding her long lost twin sister, Brigid.
 
 ##Desc_Midir ^
-Knight of Yngvi who harbours a crush on Edain. [NL]
-Determined to save Edain and atone for [N]
-his inability to protect her from harm.[X]
+Knight of Yngvi and Edain's retainer. [NL]
+A passionate servant to his liege lady [N]
+under his self-deprecating nature.[X]
+// Knight of Yngvi who harbours a crush on Edain. 
+// Determined to save Edain and atone for 
+// his inability to protect her from harm.
 
 ##Desc_Dew ^
-He was captured for attempting to steal [N]
-the treasures of the castle, but is later freed [N]
-by Prince Jamke to escort Edain to safety.[X]
+A mischievious and excitable youth who has [N]
+turned to thievery for an unknown reason. Tends [N]
+to get himself into trouble, intentionally or not.[X]
+// He was captured for attempting to steal 
+// the treasures of the castle, but is later freed 
+// by Prince Jamke to escort Edain to safety.
 
 ##Desc_Deirdre ^
-She lives hidden away in the Spirit Forest. [NL]
-She lost the memories of her past.[X]
+A mysterious shaman who resided in the [N]
+Spirit Forest. A meek, but caring woman [N]
+with a dark trail following her.[X]
+// She lives hidden away in the Spirit Forest.
+// She lost the memories of her past.
 
 ##Desc_Chulainn ^
-Son of the Lord of Sophara Castle in [N]
-southern Isaach, and is a former gladiator [N]
-and descendant of Od.[X]
+A former gladiator that has resolved [N]
+to seek meaning beyond riches. [NL]
+His mastery with the sword is laden with mystery.[X]
+// Son of the Lord of Sophara Castle in [N]
+// southern Isaach, and is a former gladiator [N]
+// and descendant of Od.
 
 ##Desc_Lachesis ^
-Lady of House Nordion. [NL]
-Adores her older brother, Eldigan, [N]
-to the point that other men pale in comparison.[X]
+Lady of House Nordion and sister of Eldigan. [NL]
+A noblewoman of great character that [N]
+greatly admires her brother.[X]
+// Lady of House Nordion.
+// Adores her older brother, Eldigan,
+// to the point that other men pale in comparison.
 
 ##Desc_Lewyn ^
-Prince of Silesse. A descendant of Ced, [N]
-one of the legendary 12 crusaders, [N]
-and inheritor of the wind tome Forseti.[X]
+A wandering bard with a nonchalant and [N]
+lax exterior, but with a strong moral [N]
+code enforced by his magical prowess. [X]
+// Prince of Silesse. A descendant of Ced,
+// one of the legendary 12 crusaders,
+// and inheritor of the wind tome Forseti.
+
+##Desc_Lewyn2 ^
+The runaway prince of Silesse and descendant of [N]
+the Crusader Ced. Avoiding his responsibilities [N]
+as the apparent heir of his nation. [X]
+
+##Desc_Lewyn3 ^
+The rightful heir of Silesse and descendant of [N]
+the Crusader Ced. Tragedy has given him new [N]
+resolution to fulfill his role as prince. [X]
 
 ##Desc_Silvia ^
 A dancer who travels the world. She looks sweet, [N]
@@ -119,19 +174,28 @@ he despises war but never abandons his duty, [N]
 despite his conflicted interests.[X]
 
 ##Desc_Clement ^
-He is a calm man and prefers to wait and see how [N]
-the battle unfolds before making a decision. [NL]
-He picks the most advantageous side of the conflict.[X]
+The ruler of Mackily, a duchy [N] 
+of Agustria. A shrewd and unambitious [N]
+man, unlike the other dukes.[X]
+// He is a calm man and prefers to wait and see how
+// the battle unfolds before making a decision.
+// He picks the most advantageous side of the conflict.
 
 ##Desc_Claud ^
-Being the direct descendant of Crusader Bragi, [N]
-he is the inheritor of the Valkyrie Staff. [NL]
-He also has a deceased younger sister.[X]
+The heir to the Duchy of Edda and the descendant [N]
+of the Crusader Bragi. Pious and patient, befitting [N]
+of the current leader of the Church of Bragi.[X]
+// Being the direct descendant of Crusader Bragi,
+// he is the inheritor of the Valkyrie Staff.
+// He also has a deceased younger sister.
 
 ##Desc_Callista ^
-A knight hailing from Southern Thracia. [NL]
-Having lived in poverty for most of her life, [N]
-mercenary work was the only way for her to make a living.[X]
+A knight hailing from Southern Thracia. [N]
+Forced into mercenary work by her poor upbringing, [N]
+she has become bitter and disillusioned.[X]
+// A knight hailing from Southern Thracia.
+// Having lived in poverty for most of her life, 
+// mercenary work was the only way for her to make a living.
 
 ##Desc_Tailtiu ^
 A noblewoman from Friege and descendant [N]
@@ -149,37 +213,62 @@ A savior in his time, but dislikes battle. [NL]
 Julia's half-brother.[X]
 
 ##Desc_Julia ^
+A shy and reserved girl who was in [N]
+Lewyn's care. Traumatized by a past [N]
+event, her memories are fragmented. [X]
+
+##Desc_Julia2 ^
+Daughter of Arvis and Deirdre. [NL]
+Controlled by Manfroy's spell, dispelling [N]
+the magic controlling her won't be so easy...[X]
+
+##Desc_Julia3 ^
 Inheritor of the Book of Naga. [NL]
 Seliph's half sister by a different father. [NL]
 Gentle, yet faces her destiny with strength.[X]
 
 ##Desc_Larcei ^
-A young warrior searching for her mother, [N]
-elegantly fashioned blade in hand. Scathach [N]
-is her twin brother, and Shannan is her cousin.[X]
+The daughter of Ayra and Scathach's twin brother. [NL]
+A hotheaded and determined swordsman, [N]
+yet tender at times. [X]
+// A young warrior searching for her mother,
+// elegantly fashioned blade in hand. Scathach
+// is her twin brother, and Shannan is her cousin.
 
 ##Desc_Diarmuid ^
-Diarmuid[X]
+Son of Lachesis and brother of Nanna. [NL]
+A jovial and charismatic knight, with [N]
+a knack of strategy picked up from Oifey.[X]
 
 ##Desc_Lester ^
-Lester[X]
+Son of Edain and brother of Lana. [NL]
+Hidden under his snark is a great sense of [N]
+duty, coupled an uncanny sense of foresight.[X]
 
 ##Desc_Lana ^
-Lana[X]
+Daughter of Edain and sister of Lester. A caring [N]
+soul that always places others in high priority, [N]
+following the footsteps of her mother.[X]
 
 ##Desc_Scathach ^
-Wielder of Astra, a secret technique [N]
-passed on to him from his mother, Ayra. [NL]
-He is the twin of Larcei and cousin to Shannan.[X]
+The son of Ayra and Larcei's twin brother. [NL]
+A dutiful and reserved swordsman, yet [N]
+as eager and determined as his sister. [X]
+// Wielder of Astra, a secret technique
+// passed on to him from his mother, Ayra.
+// He is the twin of Larcei and cousin to Shannan.
 
 ##Desc_Nanna ^
 Lachesis's daughter. A charismatic young lady, [NL]
 she has her mother's graceful bearing.[X]
 
 ##Desc_Arthur ^
-Raised alone in Silesse, separated from [N]
-his sister and mother at a young age, [N]
-he harbors resentment toward House Friege.[X]
+Son of Tailtiu and brother of Tine. [NL]
+A mostly self-interested mage with [N]
+a deep resentment towards House Friege. [X]
+// Raised alone in Silesse, separated from
+// his sister and mother at a young age,
+// he harbors resentment toward House Friege.
 
 ##Desc_Tine ^
 Niece of Bloom, ruler of [N]
@@ -194,7 +283,9 @@ she joins the liberation army.[X]
 Febail[X]
 
 ##Desc_Patty ^
-Patty[X]
+Daughter of Brigid and sister of Faval. [NL]
+A cheerful and mischievous girl that was [N]
+forced into thievery due to her poor upbringing.[X]
 
 ##Desc_Lene ^
 A dancer and descendant of the high priest Bragi. [NL]
@@ -205,15 +296,20 @@ but she doesn't let it get her down.[X]
 Coirpre[X]
 
 ##Desc_Fee ^
-Fee[X]
+Daughter of Erinys and sister of Ced. [NL]
+Very bubbly and extroverted, but prone [N]
+to outbursts if one presses her buttons.[X]
 
 ##Desc_Ced ^
 Son of Silesse's pegasus knight Erinys. [NL]
 A hero that stood up for the liberation of Munster.[X]
 
 ##Desc_Leif ^
-Quan's son. He was hiding in Fiana but [N]
-rose up after an attack by imperial forces.[X]
+The son of Quan and Ethlyn and heir of Leonster. [NL]
+A courageous, but very emotional youth that has [N]
+been forged anew by his leadership role.[X]
+// Quan's son. He was hiding in Fiana but
+// rose up after an attack by imperial forces.
 
 ##Desc_Zagreus ^
 Zagreus[X]
@@ -222,22 +318,34 @@ Zagreus[X]
 Persephone[X]
 
 ##Desc_Creidne ^
-Creidne[X]
+The twin sister of Dalvin and a hotheaded swordsman. [NL]
+Scarred by a past event, she's [N]
+hostile towards most men. [X]
 
 ##Desc_Dalvin ^
-Dalvin[X]
+he twin brother of Creidne and an opportunistic [N]
+swordsman. No matter the situation, [N]
+he always keeps a jolly smile. [X]
 
 ##Desc_Muirne ^
-Muirne[X]
+A cleric and sister of Deimne. Although very [N]
+insecure about her feelings, she always [N]
+maintains a positive outlook no matter what. [X]
 
 ##Desc_Deimne ^
-Deimne[X]
+Brother of Muirne and a mounted archer. [NL]
+Very self-critical and pessimistic to a fault, [N]
+but it doesn't stop him from giving it his all.[X]
 
 ##Desc_Tristan ^
-Tristan[X]
+Son of the Cross Knight Eve and brother of Jeanne. [NL]
+An abrasive, yet tempered knight that [N]
+wants to be like his father.[X]
 
 ##Desc_Amid ^
-Amid[X]
+Son of Ethnia and brother of Linda. [NL]
+Always keeps a humble and well mannered [N]
+disposition despite his rough childhood.[X]
 
 ##Desc_Jeanne ^
 Jeanne[X]
@@ -249,7 +357,9 @@ Linda[X]
 Hawk[X]
 
 ##Desc_Hermina ^
-Hermina[X]
+A pegasus knight in training and sister of Hawk. [NL] 
+Greatly admires Erinys and strives to be [N]
+as renown as her, despite her doubts.[X]
 
 ##Desc_Charlot ^
 Charlot[X]
@@ -258,23 +368,33 @@ Charlot[X]
 Laylea[X]
 
 ##Desc_Daisy ^
-Daisy[X]
+An orphan from Connacht and the sister of Asaello. [NL]
+Forced into thievery so she could support [N]
+the orphanage she was raised in.[X]
 
 ##Desc_Asaello ^
 Asaello[X]
 
 ##Desc_Oifey ^
-Chalphy knight and tactician as well as a cousin [N]
-of house Chalphy. He is appreciated by Sigurd for [N]
-his ingenuity and sense of justice.[X]
+A squire of House Chalphy training [N]
+under his cousin Sigurd, whom he [N]
+assists as an advisor and strategist.[X]
+// Chalphy knight and tactician as well as a cousin 
+// of house Chalphy. He is appreciated by Sigurd for
+// his ingenuity and sense of justice.
 
 ##Desc_Oifey2 ^
-Oifey[X]
+A seasoned paladin and cousin to Sigurd. [NL]
+His age brought him much wisdom and experience, [N]
+becoming a mentor for the kids under his care.[X]
 
 ##Desc_Shannan ^
-Prince of Isaach, country at war with Granvalle, [N]
-he was rescued by Sigurd in Verdane. [NL]
-He wishes to protect to protect those around him.[X]
+The young Prince of Issach and descendant [N]
+of the Crusader Od. A kind, yet sharp [N]
+youth with a great sense of duty.[X]
+// Prince of Isaach, country at war with Granvalle, 
+// he was rescued by Sigurd in Verdane.
+// He wishes to protect to protect those around him.
 
 ##Desc_Shannan2 ^
 Prince of Isaach and descendant of the crusader Od. [NL]
@@ -287,10 +407,14 @@ Melchior[X]
 Nehalennia[X]
 
 ##Desc_Iuchar ^
-Iuchar[X]
+Son of Danann and the middle child of three. [NL]
+A pompous-acting nobleman with a [N]
+sharp mind and a passion for arts.[X]
 
 ##Desc_Iucharba ^
-Iucharba[X]
+Son of Danann and youngest of three brothers. [NL]
+A brash, but earnest nobleman who [N]
+always speaks his mind.[X]
 
 ##Desc_Ares ^
 Eldigan's son and heir to Mystletainn. [NL]
@@ -339,28 +463,43 @@ Lackey of prince Munnir of Verdane. [NL]
 He wants to make as much mayhem as possible.[X]
 
 ##Desc_Cimbaeth ^
-Second son of Batu, King of Verdane. [NL]
-Once a kind soul who became aggressive [N]
-under Sandima's influence.[X]
+Middle child of King Batu and Prince [N]
+of Verdane. A savage, yet cunning [N]
+leader who rules over Genoa.[X]
+// Second son of Batu, King of Verdane.
+// Once a kind soul who became aggressive
+// under Sandima's influence.
 
 ##Desc_Munnir ^
-Eldest son of the Verdane royal family. [NL]
-Harsh and misogynistic, he is under the [N]
-negative influence of the dark mage Sandima.[X]
+Eldest child of King Batu and Crown [N]
+Prince of Verdane. Powerhungry and [N]
+greedy, yet a fearsome warrior.[X]
+// Eldest son of the Verdane royal family.
+// Harsh and misogynistic, he is under the
+// negative influence of the dark mage Sandima.
 
 ##Desc_Burkaul ^
-Jamke's bow instructor, calm and patient, helped[N]
-his student not yield to Sandima's iron grasp. [NL]
+Jamke's bow instructor. Calm and collected, he [N]
+stood as the prince's advisor along as an instructor. [NL] 
 It is said he hails from a large family.[X]
+// Jamke's bow instructor, calm and patient, helped
+// his student not yield to Sandima's iron grasp.
+// It is said he hails from a large family.
 
 ##Desc_Sandima ^
-Priest of the Loptr church, entrusted by Manfroy. [NL]
-He was asked to capture Deirdre and uses [N]
-King Batu as a mindless puppet.[X]
+Priest of the Loptr church, sent to Verdane to [N]
+capture a certain Cigyun's daughter. The mastermind [N]
+manipulating King Batu and his sons.[X]
+// Priest of the Loptr church, entrusted by Manfroy.
+// He was asked to capture Deirdre and uses
+// King Batu as a mindless puppet.
 
 ##Desc_Elliot ^
-The greedy and opportunistic prince of Heirhein. [NL] 
-He bears hatred toward Grannvale and Eldigan.[X]
+The arrogant and opportunistic son of [N]
+Bordeaux, Duke of Herhein. Envious towards [N]
+Eldigan and desires Lachesis as his bride.[X]
+// The greedy and opportunistic prince of Heirhein.
+// He bears hatred toward Grannvale and Eldigan.
 
 ##Desc_Graham ^
 Heirhein's finest knight, and former rival of Elliot.[NL]
@@ -381,9 +520,12 @@ Diligent servant of House Anphony. [NL]
 He served Macbeth for as long as he can remember.[X]
 
 ##Desc_Ross ^
-A sneaky knight who wishes to usurp the Anphony [N]
-throne by sucking up to Macbeth. He prepared his [N]
-plan in detail for years but never to fruition.[X]
+A powerhungry knight who wishes to usurp Infini's lordship [N]
+from Macbeth by pretending to be a bootlicker, but [N]
+his plans haven't succeeded despite years of preparation.[X]
+// A sneaky knight who wishes to usurp the Infini
+// throne by sucking up to Macbeth. He prepared his
+// plan in detail for years but never to fruition.
 
 ##Desc_Macbeth ^
 A very greedy man, showing no qualms about [N]
@@ -391,14 +533,20 @@ pillaging nearby villages in Chagall's back, [N]
 for expanding his own wealth. [X]
 
 ##Desc_Waltz ^
-Partner in arms of Beowolf. [NL]
-This first league mercenary is [N]
-very cautious and wary of everyone.[X]
+Partner in arms of Beowolf. He is the leader [N]
+of a band of mercenaries and a elite fighter. [NL]
+Confident in his own abilities.[X]
+// Partner in arms of Beowolf.
+// This first league mercenary is
+// very cautious and wary of everyone.
 
 ##Desc_Elling ^
-He went to the same school of magic as [N] 
-other important Granvalle nobles, [N]
-but no one remembers him.[X]
+An unassuming mage given the honor of attending a [N]
+prestigious school of magic in Grannvale, though [N]
+he's never gotten recognition because of the fact.[X]
+// He went to the same school of magic as
+// other important Granvalle nobles,
+// but no one remembers him.
 
 ##Desc_Zane ^
 Proud Agustrian knight putting his country above the rest. [NL]
@@ -410,29 +558,44 @@ he didn't hesitate to assassinate his own father, [N]
 King Imca to access the Agustrian throne.[X]
 
 ##Desc_Lino ^
-Member of Lamia's assassins. [NL]
-She always carries two quivers [N]
-so she never runs low on arrows.[X]
+Member of an order of assassins led by Lamia. [NL]
+Being quite cautious, she always carries a [N]
+surplus of arrows in two quivers.[X]
+// Member of Lamia's assassins.
+// She always carries two quivers
+// so she never runs low on arrows.
 
 ##Desc_Jacobin ^
-He often expresses his [NL]
-disapproval of the empire regime. [N]
-Eldest brother of the elemental sword trio. [X]
+An experienced mercenary with a distaste for Grannvale. [NL]
+Eldest brother of three, with whom he forms the [N]
+Elemental Sword Trio, a famous name amongst sellswords.[X]
+// He often expresses his
+// disapproval of the empire regime.
+// Eldest brother of the elemental sword trio.
 
 ##Desc_Estrella ^
-Manfroy's informant, was also very [N]
-jealous of the lady of the forest, [N]
-not bearing Holy Blood herself. [X]
+Manfroy's informant. Harbors jealousy towards [N]
+the lady of the spirit forest that the Loptyrians [N]
+are searching for, due to her lack of Holy Blood.[X]
+// Manfroy's informant, was also very
+// jealous of the lady of the forest,
+// not bearing Holy Blood herself.
 
 ##Desc_Othello ^
-Brother of Macbeth. He never misses an [N]
-opportunity to stuff himself at a banquet. [NL]
-Highly enjoys his noble status.[X]
+Brother of Macbeth, former ruler of Anphony. [NL]
+A shameless glutton that loves stuffing himself [N]
+in banquets, quite enjoying his status as nobility.[X]
+// Brother of Macbeth. He never misses an
+// opportunity to stuff himself at a banquet.
+// Highly enjoys his noble status.
 
 ##Desc_Papillon ^
-He now soars through the sky, [N]
-like the butterflies he loves so much. [NL]
+A mercenary from Thracia named after after a butterfly, [N]
+a fact that he wholeheartetly embraces from his love of them. [NL] 
 It is said he hails from a large family.[X]
+// He now soars through the sky,
+// like the butterflies he loves so much.
+// It is said he hails from a large family.
 
 ##Desc_Payne ^
 Leader of a thief group. [NL]
@@ -440,7 +603,9 @@ He entered Bragi's Tower to[N]
 steal high-value relics.[X]
 
 ##Desc_Scragg ^
-Scragg[X]
+A mischievous pirate from Orgahil. [NL]
+He disobeyed their leader and decided [N]
+to raid nearby villages on his own.[X]
 
 ##Desc_Pizare ^
 Lackey of Duvall. He wants to make [N]
@@ -456,14 +621,20 @@ A sorcerer with dubious origins. [NL]
 He however always stayed faithful [N]
 to Silesse and especially Myos.[X]
 
+##Desc_Ayron ^ 
+Ayron[X]
+
 ##Desc_Marlon ^
 A mercenary acting under Myos, [N]
 no one dare ask how he lost his right eye.[X]
 
-##Desc_Snevejr ^
-He likes the cold and seems to be [N]
-the only one of his kin to do so. [NL]
+##Desc_Snevejr 
+A powerful and cunning mage working for Myos. [NL]
+He enjoys Silesse's colder climate for his schemes. [NL]
 It is said he hails from a large family.[X]
+// He likes the cold and seems to be
+//the only one of his kin to do so.
+// It is said he hails from a large family.
 
 ##Desc_Dithorba ^
 One of the Four Heavenly Knights of Silesse. [NL]
@@ -471,9 +642,11 @@ Comes to serve Lord Myos, [N]
 youngest brother of the late king.[X]
 
 ##Desc_Myos ^
-In his hunger to succeed the Silessean throne [N]
-for himself, he opposed the right of succession [N]
-of the late king's son, Lewyn.[X]
+Youngest brother of the deceased King of Silesse. [NL]
+Adamant on obtaining the Silessean throne for himself.[X]
+// In his hunger to succeed the Silessean throne
+// for himself, he opposed the right of succession
+// of the late king's son, Lewyn.
 
 ##Desc_Ivan ^
 A Silessian noble, who claims to [N]
@@ -494,23 +667,32 @@ group feared all across Jugdral. [NL]
 She's known as the Ice Empress.[X]
 
 ##Desc_Daccar ^
-He and his brother Myos incited a civil war in [N]
-Silesse to seize control of Silesse for themselves. [NL]
-A bad parental figure.[X]
+Second oldest brother of the [N]
+King of Silesse. Ruthless and cunning in [N]
+his conquest for the throne of Silesse.[X]
+// He and his brother Myos incited a civil war in
+// Silesse to seize control of Silesse for themselves.
+// A bad parental figure.
 
 ##Desc_Slayder ^
 General of Dozel working directly under Lombard, [N]
 he takes pleasure in hunting down his "preys".[X]
 
 ##Desc_Andrey ^
-After his ascension to the Yngvi throne, he assists Dukes [N]
-Lombard and Reptor in their pursuit of the "traitorous" Sigurd. [NL]
-Leader of the Beige Ritter.[X]
+Son of Duke Ring of Yngvi and current leader [N]
+of the Beige Ritter. A conniving man working [N]
+under Duke Lombard and Reptor.[X]
+// After his ascension to the Yngvi throne, he assists Dukes
+// Lombard and Reptor in their pursuit of the "traitorous" Sigurd.
+// Leader of the Beige Ritter.
 
 ##Desc_Lombard ^
-Duke of Grannvale's House Dozel, [N]
-a full-blooded descendant of the [N]
-Crusader Nal and inheritor of Helswath. [X]
+Duke of Dozel and direct descendant of the[N]
+Crusader Nal. An avaricious conspirator [N]
+working with Duke Reptor of House Friege.[X]
+// Duke of Grannvale's House Dozel,
+// a full-blooded descendant of the
+// Crusader Nal and inheritor of Helswath.
 
 ##Desc_Magorn ^
 Leader of the Thracian Lance Ritter, [N]
@@ -522,9 +704,12 @@ Velthomer general who has a great interest in astronomy. [N]
 She particularly enjoys the desert's clear sky.[X]
 
 ##Desc_Reptor ^
-Duke of Grannvale's House Friege and the [N]
-Chancellor of Grannvale as a whole. He is the [N]
-descendant of Thrud, wielder of the tome Mjolnir. [X]
+Duke of Friege and direct descendant of the [N] 
+Crusader Thrud. Chancellor of Grannvale and [N]
+cunning politician conspiring with Lombard.[X]
+// Duke of Grannvale's House Friege and the
+// Chancellor of Grannvale as a whole. He is the
+// descendant of Thrud, wielder of the tome Mjolnir.
 
 ##Desc_Harold ^
 Dozel commandant, oblivious [N]
@@ -889,9 +1074,12 @@ Leonster[X]
 AnnandSquad[X]
 
 ##Desc_Eldigan ^
-Ruler of Nordion. Wields the Demon Sword [N]
-in knightly devotion to any master. [NL]
-Older brother of Lachesis.[X]
+Ruler of Nordion and direct descendant of the [N]
+crusader Hodr. An exemplary knight with deep [N]
+loyalty to the royal family.[X]
+// Ruler of Nordion. Wields the Demon Sword
+// in knightly devotion to any master.
+// Older brother of Lachesis.
 
 ##Desc_Annand ^
 Leader of the Four Heavenly Knights of Silesse [N]
@@ -899,8 +1087,11 @@ and Erinys's elder sister. Conceals her longing [N]
 for Lewyn and fights to her last breath.[X]
 
 ##Desc_Arvis ^
-Duke of Velthomer, and descendant of the crusader [N]
-Fjalar and Maera of the imperial family.[X]
+Duke of Velthomer and direct descendant of the [N]
+Crusader Fjalar. Though outwardly cold, he [N] 
+cares for his half brother Azelle.[X]
+// Duke of Velthomer, and descendant of the crusader
+// Fjalar and Maera of the imperial family.
 
 ##Desc_Eve ^
 Member of Nordion's Elite Cross knights [N]
@@ -920,6 +1111,9 @@ Their job is to protect Princess Lachesis.[X]
 ##Desc_Henson ^
 Bandits with face painting  that roam across [N]
 Jugdral, no one knows their intention.[X]
+// A former criminal forced to conceal his
+// identity using face painting, but now prefers
+// the disguise since he finds it pretty.
 
 ##Desc_Byron ^
 Duke Chalphy and Sigurd's father. [NL]
@@ -930,9 +1124,17 @@ being framed for Prince Kurth's assassination.[X]
 Aida[X]
 
 ##Desc_Palmarch ^
-He represented house Chalphy after Sigurd's treason. [NL]
-Even though he remained faithful to the Empire, [N]
-he never ceased to believe in Sigurd's innocence.[X]
+A bishop from the church of Bragi and a [N]
+confidante;of Sigurd's. Though unassuming at [N] 
+a glance, he's earned the trust of his lord.[X]
+
+##Desc_Palmarch2 ^
+The representative of house Chalphy after the death [N]
+of its rulers. Despite his outwards loyalty to the [N]
+empire, he still believes in Sigurd's innocence.[X]
+// He represented house Chalphy after Sigurd's treason.
+// Even though he remained faithful to the Empire, 
+// he never ceased to believe in Sigurd's innocence.
 
 ##Desc_Augury ^
 Augury[X]
