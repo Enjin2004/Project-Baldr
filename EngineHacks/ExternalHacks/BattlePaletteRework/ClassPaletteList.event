@@ -10,6 +10,7 @@ PaletteAssociationEntry(Agusti, $24)
 PaletteAssociationEntry(CrossKnight, $2F)
 PaletteAssociationEntry(BeigeRitter, $46)
 // PaletteAssociationEntry(Miletos, $88)
+PaletteAssociationEntry(Madino, $AF)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -72,6 +73,8 @@ PaletteAssociationEntry(Orgahil, $32)
 PaletteAssociationEntry(Tofa, $35)
 PaletteAssociationEntry(Ulster, $65)
 // PaletteAssociationEntry(Mercenary, $A1)
+PaletteAssociationEntry(Verdane1, $AC)
+PaletteAssociationEntry(Verdane2, $AC)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -87,6 +90,8 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MyrmMPaletteList:
+PaletteAssociationEntry(Verdane1, $AD)
+PaletteAssociationEntry(Verdane2, $AD)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -119,6 +124,8 @@ PaletteAssociationEntry(Assassin, $40)
 PaletteAssociationEntry(Melgen, $5A)
 // PaletteAssociationEntry(Thracia, $7B)
 // PaletteAssociationEntry(Grutia, $7B)
+PaletteAssociationEntry(Verdane1, $AB)
+PaletteAssociationEntry(Verdane2, $AB)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -252,6 +259,7 @@ PaletteAssociationEntry(Gerrard, $01)
 PaletteAssociationEntry(Silesse, $39)
 PaletteAssociationEntry(Ganeishire, $4E)
 PaletteAssociationEntry(Sophara, $55)
+PaletteAssociationEntry(Henson, $FD)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -262,6 +270,7 @@ PaletteAssociationEntry(Munnir, $03)
 PaletteAssociationEntry(Silesse, $3D)
 // PaletteAssociationEntry(Mercenary, $A5)
 PaletteAssociationEntry(Pizare, $D4)
+PaletteAssociationEntry(Henson, $FF)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -278,6 +287,7 @@ PaletteAssociationEntry(Sophara, $4C)
 PaletteAssociationEntry(Isaach, $4C)
 PaletteAssociationEntry(Ribaut, $4C)
 PaletteAssociationEntry(Ruffian, $A6)
+PaletteAssociationEntry(Henson, $FB)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -290,6 +300,7 @@ PaletteAssociationEntry(Orgahil, $33)
 PaletteAssociationEntry(Silesse, $3C)
 PaletteAssociationEntry(Ruffian, $A7)
 PaletteAssociationEntry(Scragg, $D3)
+PaletteAssociationEntry(Henson, $FE)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -305,6 +316,7 @@ BerserkerPaletteList:
 // PaletteAssociationEntry(Loptrian, $92)
 PaletteAssociationEntry(Ruffian, $A8)
 PaletteAssociationEntry(Duvall, $D5)
+PaletteAssociationEntry(Henson, $FC)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -357,6 +369,7 @@ PaletteAssociationEntry(GrauenRitter, $58)
 PaletteAssociationEntry(Connacht, $69)
 PaletteAssociationEntry(GelbenRitter, $6C)
 // PaletteAssociationEntry(Miletos, $8E)
+PaletteAssociationEntry(Heirhein, $AE)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -512,6 +525,7 @@ ALIGN 4
 BarbarianPaletteList:
 PaletteAssociationEntry(Verdane1, $08)
 PaletteAssociationEntry(Verdane2, $08)
+PaletteAssociationEntry(Henson, $FA)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
