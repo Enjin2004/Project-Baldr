@@ -1413,6 +1413,21 @@ Very well.[A][N]
 Leave him to lick his wounds.[N]
 We're done here. Withdraw![A][X]
 
+##HensonBattle
+[OpenMidLeft][LoadHenson]
+You stand in my way![N]
+I'll crush you![A][X]
+
+##SigurdandHensonBattle
+[OpenMidLeft][LoadHenson]
+That Grannvale paladin[...][N][A][OpenMidRight][LoadSigurd]
+You again? Haven't you[N]
+learnt your lesson?[A][N]
+Begone![A][X]
+
+##HensonDeath
+I[...] always come back[...][ToggleSmile][A][X]
+
 ##JamkeBattle
 [OpenMidLeft][LoadJamke]
 I don't want to hurt you![N]
@@ -1427,7 +1442,7 @@ And I thought you promised[N]
 to stop thievery![A][N][ClearFace][OpenMidRight][LoadDew]
 I did, I swear! I joined[N]
 Sigurd's army instead.[A][N]
-No more thievin around![A][N][ClearFace][OpenMidLeft][LoadJamke]
+No more thievin' around![A][N][ClearFace][OpenMidLeft][LoadJamke]
 Then that makes you[N]
 my enemy![A][N][ClearFace][OpenMidRight][LoadDew]
 Hold on! What about you?[A][N][ClearFace][OpenMidLeft][LoadJamke]

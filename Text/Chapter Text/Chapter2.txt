@@ -772,6 +772,23 @@ Who are you, anyway?[A][N][OpenMidRight]
 Who, me?[N]
 I'm just a wayward troubadour, my friend[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
+##HensonBattle
+[OpenMidLeft][LoadHenson]
+Those villages are mine![N]
+Don't stand in my way![A][X]
+
+##SigurdandHensonBattle
+[OpenMidLeft][LoadHenson]
+My brothers told me about you[...][N][A][OpenMidRight][LoadSigurd]
+You again? It can't be[...][N][A]
+Is he the same man I saw[N]
+back in Verdane?[N][A]
+It matters not, I must[N]
+get rid of that villain at once![A][X]
+
+##HensonDeath
+I[...] always come back[...][ToggleSmile][A][X]
+
 ##MacbethBattle
 [OpenMidLeft][LoadMacbeth]
 I-it can't be![N]
