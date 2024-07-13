@@ -101,11 +101,13 @@ MNC2 0x1C
 EndEvent
 
 TheBrand:
+MUSC 0x2B
 Text(EthlynDeirdreTalk)
 GiveItem(LightBrand,Ethlyn)
 EndEvent
 
 HolynCometh:
+MUSC 0x30
 CHECK_ACTIVE
 Text(RecruitingChulainn)
 LOAD1 0x1 HolynJoins

@@ -24,9 +24,11 @@ BossBGMEntry(Clement,Midboss)
 BossBGMEntry(Jacobin,Midboss)
 BossBGMEntry(Lino,Midboss)
 BossBGMEntry(Estrella,Midboss)
+BossBGMEntry(Scragg,Midboss)
 BossBGMEntry(Othello,Midboss)
 BossBGMEntry(Pizare,Midboss)
 BossBGMEntry(Duvall,Midboss)
+BossBGMEntry(Ayron,Midboss)
 BossBGMEntry(Cuvuli,Midboss)
 BossBGMEntry(Marlon,Midboss)
 BossBGMEntry(Dithorba,Midboss)
@@ -69,14 +71,25 @@ BossBGMEntry(Mabel,Midboss)
 //Holy Blood
 BossBGMEntry(Munnir,0x1C)
 BossBGMEntry(Chagall,0x1C)
+BossBGMEntry(Eldigan,0x1C)
+BossBGMEntry(Myos,0x1C)
+BossBGMEntry(Daccar,0x1C)
+BossBGMEntry(Andrey,0x1C)
+BossBGMEntry(Langbalt,0x1C)
+BossBGMEntry(Reptor,0x1C)
 //Fjalar
 //Recruitables original
 BossBGMEntry(Jamke,0x5D)
 BossBGMEntry(Ayra,0x5D)
+BossBGMEntry(Beowolf,0x5D)
 //Recruitables OC
+BossBGMEntry(Hopper,0x64)
+BossBGMEntry(Indech,0x64)
+BossBGMEntry(Callista,0x64)
 //Arena
 //Zanes
 BossBGMEntry(Zane,Midboss)
+
 BossBGMTerminator
 
 PUSH

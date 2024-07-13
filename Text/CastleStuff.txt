@@ -29,142 +29,142 @@ your fate to be read?[A][X]
 
 ##Loner
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You've yet to find one[N]
+Ohh[...] You've yet to find one[N]
 to capture your heart.[A][X]
 
 ##AugurySigurd
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Sigurd[N]
+Ohh[...] You and Sigurd[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryAlec
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Alec[N]
+Ohh[...] You and Alec[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryNoish
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Naoise[N]
+Ohh[...] You and Naoise[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryArden
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Arden[N]
+Ohh[...] You and Arden[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryAzel
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Azelle[N]
+Ohh[...] You and Azelle[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryLex
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Lex[N]
+Ohh[...] You and Lex[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryQuan
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Quan[N]
+Ohh[...] You and Quan[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryEthlyn
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Ethlyn[N]
+Ohh[...] You and Ethlyn[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryFinn
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Finn[N]
+Ohh[...] You and Finn[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryMidir
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Midir[N]
+Ohh[...] You and Midir[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryEdain
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Edain[N]
+Ohh[...] You and Edain[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryDew
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Dew[N]
+Ohh[...] You and Dew[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryAyra
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Ayra[N]
+Ohh[...] You and Ayra[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryJamke
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Jamke[N]
+Ohh[...] You and Jamke[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryDeirdre
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Deirdre[N]
+Ohh[...] You and Deirdre[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryLachesis
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Lachesis[N]
+Ohh[...] You and Lachesis[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryHolyn
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Chulainn[N]
+Ohh[...] You and Chulainn[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryBeowolf
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Beowolf[N]
+Ohh[...] You and Beowolf[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryLewyn
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Lewyn[N]
+Ohh[...] You and Lewyn[N]
 are bound in holy matrimony![A][X]
 
 ##AugurySylvia
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Silvia[N]
+Ohh[...] You and Silvia[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryFury
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Erinys[N]
+Ohh[...] You and Erinys[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryHopper
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Hopper[N]
+Ohh[...] You and Hopper[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryIndech
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Caitlin[N]
+Ohh[...] You and Caitlin[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryClaud
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Claud[N]
+Ohh[...] You and Claud[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryTailtiu
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Tailtiu[N]
+Ohh[...] You and Tailtiu[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryCallista
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Callista[N]
+Ohh[...] You and Callista[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryBrigid
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
-Ohh... You and Brigid[N]
+Ohh[...] You and Brigid[N]
 are bound in holy matrimony![A][X]
 
 ##AuguryThree
@@ -233,3 +233,43 @@ activities, seize these tiles.[A][N]
 They will be pointed out[N]
 as the castles change.[A][N]
 Have fun![A][X]
+
+##DullesBattle
+[OpenMidLeft][LoadDulles]
+No one ever pierced[N]
+through my defence,[A][N]
+and today's not[N]
+going to change![A][X]
+
+##KeimosBattle
+[OpenMidLeft][LoadKeimos]
+You guys actually beat Chulainn?![A][N]
+Not bad, let’s see how[N]
+you fare against me![A][X]
+
+##MarilynBattle
+[OpenMidLeft][LoadMarilyn]
+You lot won against Chulainn?[A][N]
+Impressive, I won’t[N]
+hold back then![A][X]
+
+##ThortonBattle
+[OpenMidLeft][LoadThorton]
+Your win streak ends here![A][N]
+Come at me with[N]
+all you’ve got![A][X]
+
+##MarioBattle
+[OpenMidLeft][LoadMario]
+Lets-a-go![A][X]
+
+##AtlasBattle
+[OpenMidLeft][LoadAtlas]
+You’ll learn to fear my magic![N]
+Hahahaha![A][X]
+
+##ThiefBattle
+[OpenMidLeft][LoadAnna]
+Me?[A] Don’t mind me,[N]
+I’m just a regular merchant![A][X]
+//can people wink?

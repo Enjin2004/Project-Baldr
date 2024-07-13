@@ -4,8 +4,8 @@ Knight Lord (Seliph),KntLordSeliphMv|IsPointer,0x81c52b4
 Knight Lord (Sigurd),SigurdMv|IsPointer,0x81c52b4
 Prince,PrinceMv|IsPointer,0x81c3d7c
 Princess,PrincessMv|IsPointer,0x81c46cc
-Master Knight (M),MastKntMMv|IsPointer,0x81c52b4
-Master Knight (F),MastKntFMv|IsPointer,0x81c52b4
+Master Knight (M),0x81c4824,0x81c52b4
+Master Knight (F),0x81c5414,0x81c5e84
 Myrmidon (M),0x81cc9d4,0x81cd1bc
 Myrmidon (F),0x81cd314,0x81cdb58
 Mercenary (M),0x81ca27c,0x81caa20

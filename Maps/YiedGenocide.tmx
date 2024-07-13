@@ -18,7 +18,7 @@
   <data>
   <tile gid="21"/>
   <tile gid="808"/>
-  <tile gid="809"/>
+  <tile gid="905"/>
   <tile gid="810"/>
   <tile gid="229"/>
   <tile gid="503"/>
@@ -72,7 +72,7 @@
   <tile gid="402"/>
   <tile gid="198"/>
   <tile gid="872"/>
-  <tile gid="873"/>
+  <tile gid="33"/>
   <tile gid="874"/>
   <tile gid="229"/>
   <tile gid="501"/>
@@ -319,7 +319,7 @@
   <tile gid="721"/>
   <tile gid="722"/>
   <tile gid="922"/>
-  <tile gid="923"/>
+  <tile gid="950"/>
   <tile gid="924"/>
   <tile gid="722"/>
   <tile gid="721"/>

@@ -36,8 +36,20 @@
 //songs
 
 {
+SongTable(0x1,BeginningFE4,0)
+#include "songs/BeginningFE4.event"
+}
+{
 SongTable(0x4,Glorious,1)
 #include "songs/GloriusGrannvale.event"
+}
+{
+SongTable(0x5,FlowTime,1)
+#include "songs/FlowTime.event"
+}
+{
+SongTable(0x43,FE4Title,0)
+#include "songs/FE4Title.event"
 }
 {
 SongTable(0x9,FE04Field,1)
@@ -60,6 +72,18 @@ SongTable(0x14,AgustriaPhase,1)
 #include "songs/Agustria.event"
 }
 {
+SongTable(0x11,OrgahilPhase,1)
+#include "songs/Orgahil.event"
+}
+{
+SongTable(0x63,IsaacPhase,1)
+#include "songs/Isaach.event"
+}
+{
+SongTable(0x18,Neutral,1)
+#include "songs/Neutral.event"
+}
+{
 SongTable(0xA,EvansCastle,1)
 #include "songs/VerdaneCastle.event"
 }
@@ -72,16 +96,36 @@ SongTable(0xD,DisturbanceInAgustria,1)
 #include "songs/DisturbanceAgustria.event"
 }
 {
+SongTable(0xE,EldieHeart,1)
+#include "songs/Eldigan.event"
+}
+{
 SongTable(0x5F,DanceSkies,1)
 #include "songs/DanceInSkies.event"
+}
+{
+SongTable(0x15,ThresholdFate,1)
+#include "songs/ThresholdFate.event"
 }
 {
 SongTable(0xF,NPCTheme,1)
 #include "songs/AlliedForces.event"
 }
 {
+SongTable(0x24,KingdomAgustria,1)
+#include "songs/KingdomAgustria.event"
+}
+{
 SongTable(0x26,Crisis,1)
 #include "songs/Crisis.event"
+}
+{
+SongTable(0x58,Convo1,1)
+#include "songs/Convo1.event"
+}
+{
+SongTable(0x59,NewAdvance,1)
+#include "songs/NewAdvance.event"
 }
 {
 SongTable(0x2D,EmperorArvis,1)
@@ -90,6 +134,10 @@ SongTable(0x2D,EmperorArvis,1)
 {
 SongTable(0x2B,Diadora,1)
 #include "songs/DeirdreTheme.event"
+}
+{
+SongTable(0x2C,Edin,1)
+#include "songs/EdainTheme.event"
 }
 {
 SongTable(0x1B,MidBoss,0)
@@ -102,6 +150,10 @@ SongTable(0x1C,L_FE4_Fateful_Showdown,0)
 {
 SongTable(0x5D,BadToPal,0)
 #include "songs/EnemyToFriend.event"
+}
+{
+SongTable(0x64,FE0Battle,0)
+#include "songs/FE0Battle.event"
 }
 {
 SongTable(0x5E,DewTheme,1)
@@ -124,8 +176,16 @@ SongTable(0x27,Enemy2,1)
 #include "songs/EnemyMessage2.event"
 }
 {
+SongTable(0x28,Enemy3,1)
+#include "songs/Enemy3.event"
+}
+{
 SongTable(0xC0,Munster,1)
 #include "songs/MansterPalace.event"
+}
+{
+SongTable(0x62,Isooch,1)
+#include "songs/IsaacPalace.event"
 }
 {
 SongTable(0x10,VictoryNear,1)

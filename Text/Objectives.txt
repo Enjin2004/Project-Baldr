@@ -27,7 +27,7 @@ Heirhein Castle.[X]
 
 ##_SeizeAnphony
 Seize[N]
-Anphony Castle.[X]
+Infini Castle.[X]
 
 ##_SeizeMackily
 Seize[N]
@@ -35,7 +35,7 @@ Mackily Castle.[X]
 
 ##_SeizeAgusty
 Seize[N]
-Agusty Castle.[X]
+Agusti Castle.[X]
 
 ##_SeizeMadino
 Seize[N]
@@ -43,7 +43,7 @@ Madino Castle.[X]
 
 ##_SeizeSilvail
 Seize[N]
-Silvail Castle.[X]
+Sylvale Castle.[X]
 
 ##_SeizeOrgahil
 Seize[N]
@@ -86,6 +86,9 @@ Escape[X]
 ##_BossKill
 Defeat boss[X]
 
+##_AyronKill
+Defeat Ayron[X]
+
 ##_Castle
 Interact![X]
 
@@ -98,11 +101,22 @@ Talk[X]
 ##_Rout
 Rout enemy[X]
 
+##_RoutOrgahil
+Rout the[N]
+pirates of Orgahil[X]
+
 ##_Multiboss
 Defeat bosses[X]
 
 ##_Defend
 Defend[X]
+
+##_CH1xObjective
+Rout/Protect[X]
+
+##_CH1xObjective2
+Rout Heirhein and[N]
+Protect Palmarch[X]
 
 ##_CH3_1Objective
 Defend/Kill[X]

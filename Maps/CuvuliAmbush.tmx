@@ -9,7 +9,7 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="0xF"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="46"/>
+   <property name="MapChangesID" value="0x46"/>
    <property name="MapID" value="0x45"/>
    <property name="ObjectType" value="1"/>
    <property name="PaletteID" value="0x38"/>
@@ -1345,7 +1345,7 @@
   <tile gid="721"/>
   <tile gid="721"/>
   <tile gid="1003"/>
-  <tile gid="1004"/>
+  <tile gid="981"/>
   <tile gid="1005"/>
   <tile gid="67"/>
   <tile gid="67"/>

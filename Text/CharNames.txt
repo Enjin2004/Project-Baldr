@@ -304,6 +304,9 @@ Pizare[X]
 ##Name_Duvall
 Duvall[X]
 
+##Name_Ayron
+Ayron[X]
+
 ##Name_Cuvuli
 Cuvuli[X]
 
@@ -613,8 +616,8 @@ Sophara[X]
 ##Name_Isaach
 Isaach[X]
 
-##Name_Rivough
-Rivough[X]
+##Name_Ribaut
+Ribaut[X]
 
 ##Name_Loptrian
 Loptrian[X]

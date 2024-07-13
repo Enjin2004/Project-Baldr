@@ -88,7 +88,7 @@ Noontime: If this unit is below half HP, this unit's[N]
 attacks restore HP equal to half the damage dealt.[N]
 Trigger: Current HP > 50%[X]
 
-## SD_LunaPlus
+## SD_LunaPlus ^ 
 Moonbow: If the foe is at full HP, this unit's[N]
 attacks ignore half of the foe's Def/Res.[N]
 Trigger: Foe's current HP = 100%[X]
@@ -222,7 +222,7 @@ to monster units.[X]
 Summon: Can conjure a phantom[N]
 soldier to fight alongside you.[X]
 
-## SD_Dance
+## SD_Dance ^ 
 Dance: Refreshes up to four units adjacent[N]
 to this unit, allowing them to act again.[X]
 

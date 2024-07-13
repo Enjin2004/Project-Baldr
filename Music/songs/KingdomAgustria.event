@@ -1,0 +1,5025 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	KingdomAgustria_grp  voicegroup000
+	#define	KingdomAgustria_pri  0
+	#define	KingdomAgustria_rev  0
+	#define	KingdomAgustria_mvl  100
+	#define	KingdomAgustria_key  0
+	#define	KingdomAgustria_tbs  1
+	#define	KingdomAgustria_exg  0
+	#define	KingdomAgustria_cmp  1
+
+	// .rodata
+	//	KingdomAgustria
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.3) ****************//
+
+KingdomAgustria_1:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   125*KingdomAgustria_tbs/2
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W14
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N17     Gn4   v088
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W20
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W05
+// 001   ----------------------------------------
+	BYTE	W14
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N72     Ds4 
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE	W52
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W20
+	BYTE		        Cn4 
+	BYTE	W05
+// 003   ----------------------------------------
+	BYTE	W14
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE	W04
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N72     Cn4 
+	BYTE	W76
+	BYTE		N17   
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE	W13
+	BYTE		N07     As3 
+	BYTE	W10
+	BYTE		        Gs3 
+	BYTE	W10
+	BYTE		N17     As3 
+	BYTE	W19
+	BYTE		        Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE	W13
+	BYTE		        As3 
+	BYTE	W20
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Cn4 
+	BYTE	W10
+	BYTE		N54     As3 
+	BYTE	W44
+// 007   ----------------------------------------
+	BYTE	W13
+	BYTE		N17     Gs3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W13
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W20
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W10
+	BYTE		N17     An3 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	W13
+	BYTE		        En4 
+	BYTE	W19
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W24
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE	W13
+	BYTE		        Cn4 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17     Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W20
+	BYTE		N36     An3 
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE		N64     Dn4 
+	BYTE	W64
+// 012   ----------------------------------------
+	BYTE	W03
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W07
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W20
+	BYTE		N24     Ds4 
+	BYTE	W28
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W07
+// 014   ----------------------------------------
+	BYTE	W12
+	BYTE		N07     Cn4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W20
+	BYTE		        Dn4 
+	BYTE	W19
+	BYTE		        As3 
+	BYTE	W19
+	BYTE		TIE     Cn4 
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W84
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W07
+// 017   ----------------------------------------
+	BYTE	W12
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W10
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W20
+	BYTE		        Fn3 
+	BYTE	W07
+// 018   ----------------------------------------
+	BYTE	W12
+	BYTE		N24     En3 
+	BYTE	W28
+	BYTE		N07     Fn3 
+	BYTE	W10
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		        Cn3 
+	BYTE	W19
+	BYTE		        Dn3 
+	BYTE	W08
+// 019   ----------------------------------------
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W08
+// 020   ----------------------------------------
+	BYTE	W11
+	BYTE		        Gn3 
+	BYTE	W20
+	BYTE		        En3 
+	BYTE	W19
+	BYTE		N24     Fn3 
+	BYTE	W28
+	BYTE		N07     En3 
+	BYTE	W06
+	BYTE		N66     Dn3 
+	BYTE	W12
+// 021   ----------------------------------------
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_1_B1
+KingdomAgustria_1_B2:
+	BYTE	W15
+	BYTE		N17     Gn4   v088
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W08
+// 022   ----------------------------------------
+	BYTE	W11
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W20
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W08
+// 023   ----------------------------------------
+	BYTE	W11
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N72     Ds4 
+	BYTE	W66
+// 024   ----------------------------------------
+	BYTE	W11
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W09
+// 025   ----------------------------------------
+	BYTE	W11
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N72     Cn4 
+	BYTE	W28
+// 026   ----------------------------------------
+	BYTE	W48
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07     As3 
+	BYTE	W10
+	BYTE		        Gs3 
+	BYTE	W09
+	BYTE		N17     As3 
+	BYTE	W09
+// 027   ----------------------------------------
+	BYTE	W10
+	BYTE		        Gn4 
+	BYTE	W20
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		        As3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+// 028   ----------------------------------------
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W09
+	BYTE		N54     As3 
+	BYTE	W56
+	BYTE	W02
+	BYTE		N17     Gs3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W09
+// 029   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W20
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W09
+// 030   ----------------------------------------
+	BYTE	W10
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		N17     An3 
+	BYTE	W20
+	BYTE		        En4 
+	BYTE	W19
+	BYTE		        Bn3 
+	BYTE	W09
+// 031   ----------------------------------------
+	BYTE	W10
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W02
+	BYTE		        Cn4 
+	BYTE	W28
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W10
+	BYTE		N17     Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N64     Dn4 
+	BYTE	W10
+// 033   ----------------------------------------
+	BYTE	W56
+	BYTE	W02
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+// 034   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W20
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		        Dn4 
+	BYTE	W19
+	BYTE		N24     Ds4 
+	BYTE	W10
+// 035   ----------------------------------------
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W20
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		N07     Cn4 
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W10
+// 036   ----------------------------------------
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W19
+	BYTE		        As3 
+	BYTE	W20
+	BYTE		TIE     Cn4 
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W44
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Bn3 
+	BYTE	W10
+	BYTE		N17     Cn4 
+	BYTE	W10
+// 039   ----------------------------------------
+	BYTE	W09
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N24     En3 
+	BYTE	W28
+	BYTE	W01
+	BYTE		N07     Fn3 
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE	W09
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		        Cn3 
+	BYTE	W19
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		        En3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W11
+// 041   ----------------------------------------
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        En3 
+	BYTE	W11
+// 042   ----------------------------------------
+	BYTE	W08
+	BYTE		N24     Fn3 
+	BYTE	W28
+	BYTE	W01
+	BYTE		N07     En3 
+	BYTE	W10
+	BYTE		N72     Dn3 
+	BYTE	W48
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W24
+	BYTE	W03
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W20
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W02
+// 044   ----------------------------------------
+	BYTE	W08
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N72     Ds4 
+	BYTE	W11
+// 045   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N17     Gn4 
+	BYTE	W20
+	BYTE		        Ds4 
+	BYTE	W11
+// 046   ----------------------------------------
+	BYTE	W08
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W12
+// 047   ----------------------------------------
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N05     Cn4 
+	BYTE	W04
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.4) ****************//
+
+KingdomAgustria_2:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*KingdomAgustria_mvl/mxv
+	BYTE	W01
+	BYTE		        32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N36     Fn1   v088
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W18
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+// 007   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		TIE     Gn1 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W92
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W02
+// 012   ----------------------------------------
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+// 013   ----------------------------------------
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+// 014   ----------------------------------------
+	BYTE		N17   
+	BYTE	W19
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W20
+// 015   ----------------------------------------
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W19
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36     Gn1 
+	BYTE	W20
+// 017   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W20
+// 019   ----------------------------------------
+	BYTE	W18
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W21
+// 021   ----------------------------------------
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_2_B1
+KingdomAgustria_2_B2:
+	BYTE	W02
+	BYTE		BEND    c_v-1
+	BYTE		N36     Fn1   v088
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W21
+// 023   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W02
+// 024   ----------------------------------------
+	BYTE	W36
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W02
+// 025   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W02
+// 026   ----------------------------------------
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W02
+// 027   ----------------------------------------
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W02
+// 028   ----------------------------------------
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		TIE     Gn1 
+	BYTE	W22
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W52
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W03
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W03
+// 034   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W22
+// 035   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W19
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W03
+// 036   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W19
+	BYTE		BEND    c_v-1
+	BYTE		N17     Ds1 
+	BYTE	W04
+// 037   ----------------------------------------
+	BYTE	W15
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W04
+// 038   ----------------------------------------
+	BYTE	W15
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N36     Gn1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W23
+// 039   ----------------------------------------
+	BYTE	W15
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W04
+// 040   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W23
+// 041   ----------------------------------------
+	BYTE	W15
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W04
+// 042   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE	W14
+	BYTE		BEND    c_v-11
+	BYTE	W01
+	BYTE		        c_v-1
+	BYTE		N36     Fn1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W05
+// 044   ----------------------------------------
+	BYTE	W14
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W05
+// 045   ----------------------------------------
+	BYTE	W14
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W05
+// 046   ----------------------------------------
+	BYTE	W14
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		N36   
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE	W14
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N16   
+	BYTE	W17
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.5) ****************//
+
+KingdomAgustria_3:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N36     Fn1   v088
+	BYTE	W40
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W18
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36     Gs1 
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE	W20
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+// 007   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		TIE     Gn1 
+	BYTE	W76
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W90
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W05
+// 012   ----------------------------------------
+	BYTE		N17     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N12   
+	BYTE	W19
+// 013   ----------------------------------------
+	BYTE		N11     Ds1 
+	BYTE	W19
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N17     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W03
+// 014   ----------------------------------------
+	BYTE		N12   
+	BYTE	W19
+	BYTE		N11     Ds1 
+	BYTE	W19
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N17     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W20
+// 015   ----------------------------------------
+	BYTE	W19
+	BYTE		N11   
+	BYTE	W17
+	BYTE		        Ds1 
+	BYTE	W21
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE	W18
+	BYTE		N04   
+	BYTE	W20
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N14     Gn1 
+	BYTE	W20
+// 017   ----------------------------------------
+	BYTE	W18
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W20
+// 019   ----------------------------------------
+	BYTE	W18
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W21
+// 021   ----------------------------------------
+	BYTE	W18
+	BYTE		N14   
+	BYTE	W36
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_3_B1
+KingdomAgustria_3_B2:
+	BYTE	W01
+	BYTE		N36     Fn1   v088
+	BYTE	W36
+	BYTE	W03
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W18
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W21
+// 023   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W20
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W02
+// 024   ----------------------------------------
+	BYTE	W36
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W20
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W02
+// 025   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W20
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W02
+// 026   ----------------------------------------
+	BYTE	W17
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W02
+// 027   ----------------------------------------
+	BYTE	W17
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W02
+// 028   ----------------------------------------
+	BYTE	W17
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		TIE     Gn1 
+	BYTE	W22
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W48
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W05
+	BYTE		N17     Gs1 
+	BYTE	W36
+	BYTE	W03
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W03
+// 034   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		N12   
+	BYTE	W19
+	BYTE		N10     Ds1 
+	BYTE	W19
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N17     Gs1 
+	BYTE	W22
+// 035   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N12   
+	BYTE	W19
+	BYTE		N10     Ds1 
+	BYTE	W19
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N17     Gs1 
+	BYTE	W03
+// 036   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N11   
+	BYTE	W18
+	BYTE		N10     Ds1 
+	BYTE	W05
+// 037   ----------------------------------------
+	BYTE	W15
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N36     Gs1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W04
+// 038   ----------------------------------------
+	BYTE	W15
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N14     Gn1 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W23
+// 039   ----------------------------------------
+	BYTE	W15
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W04
+// 040   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W23
+// 041   ----------------------------------------
+	BYTE	W15
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N14   
+	BYTE	W04
+// 042   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N14   
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE	W13
+	BYTE		N36     Fn1 
+	BYTE	W40
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W05
+// 044   ----------------------------------------
+	BYTE	W14
+	BYTE		N04   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W05
+// 045   ----------------------------------------
+	BYTE	W14
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W05
+// 046   ----------------------------------------
+	BYTE	W14
+	BYTE		N04   
+	BYTE	W19
+	BYTE		N04   
+	BYTE	W20
+	BYTE		N04   
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     46*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N36   
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE	W14
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N04   
+	BYTE	W17
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.6) ****************//
+
+KingdomAgustria_4:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   56
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*KingdomAgustria_mvl/mxv
+	BYTE	W03
+	BYTE		        19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N17     Gn5   v088
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W19
+	BYTE		        Cn5 
+	BYTE	W20
+	BYTE		N07     Dn5 
+	BYTE	W09
+	BYTE		        Ds5 
+	BYTE	W10
+	BYTE		N17     Fn5 
+	BYTE	W16
+// 001   ----------------------------------------
+	BYTE	W03
+	BYTE		N07     Ds5 
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W09
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W09
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N07     Gn5 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W07
+// 002   ----------------------------------------
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W54
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W56
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Cn5 
+	BYTE	W20
+	BYTE		N07     Gn5 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W17
+// 005   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W56
+	BYTE	W01
+	BYTE		VOICE   73
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Dn5 
+	BYTE	W20
+	BYTE		        Ds5 
+	BYTE	W19
+// 012   ----------------------------------------
+	BYTE		        Fn5 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Ds5 
+	BYTE	W09
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn5 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Ds5 
+	BYTE	W20
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn5 
+	BYTE	W19
+// 013   ----------------------------------------
+	BYTE		        Dn5 
+	BYTE	W19
+	BYTE		N24     Ds5 
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07     Dn5 
+	BYTE	W09
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn5 
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W20
+// 014   ----------------------------------------
+	BYTE		N07     Cn5 
+	BYTE	W09
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Dn5 
+	BYTE	W19
+	BYTE		        As4 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N54     Cn5 
+	BYTE	W20
+// 015   ----------------------------------------
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N07     Gn5 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N24   
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE	W28
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W20
+// 018   ----------------------------------------
+	BYTE	W18
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N36   
+	BYTE	W40
+	BYTE		N36   
+	BYTE	W19
+// 020   ----------------------------------------
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+// 021   ----------------------------------------
+	BYTE		N36   
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_4_B1
+KingdomAgustria_4_B2:
+	BYTE	W04
+	BYTE		VOICE   56
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Gn5   v088
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W19
+// 022   ----------------------------------------
+	BYTE		        Cn5 
+	BYTE	W19
+	BYTE		N07     Dn5 
+	BYTE	W10
+	BYTE		        Ds5 
+	BYTE	W09
+	BYTE		N17     Fn5 
+	BYTE	W19
+	BYTE		N07     Ds5 
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		N17     Ds5 
+	BYTE	W19
+// 023   ----------------------------------------
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07     Gn5 
+	BYTE	W10
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+// 024   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Cn5 
+	BYTE	W19
+	BYTE		N07     Gn5 
+	BYTE	W10
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W01
+// 026   ----------------------------------------
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W20
+	BYTE		TIE   
+	BYTE	W56
+	BYTE	W02
+// 027   ----------------------------------------
+	BYTE	W54
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W40
+	BYTE	W01
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W16
+	BYTE		VOICE   73
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     24*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Dn5 
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W19
+	BYTE		        Fn5 
+	BYTE	W20
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Ds5 
+	BYTE	W10
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn5 
+	BYTE	W03
+// 034   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn5 
+	BYTE	W19
+	BYTE		        Dn5 
+	BYTE	W20
+	BYTE		N24     Ds5 
+	BYTE	W22
+// 035   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07     Dn5 
+	BYTE	W10
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn5 
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W19
+	BYTE		N07     Cn5 
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W09
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W01
+	BYTE		N17     Dn5 
+	BYTE	W03
+// 036   ----------------------------------------
+	BYTE	W16
+	BYTE		        As4 
+	BYTE	W19
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     7*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N54     Cn5 
+	BYTE	W56
+	BYTE	W01
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N07     Gn5 
+	BYTE	W04
+// 037   ----------------------------------------
+	BYTE	W06
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N24   
+	BYTE	W28
+	BYTE	W01
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W04
+// 038   ----------------------------------------
+	BYTE	W15
+	BYTE		N17   
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W04
+// 039   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W23
+// 040   ----------------------------------------
+	BYTE	W15
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W04
+// 041   ----------------------------------------
+	BYTE	W36
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W22
+// 042   ----------------------------------------
+	BYTE	W16
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W03
+// 043   ----------------------------------------
+	BYTE	W16
+	BYTE		VOICE   56
+	BYTE		VOL     20*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Ds5 
+	BYTE	W19
+	BYTE		        Cn5 
+	BYTE	W20
+	BYTE		N07     Dn5 
+	BYTE	W09
+	BYTE		        Ds5 
+	BYTE	W10
+	BYTE		N17     Fn5 
+	BYTE	W03
+// 044   ----------------------------------------
+	BYTE	W16
+	BYTE		N07     Ds5 
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W09
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07     Gn5 
+	BYTE	W03
+// 045   ----------------------------------------
+	BYTE	W06
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W42
+// 046   ----------------------------------------
+	BYTE	W68
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     19*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds5 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W04
+// 047   ----------------------------------------
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W10
+	BYTE		VOL     6*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N15     Cn5 
+	BYTE	W15
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.7) ****************//
+
+KingdomAgustria_5:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*KingdomAgustria_mvl/mxv
+	BYTE	W03
+	BYTE		        26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N17     Ds4   v088
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Gn3 
+	BYTE	W20
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W16
+// 001   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N72   
+	BYTE	W36
+// 002   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Gn3 
+	BYTE	W17
+// 003   ----------------------------------------
+	BYTE	W03
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N72   
+	BYTE	W76
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Fn3 
+	BYTE	W17
+// 005   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W20
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W17
+// 006   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N54   
+	BYTE	W54
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W17
+// 008   ----------------------------------------
+	BYTE	W02
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Gn3 
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Fn3 
+	BYTE	W17
+// 009   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     An3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W01
+// 010   ----------------------------------------
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N36     Fn3 
+	BYTE	W18
+// 011   ----------------------------------------
+	BYTE	W21
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N64   
+	BYTE	W66
+	BYTE	W01
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07     Gs3 
+	BYTE	W08
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W18
+// 013   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N24   
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W18
+// 014   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W20
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W18
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W76
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W19
+// 017   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     En3 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn3 
+	BYTE	W19
+// 018   ----------------------------------------
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N24     Cn3 
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Dn3 
+	BYTE	W10
+	BYTE		N17     En3 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Gn2 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Bn2 
+	BYTE	W19
+// 019   ----------------------------------------
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn3 
+	BYTE	W20
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Cn3 
+	BYTE	W10
+	BYTE		N17     Bn2 
+	BYTE	W19
+	BYTE		        Dn3 
+	BYTE	W19
+// 020   ----------------------------------------
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     En3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Cn3 
+	BYTE	W20
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N24     Dn3 
+	BYTE	W28
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Cn3 
+	BYTE	W05
+	BYTE		N72     Gn2 
+	BYTE	W05
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W19
+// 021   ----------------------------------------
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_5_B1
+KingdomAgustria_5_B2:
+	BYTE	W04
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds4   v088
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+// 022   ----------------------------------------
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+// 023   ----------------------------------------
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N72   
+	BYTE	W76
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N72   
+	BYTE	W36
+	BYTE	W03
+// 026   ----------------------------------------
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W20
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N54   
+	BYTE	W01
+// 028   ----------------------------------------
+	BYTE	W56
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W20
+// 029   ----------------------------------------
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W20
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Fn3 
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	W18
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Gn3 
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     An3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W01
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Fn3 
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W36
+	BYTE	W03
+	BYTE		N17     Dn3 
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N36     Fn3 
+	BYTE	W36
+	BYTE	W02
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N64   
+	BYTE	W21
+// 033   ----------------------------------------
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08     Gs3 
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W02
+// 034   ----------------------------------------
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N24   
+	BYTE	W21
+// 035   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W02
+// 036   ----------------------------------------
+	BYTE	W17
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W60
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     En3 
+	BYTE	W02
+// 039   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Fn3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N24     Cn3 
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Dn3 
+	BYTE	W09
+	BYTE		N17     En3 
+	BYTE	W03
+// 040   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Gn2 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Bn2 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn3 
+	BYTE	W19
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W03
+// 041   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Cn3 
+	BYTE	W09
+	BYTE		N17     Bn2 
+	BYTE	W20
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     En3 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Cn3 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N24     Dn3 
+	BYTE	W03
+// 042   ----------------------------------------
+	BYTE	W24
+	BYTE	W02
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Cn3 
+	BYTE	W09
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N72     Gn2 
+	BYTE	W60
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N17     Gn3 
+	BYTE	W20
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W03
+// 044   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N72   
+	BYTE	W22
+// 045   ----------------------------------------
+	BYTE	W54
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N17     Gn3 
+	BYTE	W03
+// 046   ----------------------------------------
+	BYTE	W16
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W04
+// 047   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N07   
+	BYTE	W10
+	BYTE		VOL     11*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N16   
+	BYTE	W15
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.8) ****************//
+
+KingdomAgustria_6:
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*KingdomAgustria_mvl/mxv
+	BYTE	W02
+	BYTE		        42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N17     Gn4   v088
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		N08     Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W18
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N72     Ds4 
+	BYTE	W36
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE	W40
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W09
+// 004   ----------------------------------------
+	BYTE	W01
+	BYTE		N72     Cn4 
+	BYTE	W76
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W18
+// 005   ----------------------------------------
+	BYTE	W01
+	BYTE		N07     As3 
+	BYTE	W09
+	BYTE		        Gs3 
+	BYTE	W10
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+63
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		N17     As3 
+	BYTE	W19
+	BYTE		        Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N17     As3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Cn4 
+	BYTE	W10
+	BYTE		N54     As3 
+	BYTE	W56
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W01
+	BYTE		N17     Gs3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+// 008   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W20
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W10
+	BYTE		N17     An3 
+	BYTE	W19
+// 009   ----------------------------------------
+	BYTE		        En4 
+	BYTE	W19
+	BYTE		        Bn3 
+	BYTE	W20
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17     Bn3 
+	BYTE	W20
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W19
+// 011   ----------------------------------------
+	BYTE	W19
+	BYTE		N64     Dn4 
+	BYTE	W66
+	BYTE	W01
+	BYTE		N07     Ds4 
+	BYTE	W10
+// 012   ----------------------------------------
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W20
+	BYTE		        Cn4 
+	BYTE	W19
+// 013   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W19
+	BYTE		N24     Ds4 
+	BYTE	W28
+	BYTE	W01
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W20
+// 014   ----------------------------------------
+	BYTE		N07     Cn4 
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		        Dn4 
+	BYTE	W19
+	BYTE		        As3 
+	BYTE	W19
+	BYTE		TIE     Cn4 
+	BYTE	W20
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W72
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W20
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N24     En3 
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W28
+	BYTE		N07     Fn3 
+	BYTE	W09
+	BYTE		N17     Gn3 
+	BYTE	W19
+	BYTE		        Cn3 
+	BYTE	W20
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		        En3 
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N08     En3 
+	BYTE	W09
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W20
+	BYTE		        Gn3 
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W19
+	BYTE		N24     Fn3 
+	BYTE	W28
+	BYTE	W01
+	BYTE		N08     En3 
+	BYTE	W06
+	BYTE		N72     Dn3 
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE	W54
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_6_B1
+KingdomAgustria_6_B2:
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N17     Gn4   v088
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W18
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		N08     Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W02
+// 023   ----------------------------------------
+	BYTE	W08
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N72     Ds4 
+	BYTE	W76
+	BYTE	W01
+	BYTE		N17     Gn4 
+	BYTE	W02
+// 024   ----------------------------------------
+	BYTE	W17
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W20
+	BYTE		N07     Dn4 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		N07     Ds4 
+	BYTE	W02
+// 025   ----------------------------------------
+	BYTE	W07
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N08     Dn4 
+	BYTE	W09
+	BYTE		N72     Cn4 
+	BYTE	W40
+	BYTE	W01
+// 026   ----------------------------------------
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07     As3 
+	BYTE	W10
+	BYTE		        Gs3 
+	BYTE	W09
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+63
+	BYTE		VOL     26*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N17     As3 
+	BYTE	W19
+	BYTE		        Gn4 
+	BYTE	W02
+// 027   ----------------------------------------
+	BYTE	W17
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		VOL     32*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     42*KingdomAgustria_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N17     As3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W10
+	BYTE		N08     Cn4 
+	BYTE	W10
+	BYTE		N54     As3 
+	BYTE	W02
+// 028   ----------------------------------------
+	BYTE	W54
+	BYTE	W01
+	BYTE		N17     Gs3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W22
+// 029   ----------------------------------------
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        An3 
+	BYTE	W03
+// 030   ----------------------------------------
+	BYTE	W16
+	BYTE		N07   
+	BYTE	W10
+	BYTE		        Bn3 
+	BYTE	W10
+	BYTE		N17     An3 
+	BYTE	W19
+	BYTE		        En4 
+	BYTE	W19
+	BYTE		        Bn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W03
+// 031   ----------------------------------------
+	BYTE	W16
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W03
+	BYTE		        Cn4 
+	BYTE	W36
+	BYTE	W02
+	BYTE		N17     Bn3 
+	BYTE	W03
+// 032   ----------------------------------------
+	BYTE	W16
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		N36     An3 
+	BYTE	W36
+	BYTE	W03
+	BYTE		N64     Dn4 
+	BYTE	W22
+// 033   ----------------------------------------
+	BYTE	W44
+	BYTE	W01
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W20
+	BYTE		N07   
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W03
+// 034   ----------------------------------------
+	BYTE	W16
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		        Dn4 
+	BYTE	W20
+	BYTE		N24     Ds4 
+	BYTE	W22
+// 035   ----------------------------------------
+	BYTE	W06
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		N17     Fn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		N07     Cn4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W09
+	BYTE		N17     Ds4 
+	BYTE	W20
+	BYTE		        Dn4 
+	BYTE	W03
+// 036   ----------------------------------------
+	BYTE	W16
+	BYTE		        As3 
+	BYTE	W19
+	BYTE		TIE     Cn4 
+	BYTE	W60
+	BYTE	W01
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W32
+	BYTE		EOT   
+	BYTE	W03
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N08     Bn3 
+	BYTE	W10
+	BYTE		N17     Cn4 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W04
+// 039   ----------------------------------------
+	BYTE	W15
+	BYTE		        An3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W20
+	BYTE		N24     En3 
+	BYTE	W28
+	BYTE		N07     Fn3 
+	BYTE	W10
+	BYTE		N17     Gn3 
+	BYTE	W04
+// 040   ----------------------------------------
+	BYTE	W15
+	BYTE		        Cn3 
+	BYTE	W19
+	BYTE		        Dn3 
+	BYTE	W19
+	BYTE		        En3 
+	BYTE	W20
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W04
+// 041   ----------------------------------------
+	BYTE	W05
+	BYTE		        En3 
+	BYTE	W10
+	BYTE		N17     Dn3 
+	BYTE	W19
+	BYTE		        Fn3 
+	BYTE	W19
+	BYTE		        Gn3 
+	BYTE	W19
+	BYTE		        En3 
+	BYTE	W20
+	BYTE		N24     Fn3 
+	BYTE	W04
+// 042   ----------------------------------------
+	BYTE	W24
+	BYTE		N07     En3 
+	BYTE	W10
+	BYTE		N76     Dn3 
+	BYTE	W60
+	BYTE	W02
+// 043   ----------------------------------------
+	BYTE	W15
+	BYTE		BEND    c_v+0
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W19
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W05
+// 044   ----------------------------------------
+	BYTE	W14
+	BYTE		N07     Ds4 
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N08     Dn4 
+	BYTE	W10
+	BYTE		N72     Ds4 
+	BYTE	W24
+// 045   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N17     Gn4 
+	BYTE	W19
+	BYTE		        Ds4 
+	BYTE	W19
+	BYTE		        Cn4 
+	BYTE	W05
+// 046   ----------------------------------------
+	BYTE	W14
+	BYTE		N07     Dn4 
+	BYTE	W10
+	BYTE		        Ds4 
+	BYTE	W09
+	BYTE		N17     Fn4 
+	BYTE	W20
+	BYTE		N07     Ds4 
+	BYTE	W09
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Ds4 
+	BYTE	W19
+	BYTE		N07   
+	BYTE	W05
+// 047   ----------------------------------------
+	BYTE	W04
+	BYTE		        Dn4 
+	BYTE	W10
+	BYTE		N17     Cn4 
+	BYTE	W17
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.10) ****************//
+
+KingdomAgustria_7:
+	BYTE		VOL     127*KingdomAgustria_mvl/mxv
+	BYTE	KEYSH   KingdomAgustria_key+0
+KingdomAgustria_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		TIE     Cs2   v036
+	BYTE	W56
+	BYTE	W01
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+// 001   ----------------------------------------
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+// 002   ----------------------------------------
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W18
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N76   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE		N19     Cs2   v036
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W20
+// 005   ----------------------------------------
+	BYTE	W18
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W18
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		TIE   
+	BYTE	W18
+	BYTE		EOT     Cs2 
+	BYTE	W01
+	BYTE		N19     Cs2   v036
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W18
+	BYTE		TIE   
+	BYTE	W76
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N19     Dn1   v032
+	BYTE	W01
+// 008   ----------------------------------------
+	BYTE	W18
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W21
+// 009   ----------------------------------------
+	BYTE	W18
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N36   
+	BYTE	W21
+// 011   ----------------------------------------
+	BYTE	W18
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N76   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE		N19     Cs2   v036
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W02
+// 012   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W02
+// 013   ----------------------------------------
+	BYTE	W04
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W02
+// 014   ----------------------------------------
+	BYTE	W17
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W02
+// 015   ----------------------------------------
+	BYTE	W17
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W02
+// 016   ----------------------------------------
+	BYTE	W17
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N56   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE		TIE     Cs2   v036
+	BYTE	W22
+// 017   ----------------------------------------
+	BYTE	W17
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W03
+// 018   ----------------------------------------
+	BYTE	W16
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W03
+// 019   ----------------------------------------
+	BYTE	W16
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W03
+// 020   ----------------------------------------
+	BYTE	W16
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE	W16
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W12
+	BYTE		EOT     Cs2 
+	BYTE	GoTo
+	 POIN2	KingdomAgustria_7_B1
+KingdomAgustria_7_B2:
+	BYTE	W01
+	BYTE		TIE     Cs2   v036
+	BYTE	W40
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE	W16
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W03
+// 023   ----------------------------------------
+	BYTE	W16
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W04
+// 024   ----------------------------------------
+	BYTE	W16
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W04
+// 025   ----------------------------------------
+	BYTE	W03
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N76   
+	BYTE	W04
+// 026   ----------------------------------------
+	BYTE	W15
+	BYTE		EOT     Cs2 
+	BYTE		N19     Cs2   v036
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W36
+	BYTE	W03
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W04
+// 027   ----------------------------------------
+	BYTE	W15
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W04
+// 028   ----------------------------------------
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE		N19     Cs2   v036
+	BYTE	W20
+	BYTE		TIE   
+	BYTE	W23
+// 029   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N36   
+	BYTE	W04
+// 030   ----------------------------------------
+	BYTE	W32
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W04
+// 031   ----------------------------------------
+	BYTE	W15
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N19   
+	BYTE	W05
+// 032   ----------------------------------------
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N36   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N36   
+	BYTE	W24
+// 033   ----------------------------------------
+	BYTE	W14
+	BYTE		N76   
+	BYTE	W20
+	BYTE		EOT     Cs2 
+	BYTE		N19     Cs2   v036
+	BYTE	W19
+	BYTE		TIE   
+	BYTE	W36
+	BYTE	W02
+	BYTE		N19     Dn1   v032
+	BYTE	W05
+// 034   ----------------------------------------
+	BYTE	W14
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W05
+// 035   ----------------------------------------
+	BYTE	W14
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W05
+// 036   ----------------------------------------
+	BYTE	W14
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N06   
+	BYTE	W05
+// 037   ----------------------------------------
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W05
+// 038   ----------------------------------------
+	BYTE	W14
+	BYTE		N56   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE		TIE     Cs2   v036
+	BYTE	W36
+	BYTE	W02
+	BYTE		N19     Dn1   v032
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W06
+// 039   ----------------------------------------
+	BYTE	W14
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W06
+// 040   ----------------------------------------
+	BYTE	W13
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+// 041   ----------------------------------------
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W06
+// 042   ----------------------------------------
+	BYTE	W13
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+// 043   ----------------------------------------
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N60   
+	BYTE	W06
+	BYTE		EOT     Cs2 
+	BYTE		TIE     Cs2   v036
+	BYTE	W56
+	BYTE	W01
+	BYTE		N19     Dn1   v032
+	BYTE	W20
+	BYTE		N19   
+	BYTE	W06
+// 044   ----------------------------------------
+	BYTE	W13
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+// 045   ----------------------------------------
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W07
+// 046   ----------------------------------------
+	BYTE	W13
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N19   
+	BYTE	W19
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N19   
+	BYTE	W07
+// 047   ----------------------------------------
+	BYTE	W12
+	BYTE		N19   
+	BYTE	W19
+	BYTE		EOT     Cs2 
+	BYTE	W01
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+KingdomAgustria:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	KingdomAgustria_pri	// Priority
+	BYTE	KingdomAgustria_rev	// Reverb.
+
+	POIN2	KingdomAgustria_grp
+
+	POIN2	KingdomAgustria_1
+	POIN2	KingdomAgustria_2
+	POIN2	KingdomAgustria_3
+	POIN2	KingdomAgustria_4
+	POIN2	KingdomAgustria_5
+	POIN2	KingdomAgustria_6
+	POIN2	KingdomAgustria_7
+
+	

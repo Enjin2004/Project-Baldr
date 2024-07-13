@@ -107,5 +107,8 @@
 #define Bartholomew 0xDA
 #define Peksimet 0xDB
 #define Shamash 0xDC
+#define Scragg 0xDD
+#define Reagan 0xDE
+#define Ayron 0xDF
 
 
