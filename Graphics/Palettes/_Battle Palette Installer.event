@@ -619,16 +619,120 @@ LeonsterPalette:
 #incbin "LeonsterLncCav.dmp"
 
 ALIGN 4
-ThraciaWyvRiderMPalette:
-#incbin "ThraciaWyvRider.dmp"
+ThraciaArcherPalette:
+#incbin "ThraciaArcher.dmp"
+
+ALIGN 4
+ThraciaArmorPalette:
+#incbin "ThraciaArmor.dmp"
+
+ALIGN 4
+ThraciaBallistaPalette:
+#incbin "ThraciaBallist.dmp"
+
+ALIGN 4
+ThraciaDrgMasterPalette:
+#incbin "ThraciaWyvMast.dmp"
+
+ALIGN 4
+ThraciaHighPriestPalette:
+#incbin "ThraciaHighPriest.dmp"
+
+ALIGN 4
+ThraciaMaligKntPalette:
+#incbin "ThraciaMaligKnt.dmp"
 
 ALIGN 4
 ThraciaWyvKntPalette:
 #incbin "ThraciaWyvKnt.dmp"
 
 ALIGN 4
+ThraciaWyvLordPalette:
+#incbin "ThraciaWyvLord.dmp"
+
+ALIGN 4
+ThraciaWyvRiderMPalette:
+#incbin "ThraciaWyvRider.dmp"
+
+ALIGN 4
+ThraciaWyvRiderFPalette:
+#incbin "ThraciaWyvRider.dmp"
+
+ALIGN 4
+MiletosArchKntPalette:
+#incbin "MiletosArchKnt.dmp"
+
+ALIGN 4
+MiletosAxeCavPalette:
+#incbin "MiletosAxeCav.dmp"
+
+ALIGN 4
+MiletosBowCavPalette:
+#incbin "MiletosBowCavF.dmp"
+
+ALIGN 4
+MiletosCavalierPalette:
+#incbin "MiletosUniCav.dmp"
+
+ALIGN 4
+MiletosDukeKntPalette:
+#incbin "MiletosDukeKnt.dmp"
+
+ALIGN 4
+MiletosGKPalette:
+#incbin "MiletosGreatKnt.dmp"
+
+ALIGN 4
+MiletosLncCavPalette:
+#incbin "MiletosLncCav.dmp"
+
+ALIGN 4
+MiletosMageKnightPalette:
+#incbin "MiletosMageKnt.dmp"
+
+ALIGN 4
+MiletosSoldierPalette:
+#incbin "MiletosSoldier.dmp"
+
+ALIGN 4
+MiletosTroubadourPalette:
+#incbin "MiletosTroub.dmp"
+
+ALIGN 4
+MiletosValkyriePalette:
+#incbin "MiletosValk.dmp"
+
+ALIGN 4
+RotenRitterArchKntPalette:
+#incbin "RotenRitterArchKnt.dmp"
+
+ALIGN 4
+RotenRitterArmorPalette:
+#incbin "RotenRitterArmor.dmp"
+
+ALIGN 4
+RotenRitterBishopPalette:
+#incbin "RotenRitterBishop.dmp"
+
+ALIGN 4
+RotenRitterDukeKntPalette:
+#incbin "RotenRitterDukeKnt.dmp"
+
+ALIGN 4
 RotenRitterFireMagePalette:
 #incbin "RotenRitterFMage.dmp"
+
+ALIGN 4
+RotenRitterGKPalette:
+#incbin "RotenRitterGreatKnt.dmp"
+
+ALIGN 4
+RotenRitterHighPriestPalette:
+#incbin "RotenRitterHighPriest.dmp"
+
+ALIGN 4
+RotenRitterMageKnightPalette:
+#incbin "RotenRitterMageKnt.dmp"
 
 ALIGN 4
 RotenRitterPriestPalette:
@@ -637,6 +741,30 @@ RotenRitterPriestPalette:
 ALIGN 4
 GranvalleArmPalette:
 #incbin "GranvalleKnight.dmp"
+
+ALIGN 4
+GrannvaleDukeKntPalette:
+#incbin "GranvalleDukeKnt.dmp"
+
+ALIGN 4
+GrannvaleGKPalette:
+#incbin "GranvalleGreatKnt.dmp"
+
+ALIGN 4
+GrannvalePaladinPalette:
+#incbin "GranvallePalF.dmp"
+
+ALIGN 4
+GrannvaleRangerPalette:
+#incbin "GranvalleRanger.dmp"
+
+ALIGN 4
+EddaBishopPalette:
+#incbin "EddaBishop.dmp"
+
+ALIGN 4
+EddaHighPriestPalette:
+#incbin "EddaHighPriest.dmp"
 
 ALIGN 4
 GrauenRitterAxeCavPalette:
@@ -655,20 +783,88 @@ GrauenRitterValkyriePalette:
 #incbin "GrauenRitterValk.dmp"
 
 ALIGN 4
+LoptousBerserkerPalette:
+#incbin "LoptousBerserker.dmp"
+
+ALIGN 4
+LoptousDruidPalette:
+#incbin "LoptousDBishop.dmp"
+
+ALIGN 4
+LoptousHighPriestPalette:
+#incbin "LoptousHighPriest.dmp"
+
+ALIGN 4
+LoptousHeroPalette:
+#incbin "LoptousHero.dmp"
+
+ALIGN 4
 LoptousMagePalette:
 #incbin "LoptousMageF.dmp"
+
+ALIGN 4
+LoptousSagePalette:
+#incbin "LoptousSage.dmp"
+
+ALIGN 4
+LoptousShamanPalette:
+#incbin "LoptousDMage.dmp"
+
+ALIGN 4
+LoptousSniperPalette:
+#incbin "LoptousSniper.dmp"
 
 ALIGN 4
 MercAdventurerPalette:
 #incbin "MercAdvent.dmp"
 
 ALIGN 4
+MercArchKntPalette:
+#incbin "MercArchKnt.dmp"
+
+ALIGN 4
 MercBowCavPalette:
-#incbin "MercLinoBowCavF.dmp"
+#incbin "MercBowCavF.dmp"
+
+ALIGN 4
+MercCavalierPalette:
+#incbin "MercUniCav.dmp"
+
+ALIGN 4
+MercDukeKntPalette:
+#incbin "MercDukeKnt.dmp"
 
 ALIGN 4
 MercFreeCavPalette:
-#incbin "MercWaltzFreeCav.dmp"
+#incbin "MercFreeCav.dmp"
+
+ALIGN 4
+MercHeroPalette:
+#incbin "MercHero.dmp"
+
+ALIGN 4
+MercMageKnightPalette:
+#incbin "MercMageKnt.dmp"
+
+ALIGN 4
+MercMercPalette:
+#incbin "MercMerc.dmp"
+
+ALIGN 4
+MercRangerPalette:
+#incbin "MercRanger.dmp"
+
+ALIGN 4
+MercSniperPalette:
+#incbin "MercSniper.dmp"
+
+ALIGN 4
+MercValkyriePalette:
+#incbin "MercValk.dmp"
+
+ALIGN 4
+MercWarriorPalette:
+#incbin "MercWarrior.dmp"
 
 ALIGN 4
 RuffiansBrigandPalette:
