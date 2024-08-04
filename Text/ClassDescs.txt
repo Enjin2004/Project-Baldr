@@ -275,13 +275,13 @@ Advanced scholars of magical codices. [N]
 Equip: [AnimaIcon][LightIcon][StaffIcon][X]
 
 ##Desc_Baron ^
-Great unmatched commanders. 
-Equip: [SwordIcon][LanceIcon][AxeIcon][BowIcon]
+Great unmatched commanders.  [N]
+Equip: [SwordIcon][LanceIcon][AxeIcon][BowIcon][N]
 [AnimaIcon][LightIcon][StaffIcon][X]
 
 ##Desc_Emperor ^
 Unstoppable leaders who rule over the continent. [N]
-Equip: [SwordIcon][LanceIcon][AxeIcon][BowIcon]
+Equip: [SwordIcon][LanceIcon][AxeIcon][BowIcon][N]
 [AnimaIcon][LightIcon][StaffIcon][X]
 
 ##Desc_Ballista ^

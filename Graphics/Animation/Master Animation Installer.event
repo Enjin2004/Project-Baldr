@@ -1374,8 +1374,8 @@ EndAnim
 
 ALIGN 4
 RangerFAnims:
-SwordAnim(0x11E)
-BowAnim(0x11F)
+SwordAnim(0x11F)
+BowAnim(0x11E)
 EndAnim
 
 ALIGN 4

@@ -1043,14 +1043,17 @@ BYTE 00 00
 ALIGN 4
 
 PegasusKnightSkillList:
+BYTE 1 RepositionID
 BYTE 00 00
 ALIGN 4
 
 FalconKnightSkillList:
+BYTE 1 RepositionID
 BYTE 00 00
 ALIGN 4
 
 HarrierSkillList:
+BYTE 1 RepositionID
 BYTE 00 00
 ALIGN 4
 

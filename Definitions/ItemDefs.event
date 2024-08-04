@@ -81,6 +81,7 @@
 #define DefRing 0x60
 #define ResRing 0x61
 #define LegRing 0x62
+#define ConRing 0x63
 
 #define Mercurius 0x39
 #define Gradivus 0x3A

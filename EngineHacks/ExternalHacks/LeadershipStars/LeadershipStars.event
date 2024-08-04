@@ -130,6 +130,9 @@ BYTE Veld 3
 BYTE Manfroy 4
 BYTE JuliusLopt 6
 BYTE Henson 6
+BYTE Scragg 1
+BYTE Reagan 2
+BYTE Ayron 3
 BYTE Commander 1
 //FRIENDS
 BYTE Annand 3
@@ -158,15 +161,15 @@ StatusScreenEnemy:
 POIN GetFactionLeadershipCount
 
 PUSH
-ORG 0x8E4D4
-jumpToHack(StatusScreenPlayer)
+//ORG 0x8E4D4
+//jumpToHack(StatusScreenPlayer)
 
-ORG 0x8E518
-jumpToHack(StatusScreenEnemy)
+//ORG 0x8E518
+//jumpToHack(StatusScreenEnemy)
 
 // otherwise it'll always show -- for enemy leadership stars in fog of war
-ORG $8E4E9
-BYTE 0xE0
+//ORG $8E4E9
+//BYTE 0xE0
 
 // fix status screen text
 ORG $A01D2A

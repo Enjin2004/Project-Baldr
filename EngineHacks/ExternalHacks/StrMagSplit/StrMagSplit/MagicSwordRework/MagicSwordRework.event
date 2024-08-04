@@ -6,6 +6,9 @@
 	#define MagicSwordEntry(itemID,weaponType,alwaysMagic,meleeBehavior,rangeBehavior) "BYTE itemID (weaponType<<4)|alwaysMagic (meleeBehavior<<4)|rangeBehavior"
 
 	#define WeaponTypeAnima 5
+	#define WeaponTypeFire 5
+	#define WeaponTypeWind 15
+	#define WeaponTypeThunder 25
 	#define WeaponTypeLight 6
 	#define WeaponTypeDark 7
 	#define HitDef 0
@@ -21,7 +24,9 @@
 
 	MagicSwordList:
 	//MagicSwordEntry(0x09,WeaponTypeAnima,False,HitDef,HitRes)
-	MagicSwordEntry(WindSword,WeaponTypeAnima,False,HitRes,HitRes)
+	MagicSwordEntry(WindSwd,WeaponTypeWind,False,HitRes,HitRes)
+	MagicSwordEntry(FlameSwd,WeaponTypeFire,False,HitRes,HitRes)
+	MagicSwordEntry(ThunderSwd,WeaponTypeThunder,False,HitRes,HitRes)
 	MagicSwordEntry(LightBrand,WeaponTypeLight,False,HitRes,HitRes)
 	MagicSwordEntry(Runesword,WeaponTypeDark,True,HitRes,HitRes)
 	BYTE 0 0 0 //terminator

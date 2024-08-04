@@ -83,9 +83,9 @@ PaletteAssociationEntry(Friege, $61)
 PaletteAssociationEntry(Loptrian, $95)
 PaletteAssociationEntry(Mercenary, $9F)
 PaletteAssociationEntry(Arena7, $C1)
-PaletteAssociationEntry(Jacobin, $CF)
+//PaletteAssociationEntry(Jacobin, $CF)
 PaletteAssociationEntry(Marlon, $D7)
-PaletteAssociationEntry(Galzus, $F9)
+//PaletteAssociationEntry(Galzus, $F9)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

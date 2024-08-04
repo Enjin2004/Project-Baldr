@@ -255,6 +255,18 @@ VerdaneWarriorPalette:
 #incbin "VerdaneWarrior.dmp"
 
 ALIGN 4
+VerdaneArcherPalette:
+#incbin "VerdaneArcher.dmp"
+
+ALIGN 4
+VerdaneMercPalette:
+#incbin "VerdaneMerc.dmp"
+
+ALIGN 4
+VerdaneMyrmPalette:
+#incbin "VerdaneMyrm.dmp"
+
+ALIGN 4
 HeirheinArcherPalette:
 #incbin "HeirheinArcher.dmp"
 
@@ -281,6 +293,10 @@ HeirheinPriestPalette:
 ALIGN 4
 HeirheinMagePalette:
 #incbin "HeirheinMage.dmp"
+
+ALIGN 4
+HeirheinTroubadourPalette:
+#incbin "HeirheinTroub.dmp"
 
 ALIGN 4
 InfiniArmorPalette:
@@ -377,6 +393,10 @@ MadinoGeneralPalette:
 ALIGN 4
 MadinoMagePalette:
 #incbin "MadinoMage.dmp"
+
+ALIGN 4
+MadinoCavalierPalette:
+#incbin "MadinoUniCav.dmp"
 
 ALIGN 4
 CrossKnightPalette:
@@ -740,23 +760,23 @@ RotenRitterPriestPalette:
 
 ALIGN 4
 GranvalleArmPalette:
-#incbin "GranvalleKnight.dmp"
+#incbin "GrannvaleKnight.dmp"
 
 ALIGN 4
 GrannvaleDukeKntPalette:
-#incbin "GranvalleDukeKnt.dmp"
+#incbin "GrannvaleDukeKnt.dmp"
 
 ALIGN 4
 GrannvaleGKPalette:
-#incbin "GranvalleGreatKnt.dmp"
+#incbin "GrannvaleGreatKnt.dmp"
 
 ALIGN 4
 GrannvalePaladinPalette:
-#incbin "GranvallePalF.dmp"
+#incbin "GrannvalePalF.dmp"
 
 ALIGN 4
 GrannvaleRangerPalette:
-#incbin "GranvalleRanger.dmp"
+#incbin "GrannvaleRanger.dmp"
 
 ALIGN 4
 EddaBishopPalette:
@@ -899,6 +919,10 @@ CallistaPalette:
 #incbin "CallistaWyvKnt.dmp"
 
 ALIGN 4
+CallistaPromoPalette:
+#incbin "CallistaWyvLord.dmp"
+
+ALIGN 4
 IndechPalette:
 #incbin "Indech.dmp"
 
@@ -929,6 +953,30 @@ ThortonPalette:
 ALIGN 4
 MarioPalette:
 #incbin "Mario.dmp"
+
+ALIGN 4
+HensonGreenPalette:
+#incbin "HensonGreen.dmp"
+
+ALIGN 4
+HensonRedPalette:
+#incbin "HensonRed.dmp"
+
+ALIGN 4
+HensonBluePalette:
+#incbin "HensonBlue.dmp"
+
+ALIGN 4
+HensonPurplePalette:
+#incbin "HensonPurple.dmp"
+
+ALIGN 4
+HensonYellowPalette:
+#incbin "HensonYellow.dmp"
+
+ALIGN 4
+HensonOrangePalette:
+#incbin "HensonOrange.dmp"
 
 ALIGN 4
 PlaceholderPalette:

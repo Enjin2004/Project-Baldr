@@ -11,6 +11,14 @@ FieldTiles:
 #incext compress "Tilesets/Field.mapchip_config"
 
 ALIGN 4
+PlainTiles:
+#incext compress "Tilesets/Plains.mapchip_config"
+
+ALIGN 4
+VillageTiles:
+#incext compress "Tilesets/Village.mapchip_config"
+
+ALIGN 4
 FortTiles:
 #incext compress "Tilesets/Fort.mapchip_config"
 
@@ -23,6 +31,10 @@ FortObject:
 #incbin "Tilesets/Fort.dmp"
 
 ALIGN 4
+VillageObjects:
+#incbin "Tilesets/Village.dmp"
+
+ALIGN 4
 FieldNights:
 #incbin "Tilesets/FieldsNightPalette.dmp"
 
@@ -33,6 +45,18 @@ FieldSnow:
 ALIGN 4
 AgustriaFields:
 #incbin "Tilesets/AutumnFields.dmp"
+
+ALIGN 4
+PlainObjects:
+#incbin "Tilesets/Plains.dmp"
+
+ALIGN 4
+PlainPalette:
+#incbin "Tilesets/Plains_pal.dmp"
+
+ALIGN 4
+VillagePalette:
+#incbin "Tilesets/Village_pal.dmp"
 
 ALIGN 4
 StrongholdObjects:
@@ -138,6 +162,12 @@ EventPointerTable(0x03, FieldTiles)
 EventPointerTable(0x01, FieldObject)
 EventPointerTable(0x3C, FortObject)
 EventPointerTable(0x3E, FortTiles)
+EventPointerTable(0xE, VillageObjects)
+EventPointerTable(0xF, VillagePalette)
+EventPointerTable(0x10, VillageTiles)
+EventPointerTable(0x2E, PlainObjects)
+EventPointerTable(0x2F, PlainPalette)
+EventPointerTable(0x30, PlainTiles)
 EventPointerTable(0x79, StrongholdObjects)
 EventPointerTable(0x7A, StrongholdPalette)
 EventPointerTable(0xE6, StrongholdSnow)

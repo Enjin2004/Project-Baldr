@@ -409,7 +409,7 @@ Mov+1.[X]
 
 
 ##DBodyRing ^
-Con+2.[X]
+Con-3.[X]
 
 
 ##DHeroCrest ^

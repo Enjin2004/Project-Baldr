@@ -79,6 +79,14 @@ ORG 0x5141C
 WORD 0x08802348
 POP
 
+//Display enemy count while in fog
+PUSH
+ORG 0x8D378
+SHORT 0xE010
+ORG 0x8E4E9
+BYTE 0xE0
+POP
+
 // Weapon Rank Fix
 // by Serif 
 PUSH
