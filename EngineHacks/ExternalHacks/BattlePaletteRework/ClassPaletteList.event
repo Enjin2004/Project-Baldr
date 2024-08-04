@@ -60,6 +60,7 @@ PaletteAssociationEntry(Macbeth, $C9)
 PaletteAssociationEntry(Myos, $DA)
 PaletteAssociationEntry(Donovan, $DD)
 PaletteAssociationEntry(Harold, $FA)
+PaletteAssociationEntry(Tonnamin, $100)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

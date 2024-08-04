@@ -26,6 +26,6 @@ ALIGN 4
 MapData:
   #incbin "YiedGenocide_data.dmp"
 
-SetChapterData(0x17, 1, 0, 2, 3, 0x69, MapData, 5, 0, 0)
+SetChapterData(0x17, 0x2E, 0, 0x2F, 0x30, 0x69, MapData, 5, 0, 0)
 
 }

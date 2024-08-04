@@ -235,6 +235,10 @@ HaroldPalette:
 #incbin "Harold.dmp"
 
 ALIGN 4
+TonnaminPalette:
+#incbin "Tonnamin.dmp"
+
+ALIGN 4
 VerdaneAxeFighterPalette:
 #incbin "VerdaneFighter.dmp"
 

@@ -26,6 +26,6 @@ ALIGN 4
 MapData:
   #incbin "BelhallaBattle_data.dmp"
 
-SetChapterData(0x16, 1, 0, 2, 3, 0x65, MapData, 5, 0, 0)
+SetChapterData(0x16, 0x2E, 0, 0x2F, 0x30, 0x65, MapData, 5, 0, 0)
 
 }

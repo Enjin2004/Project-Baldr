@@ -26,6 +26,6 @@ ALIGN 4
 MapData:
   #incbin "ThresholdtoFate_data.dmp"
 
-SetChapterData(0x15, 1, 0, 2, 3, 0x62, MapData, 5, 0, 0)
+SetChapterData(0x15, 0x2E, 0, 0x2F, 0x30, 0x62, MapData, 5, 0, 0)
 
 }

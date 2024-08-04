@@ -267,6 +267,7 @@ PaletteIdentifier($FC,$72,$75,$6b,HensonBluePalette)
 PaletteIdentifier($FD,$72,$75,$6b,HensonPurplePalette)
 PaletteIdentifier($FE,$72,$75,$6b,HensonYellowPalette)
 PaletteIdentifier($FF,$72,$75,$6b,HensonOrangePalette)
+PaletteIdentifier($100,$72,$75,$6b,TonnaminPalette)
 
 /*
 POP
