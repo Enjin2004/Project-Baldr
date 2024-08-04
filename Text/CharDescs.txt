@@ -628,7 +628,7 @@ Ayron[X]
 A mercenary acting under Myos, [N]
 no one dare ask how he lost his right eye.[X]
 
-##Desc_Snevejr 
+##Desc_Snevejr ^
 A powerful and cunning mage working for Myos. [NL]
 He enjoys Silesse's colder climate for his schemes. [NL]
 It is said he hails from a large family.[X]
@@ -643,7 +643,8 @@ youngest brother of the late king.[X]
 
 ##Desc_Myos ^
 Youngest brother of the deceased King of Silesse. [NL]
-Adamant on obtaining the Silessean throne for himself.[X]
+Adamant on obtaining the Silessean throne [N]
+for himself.[X]
 // In his hunger to succeed the Silessean throne
 // for himself, he opposed the right of succession
 // of the late king's son, Lewyn.
