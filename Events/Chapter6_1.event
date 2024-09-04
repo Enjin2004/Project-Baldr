@@ -1,0 +1,176 @@
+
+EventPointerTable(0x71,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+TurnEventPlayer(0x0,HelpCometh,6)
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+RemoveUnit(Sigurd)
+LOAD1 0x1 PlayerUnits
+LOAD1 0x1 DalvinArrives
+LOAD1 0x1 CreidneArrives
+LOAD1 0x1 MuirneArrives
+ENUN
+LOAD1 0x1 EnemyUnits
+ENDA
+
+EndingScene:
+EndEvent
+
+HelpCometh:
+LOAD1 0x1 DeimneArrives
+LOAD1 0x1 TristanArrives
+LOAD1 0x1 OifeyArrives
+LOAD1 0x1 HaroldSquad
+ENUN
+EndEvent
+
+ScoutingAhead:
+UNIT Dalvin Merc Seliph Level(1,Ally,0) [25,5] 0x0 0x0 0x1 REDA5R3 [IronBlade] NoAI
+UNIT
+
+PlayerUnits:
+UNIT Seliph SeliphLord Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA6R4 [SlimSword] NoAI
+UNIT
+
+ScathachArrives:
+UNIT Scathach Merc Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA6R5 [IronBlade] NoAI
+UNIT
+
+DalvinArrives:
+UNIT Dalvin Merc Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA6R5 [IronBlade] NoAI
+UNIT
+
+LarceiArrives:
+UNIT Larcei MyrmF Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA7R4 [IronBlade] NoAI
+UNIT
+
+CreidneArrives:
+UNIT Creidne MercF Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA7R4 [IronBlade] NoAI
+UNIT
+
+LanaArrives:
+UNIT Lana Cleric Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA5R4 [Heal] NoAI
+UNIT
+
+MuirneArrives:
+UNIT Muirne Cleric Seliph Level(1,Ally,0) [5,3] 0x0 0x0 0x1 REDA5R4 [Heal] NoAI
+UNIT
+
+DiarmuidArrives:
+UNIT Diarmuid FreeCav Seliph Level(3,Ally,0) [0,5] 0x0 0x0 0x1 REDA1R4 [IronSword] NoAI
+UNIT
+
+TristanArrives:
+UNIT Tristan FreeCav Seliph Level(3,Ally,0) [0,5] 0x0 0x0 0x1 REDA1R4 [IronSword] NoAI
+UNIT
+
+LesterArrives:
+UNIT Lester BowCav Seliph Level(1,Ally,0) [0,5] 0x0 0x0 0x1 REDA1R6 [IronBow] NoAI
+UNIT
+
+DeimneArrives:
+UNIT Deimne BowCav Seliph Level(1,Ally,0) [0,5] 0x0 0x0 0x1 REDA1R6 [IronBow] NoAI
+UNIT
+
+OifeyArrives:
+UNIT Oifey PalM Seliph Level(15,Ally,0) [0,5] 0x0 0x0 0x1 REDA1R5 [Armorslayer, Javelin] NoAI
+UNIT
+
+PersephoneArrives:
+UNIT Persephone PirateF Persephone Level(4,Enemy,0) [48,0] 0x0 0x0 0x1 REDA47R10 [SteelAxe] NoAI
+UNIT Ruffian PirateF Persephone Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA46R10 [IronAxe] NoAI
+UNIT Ruffian PirateF Persephone Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA48R10 [IronAxe] NoAI
+UNIT Ruffian PirateF Persephone Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA47R11 [IronAxe] NoAI
+UNIT
+
+NehalenniaArrives:
+UNIT Nehalennia BrigandF Nehalennia Level(4,Enemy,0) [48,0] 0x0 0x0 0x1 REDA47R10 [SteelAxe] NoAI
+UNIT Ruffian PirateF Nehalennia Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA46R10 [IronAxe] NoAI
+UNIT Ruffian PirateF Nehalennia Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA48R10 [IronAxe] NoAI
+UNIT Ruffian PirateF Nehalennia Level(2,Enemy,1) [48,0] 0x0 0x0 0x1 REDA47R11 [IronAxe] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [20,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire AxeArm Harold Level(5,Enemy,1) [24,4] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [22,6] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [16,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [31,8] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [30,9] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire AxeArm Harold Level(5,Enemy,1) [33,9] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [31,10] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire BowArm Harold Level(5,Enemy,1) [37,10] 0x0 0x0 0x0 0x1 [SteelBow] NoAI
+UNIT Ganeishire BowArm Harold Level(5,Enemy,1) [29,11] 0x0 0x0 0x0 0x1 [SteelBow] NoAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [36,12] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Ganeishire AxeArm Harold Level(5,Enemy,1) [38,14] 0x0 0x0 0x0 0x1 [SteelAxe] NoAI
+UNIT
+
+HaroldSquad:
+UNIT Harold General Dannan Level(10,Enemy,0) [56,14] 0x0 0x0 0x0 0x1 [SteelAxe, SteelBow, RescueRing] NeverMoveAI
+UNIT Ganeishire AxeArm Harold Level(5,Enemy,1) [56,14] 0x0 0x0 0x1 REDA54R11 [SteelAxe] AttackInRangeAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [56,14] 0x0 0x0 0x1 REDA53R12 [IronAxe] AttackInRangeAI
+UNIT Ganeishire BowArm Harold Level(5,Enemy,1) [56,14] 0x0 0x0 0x1 REDA51R14 [SteelBow] AttackInRangeAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [56,14] 0x0 0x0 0x1 REDA53R14 [IronAxe] AttackInRangeAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [56,14] 0x0 0x0 0x1 REDA52R15 [IronAxe] AttackInRangeAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [56,14] 0x0 0x0 0x1 REDA54R15 [IronAxe] AttackInRangeAI
+UNIT Ganeishire BowArm Harold Level(5,Enemy,1) [56,14] 0x0 0x0 0x1 REDA53R16 [SteelBow] AttackInRangeAI
+UNIT Ganeishire Fighter Harold Level(3,Enemy,1) [56,14] 0x0 0x0 0x1 REDA54R16 [IronAxe] AttackInRangeAI
+UNIT Ganeishire AxeArm Harold Level(7,Enemy,1) [56,14] 0x0 0x0 0x1 REDA55R15 [SteelAxe] NeverMoveAI
+UNIT Ganeishire AxeArm Harold Level(7,Enemy,1) [56,14] 0x0 0x0 0x1 REDA57R15 [SteelAxe] NeverMoveAI
+UNIT Ganeishire AxeArm Harold Level(7,Enemy,1) [56,14] 0x0 0x0 0x1 REDA56R16 [SteelAxe] NeverMoveAI
+UNIT
+
+DanannLeaves:
+UNIT Dannan Baron Dannan Level(25,Enemy,0) [56,14] 0x0 0x0 0x1 REDA52R30 [SilverAxe, ThiefSwd] NeverMoveAI
+UNIT
+
+Brigands:
+UNIT Ruffian Brigand Henson Level(5,Enemy,1) [59,13] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT
+

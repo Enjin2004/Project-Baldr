@@ -1,0 +1,180 @@
+EventPointerTable(0x64,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Seize(11,23)
+Seize(0x3,DebugMap,25,2)
+House(0x0,HouseOne,5,18)
+House(0x0,HouseTwo,7,24)
+House(0x0,HouseThree,17,36)
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEventBothWays(0x10,SigurdAyraConvo,Sigurd,Ayra)
+CharacterEventBothWays(0x11,LexAzelleConvo,Lex,Azel)
+CharacterEventBothWays(0x12,DewJamkeConvo,Dew,Jamke)
+CharacterEventBothWays(0x13,AlecNaoiseConvo,Alec,Noish)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+MUSC 0x01
+LOAD1 0x1 EnemyUnits
+ENUN
+CAM1 [11,23]
+FADU 16
+CleanTextNoMap(0x1F,VajaSpeech)
+LOAD 0x1 Phinora
+ENUN
+LOAD 0x1 ThraciaGuys
+ENUN
+GotoPrepScreen
+EndEvent
+
+EndingScene:
+CLEE 0
+CAM1 [11, 23]
+MUSC 0x02
+TEXTSTART
+TEXTSHOW SeizingPhinora
+TEXTEND
+MUSC 0x0
+TEXTCONT
+TEXTEND
+MUSC 0x3
+TEXTCONT
+TEXTEND
+MNC2 0x16
+EndEvent
+
+DebugMap:
+MNC2 Debugmap
+EndEvent
+
+SigurdAyraConvo:
+Text(SigurdAyraTalk)
+EndEvent
+
+LexAzelleConvo:
+Text(LexAzelleTalk)
+EndEvent
+
+DewJamkeConvo:
+Text(DewJamkeTalk)
+EndEvent
+
+AlecNaoiseConvo:
+Text(AlecNaoiseTalk)
+EndEvent
+
+HouseOne:
+HouseEvent(Placeholder,0x1)
+
+HouseTwo:
+HouseEvent(Placeholder,0x1)
+
+HouseThree:
+HouseEvent(Placeholder,0x1)
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [25,3] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [19,3] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [21,3] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [23,3] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [27,3] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [20,4] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [22,4] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [24,4] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [26,4] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [28,4] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [19,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [21,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [23,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [25,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [27,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [20,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [22,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [24,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [26,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [28,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [21,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [23,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [25,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [27,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [21,16] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [23,25] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [16,33] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [9,35] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [12,40] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer FMage Aida Level(18,Enemy,1) [6,41] 0x0 0x0 0x0 0x1 [Meteor, Elfire] NeverMoveAI
+UNIT
+
+
+Phinora:
+UNIT Vaja MageFighterF Vaja Level(21,Enemy,0) [11,23] 0x0 0x0 0x0 0x1 [Meteor, MiracleSwd] NeverMoveAI
+UNIT Velthomer Priest Vaja Level(15,Enemy,1) [11,23] 0x0 0x0 0x1 REDA10R24 [Sleep] NeverMoveAI
+UNIT Velthomer Priest Vaja Level(15,Enemy,1) [11,23] 0x0 0x0 0x1 REDA12R24 [Sleep] NeverMoveAI
+UNIT Velthomer FMage Vaja Level(18,Enemy,1) [11,23] 0x0 0x0 0x1 REDA11R25 [Elfire] NeverMoveAI
+UNIT
+
+
+ThraciaGuys:
+UNIT Magorn WyvLord Magorn Level(25,Enemy,0) [28,41] 0x0 0x0 0x0 0x1 [BraveAxe, DefRing] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [25,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [26,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [27,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [28,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [29,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [30,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [31,40] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [25,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [26,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [27,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [29,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [30,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT Thracia WyvKnt Magorn Level(18,Enemy,1) [31,41] 0x0 0x0 0x0 0x1 [Horseslayer] NoAI
+UNIT

@@ -1,0 +1,224 @@
+EventPointerTable(0x3B,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+TurnEventPlayer(0x0,BrigidTime,1)
+TurnEventPlayer(0x0,TheyReturned,2)
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Seize(49,6)
+Seize(0x3,DebugMap,34,23)
+Village(0xA,VillageOne,22,6)
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEvent(0x10,GaeBolgConvo,Ethlyn,Quan)
+CharacterEvent(0x11,SigurdBrigidConvo,Sigurd,Brigid)
+CharacterEvent(0x12,MidirBrigidConvo,Midir,Brigid)
+CharacterEvent(0x13,YewfelleConvo,Edain,Brigid)
+CharacterEventBothWays(0x14,ClaudSigurdConvo,Sigurd,Claud)
+END_MAIN
+
+MiscBasedEvents:
+AreaEvent(0xB,DewAdventure,4,15,4,15)
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+Text(PirateTime)
+LOAD1 0x1 EnemyUnits
+Text(HuntingDownBrigid)
+ENUN
+CAM1 Duvall
+LOAD1 0x1 PizareSquad
+ENUN
+CAM1 Pizare
+LOAD1 0x1 ChasingBrigidA
+LOAD1 0x1 ChasingBrigidB
+ENUN
+Text(Havoc)
+TILECHANGE 0x7
+TILECHANGE 0x8
+GotoPrepScreen
+EndEvent
+
+EndingScene:
+MNC2 0xE
+EndEvent
+
+DebugMap:
+MNC2 Debugmap
+EndEvent
+
+GaeBolgConvo:
+Text(EthlynQuanTalk)
+GiveItem(Gaebolg,Quan)
+EndEvent
+
+YewfelleConvo:
+Text(EdainBrigidTalk)
+GiveItem(Yewfelle,Brigid)
+EndEvent
+
+SigurdBrigidConvo:
+Text(SigurdBrigidTalk)
+TurnAlly(Brigid)
+EndEvent
+
+MidirBrigidConvo:
+Text(MidirBrigidTalk)
+EndEvent
+
+ClaudSigurdConvo:
+Text(ClaudSigurdTalk)
+EndEvent
+
+DewAdventure:
+EndEvent
+
+BrigidTime:
+FADI 16
+LOAD1 0x1 PirateLady
+ENUN
+FADU 16 
+EndEvent
+
+TheyReturned:
+Text(ISawTheTruth)
+LOAD1 0x1 BragiTowerDuo 
+ENUN
+EndEvent
+
+VillageOne:
+VillageEventMoney(C3_3VillageOne, 0x2, 0x1388)
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [38,25] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Erinys PegKnt 0x0 Level(1,Ally,0) [14,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Callista WyvKntF 0x0 Level(1,Ally,0) [18,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [38,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [36,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [37,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [38,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [40,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [36,24] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [37,24] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [38,24] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,24] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [36,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [37,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [40,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [37,26] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [38,26] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,26] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [37,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [38,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt 0x0 Level(1,Ally,0) [39,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT //Tells the game that the unit list has ended
+
+PirateLady:
+UNIT Brigid SniperF Edain Level(12,Ally,0) [30,5] 0x0 0x0 0x0 0x1 [SteelBow] NoAI
+UNIT
+
+BragiTowerDuo:
+UNIT Claud HPriest Sigurd Level(20,Ally,0) [4,16] 0x0 0x0 0x0 0x1 [Fortify, Valkyrie] NoAI
+UNIT Tailtiu TMageF Sigurd Level(3,Ally,0) [5,16] 0x0 0x0 0x0 0x1 [Thoron, Thunder] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Duvall Berserker Duvall Level(25,Enemy,0) [49,6] DropItem 0x0 0x0 0x1 [Tomahawk, StrRing] NeverMoveAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA48R7 [HandAxe] NeverMoveAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA50R7 [HandAxe] NeverMoveAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA49R8 [HandAxe] NeverMoveAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [20,2] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [16,3] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [13,4] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [10,7] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [8,8] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [15,8] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [11,11] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [9,13] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [9,16] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT
+
+PirateAssault:
+UNIT Duvall Berserker Duvall Level(25,Enemy,0) [49,6] DropItem 0x0 0x1 REDA37R10 [Tomahawk, StrRing] NeverMoveAI
+UNIT Pizare Warrior Duvall Level(25,Enemy,0) [49,6] DropItem 0x0 0x1 REDA36R10 [SilverAxe, LegRing] NoAI
+UNIT
+
+PizareSquad:
+UNIT Pizare Warrior Duvall Level(25,Enemy,0) [37,13] DropItem 0x0 0x0 0x1 [SilverAxe, LegRing] NoAI
+UNIT Orgahil Pirate Pizare Level(14,Enemy,1) [36,13] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(14,Enemy,1) [38,13] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [36,14] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(14,Enemy,1) [37,14] 0x0 0x0 0x0 0x1 [HandAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [38,14] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [36,15] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [37,15] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [38,15] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [36,16] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [37,16] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT Orgahil Pirate Pizare Level(12,Enemy,1) [38,16] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
+UNIT
+
+ChasingBrigidA:
+UNIT Orgahil Pirate Duvall Level(10,Enemy,1) [38,9] 0x0 0x0 0x1 REDA34R9 [HandAxe] NoAI
+UNIT Orgahil Pirate Duvall Level(10,Enemy,1) [37,10] 0x0 0x0 0x1 REDA33R10 [HandAxe] NoAI
+UNIT Orgahil Merc Duvall Level(10,Enemy,1) [38,11] 0x0 0x0 0x1 REDA34R11 [SteelSword] NoAI
+UNIT Orgahil Merc Duvall Level(10,Enemy,1) [37,12] 0x0 0x0 0x1 REDA33R12 [SteelSword] NoAI
+UNIT
+
+ChasingBrigidB:
+UNIT Orgahil Pirate Duvall Level(14,Enemy,0) [49,6] 0x0 0x0 0x1 REDA35R12 [SteelAxe] NoAI
+UNIT Orgahil Hunter Duvall Level(12,Enemy,1) [49,6] 0x0 0x0 0x1 REDA35R10 [SteelBow] NoAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA36R11 [SteelAxe] NoAI
+UNIT Orgahil Hunter Duvall Level(12,Enemy,1) [49,6] 0x0 0x0 0x1 REDA36R9 [SteelBow] NoAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA37R12 [SteelAxe] NoAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA38R11 [SteelAxe] NoAI
+UNIT Orgahil Hunter Duvall Level(12,Enemy,1) [49,6] 0x0 0x0 0x1 REDA38R9 [SteelBow] NoAI
+UNIT Orgahil Pirate Duvall Level(14,Enemy,1) [49,6] 0x0 0x0 0x1 REDA39R12 [SteelAxe] NoAI
+UNIT Orgahil Hunter Duvall Level(12,Enemy,1) [49,6] 0x0 0x0 0x1 REDA39R10 [SteelBow] NoAI
+UNIT Orgahil Merc Duvall Level(10,Enemy,1) [49,6] 0x0 0x0 0x1 REDA40R11 [SteelSword] NoAI
+UNIT Orgahil Pirate Duvall Level(10,Enemy,1) [49,6] 0x0 0x0 0x1 REDA40R9 [HandAxe] NoAI
+UNIT Orgahil Merc Duvall Level(10,Enemy,1) [49,6] 0x0 0x0 0x1 REDA41R12 [SteelSword] NoAI
+UNIT Orgahil Pirate Duvall Level(10,Enemy,1) [49,6] 0x0 0x0 0x1 REDA41R10 [HandAxe] NoAI
+UNIT

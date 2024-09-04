@@ -10,11 +10,26 @@
 .equ EndOfTradeCheck, 0x80252C4+1
 .equ BasicallyAddRescueTarget, 0x80252C0+1
 
+.set CheckEventID, 0x8083da8
+
+.macro blh to, reg=r3
+  ldr \reg, =\to
+  mov lr, \reg
+  .short 0xf800
+.endm
+
 .thumb
 
 cmp r0,#0x0
 bne CheckRescue @ if the game runs the check rescued unit check,
 				@ 0x0 is not in r0 (no idea why just noticed it was the case)
+				
+push {r1-r4}
+		mov r0,#0xAF
+		blh CheckEventID,r1
+pop {r1-r4}
+		cmp r0,#1
+beq		Trade
 
 @ r2, selected unit struct
 @ r4, second unit struct
@@ -65,6 +80,13 @@ bx r3
 @r4, second unit struct
 
 CheckRescue:
+
+push {r1-r4}
+		mov r0,#0xAF
+		blh CheckEventID,r1
+pop {r1-r4}
+		cmp r0,#1
+beq		RescueTrade
 
 @push{r1}
 mov r4,r1 @ move rescued unit struct into r4, because other functions refer to r4

@@ -24,49 +24,54 @@
 
 ALIGN 4
 MapData:
-  #incbin "HeirOfLight_data.dmp"
+  #incbin "AgustriaEnd_data.dmp"
 
-SetChapterData(0x18, 1, 0, 2, 3, 0x6F, MapData, 5, 0, 0x70)
+SetChapterData(5, 0x79, 0, 0x7A, 0x7B, 0x1B, MapData, 0x7D, 0, 0x1D)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $0 $EA0 $0 $F1C $F20 $F24
+  SHORT $4
 
 ALIGN 4
 Map_Change_1:
-  SHORT $80
+  SHORT $4
 
 ALIGN 4
 Map_Change_2:
-  SHORT $E1C
+  SHORT $4
 
 ALIGN 4
 Map_Change_3:
-  SHORT $E20
+  SHORT $4
 
 ALIGN 4
 Map_Change_4:
-  SHORT $E24
+  SHORT $780 $788 $780 $788
 
 ALIGN 4
 Map_Change_5:
-  SHORT $E9C
+  SHORT $788 $788 $788 $788
 
 ALIGN 4
 Map_Change_6:
-  SHORT $EA4
+  SHORT $780 $788 $780 $788
+
+ALIGN 4
+Map_Change_7:
+  SHORT $684 $684 $684 $684 $684 $684
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 60, 5, 3, 2, 0, Map_Change_0)
-  TileMap(1, 61, 6, 1, 1, 0, Map_Change_1)
-  TileMap(2, 60, 4, 1, 1, 0, Map_Change_2)
-  TileMap(3, 61, 4, 1, 1, 0, Map_Change_3)
-  TileMap(4, 62, 4, 1, 1, 0, Map_Change_4)
-  TileMap(5, 60, 5, 1, 1, 0, Map_Change_5)
-  TileMap(6, 62, 5, 1, 1, 0, Map_Change_6)
+  TileMap(0, 5, 3, 1, 1, 0, Map_Change_0)
+  TileMap(1, 14, 2, 1, 1, 0, Map_Change_1)
+  TileMap(2, 5, 14, 1, 1, 0, Map_Change_2)
+  TileMap(3, 8, 21, 1, 1, 0, Map_Change_3)
+  TileMap(4, 6, 26, 2, 2, 0, Map_Change_4)
+  TileMap(5, 0, 16, 2, 2, 0, Map_Change_5)
+  TileMap(6, 18, 23, 2, 2, 0, Map_Change_6)
+  TileMap(7, 12, 11, 3, 2, 0, Map_Change_7)
   TileMapEnd
 
-EventPointerTable(0x70, MapChangesData)
+EventPointerTable(0x1D, MapChangesData)
 
 }

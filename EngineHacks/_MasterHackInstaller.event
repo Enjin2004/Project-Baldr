@@ -240,6 +240,9 @@ POP
   //Tilechange triggers flag
   #include "Baldr/MapChange/Installer.event"
   
+  //Hold Button by Contro
+  #include "Baldr/HoldButton/IsPlayerHoldingKeys.lyn.event"
+  
   //Camera Speed by Contro
   #include "Baldr/CameraSpeed/Installer.event"
   

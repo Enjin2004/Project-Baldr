@@ -72,6 +72,68 @@ AreaEvent(0x1A,VisitusSir,56,5,56,5)
 END_MAIN
 
 BeginningScene:
+SetBackground(0x35)
+SVAL s1 KEY_BUTTON_R
+        ASMC ASMC_CheckPlayerHoldingKeys
+        BEQ 0x9000 sC s0
+            NarrationText(Placeholder)
+			ENUT 0xAF
+        LABEL 0x9000
+		SVAL s1 KEY_BUTTON_L
+        ASMC ASMC_CheckPlayerHoldingKeys
+        BEQ 0x9001 sC s0
+            NarrationText(ClassicMode)
+			ENUT 0xAE
+        LABEL 0x9001
+MUSC 0x1
+NarrationText(Chronology1)
+NarrationText(Chronology2)
+FADI 16
+CLEAN
+LOMA 0x42
+CAM1 [8,21]
+LOAD1 0x1 GailCrew
+LOAD1 0x2 CrusaderCrew
+ENUN
+FADU 16
+Text(MiracleOfDahna)
+STAL 60
+LOAD1 0x2 FleeingBaldr
+ENUN
+TILECHANGE 0x0
+CamOn
+MOVE 120 Baldr [8,13]
+ENUN
+TILECHANGE 0x2
+MOVE 120 Baldr [8,10]
+ENUN
+CamOff
+CAM1 [8,8]
+Text(MiracleOfDahna2)
+FAWI 16
+LOAD1 0x1 Dragons
+FAWU 16
+Text(MiracleOfDahna3)
+Text(MiracleOfDahna4)
+GiveItem(Tyrfing,Baldr)
+Text(MiracleOfDahna5)
+MOVE 120 Heim [8,6]
+FAWI 16
+CLEN 0x0
+FAWU 16
+ENUN
+Text(MiracleOfDahna6)
+FADI 16
+CLEA 0x0
+CLEE 0
+MUSC 0x1
+SetBackground(0x35)
+NarrationText(Chronology3)
+NarrationText(Chronology4)
+FADI 16
+CLEAN
+LOMA 0x0
+CAM1 [1,0]
 MUSC 0x4
 SetBackground(0x8)
 STAL 120
@@ -87,6 +149,7 @@ NarrationText(Prologue_Narration3)
 MUSC 0x0
 FADI 0x3c
 CLEAN
+ENUT AllUnitsMustEscapeFlag
 MUSC 0x26
 ENUT 0x9
 ENUT 0xA
@@ -270,18 +333,22 @@ Text(LensterArriveth)
 EndEvent
 
 BrothersTalketh:
+MUSC 0x59
 Text(SigurdEthlyn)
 EndEvent
 
 QuanTalketh:
+MUSC 0x59
 Text(QuanisWell)
 EndEvent
 
 AzelTalketh:
+MUSC 0x59
 Text(LittleFella)
 EndEvent
 
 LexTalketh:
+MUSC 0x59
 Text(HowSirDo)
 EndEvent
 
@@ -289,6 +356,8 @@ VisitusSir:
 CHECK_ACTIVE
 SVAL s1 Sigurd
 BNE 0x9000 s1 sC
+    Text(SigurdtheVisitor)
+	CleanText(0x10,SigurdtheVisitor2)
     GiveItem(Rapier,Sigurd)
     GOTO 0x9001
 LABEL 0x9000
@@ -409,4 +478,51 @@ UNIT
 RodanCometh:
 UNIT Rodan Bishop Juphiel Level(14,NPC,1) [18,0] 0x0 0x0 0x1 REDA1R8 [Sleep, Elthunder] NoAI
 UNIT Grannvale UniCav Rodan Level(21,NPC,1) [18,0] 0x0 0x0 0x1 REDA1R9 [SilverLance] NoAI
+UNIT
+
+FleeingBaldr:
+UNIT Baldr SeliphLord Heim Level(20,Ally,0) [0,19] 0x0 0x0 0x1 REDA2R18 [IronSword] NoAI
+UNIT
+
+CrusaderCrew:
+UNIT Hoor Ranger Heim Level(20,Ally,0) [13,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Njorun WyvKntF Heim Level(20,Ally,0) [12,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Dainn WyvKnt Heim Level(20,Ally,0) [11,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Seti Bard Heim Level(20,Ally,0) [10,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Nal Protector Heim Level(20,Ally,0) [9,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Bragi HPriest Heim Level(20,Ally,0) [3,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Od SwMast Heim Level(20,Ally,0) [5,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Fjalar MageFighterF Heim Level(20,Ally,0) [4,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Thrud Guardian Heim Level(20,Ally,0) [6,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Ullr AdventF Heim Level(20,Ally,0) [7,9] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Heim Sage Heim Level(20,Ally,0) [8,8] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT
+
+GailCrew:
+UNIT Julius Emperor JuliusLopt Level(20,Enemy,0) [8,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [13,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [12,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [11,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [10,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [9,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [3,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [5,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [4,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [6,20] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [7,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [4,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [6,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [8,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [10,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Loptrian Baron Julius Level(20,Enemy,0) [12,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT
+
+Dragons:
+UNIT Julia Shaman Heim Level(20,NPC,0) [8,5] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [3,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [5,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [7,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [9,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [11,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Anna CivilF Heim Level(20,NPC,0) [13,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
 UNIT

@@ -72,6 +72,7 @@ LOMA 0x3
 CAM1 [10,9]
 LOAD1 0x1 SoldierGuy1
 ENUN
+MUSC 0x24
 FADU 16
 Location(Name_Nordion)
 EVBIT_T 9
@@ -171,6 +172,7 @@ LABEL 0x9001
 EndEvent
 
 ReturnStaff:
+MUSC 0x2C
 Text(EthlynEdainTalk)
 GiveItem(Rescue,Ethlyn)
 EndEvent
@@ -182,10 +184,12 @@ MURE 60
 EndEvent
 
 MidirandEdain:
+MUSC 0x58
 Text(MidirEdainTalk)
 EndEvent
 
 AzelandEdain:
+MUSC 0x2C
 Text(AzelleEdainTalk)
 EndEvent
 
@@ -232,10 +236,11 @@ AddUnitStatus(Finn,Strength,1)
 AddUnitStatus(Finn,Skill,1)
 AddUnitStatus(Finn,Defence,1)
 MURE 60
-SystemText(FinnGotStatCH1)
+Notification(FinnGotStatCH1)
 EndEvent
 
 WeLikeSigurd:
+MUSC 0x62
 Text(QuanAyraTalk)
 EndEvent
 
@@ -273,6 +278,7 @@ ENUN
 SilentKillUnit(Jamke)
 CleanText(0x26,MunnirMad)
 LOAD1 0x1 MunnirGentlemen
+ENUN
 EndEvent
 
 

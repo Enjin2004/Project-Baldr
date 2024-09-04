@@ -8,4 +8,5 @@
 #include "SongDefs.event"
 #include "TerrainDefs.event"
 #include "IconDefs.event"
+#include "ButtonDefs.event"
 #define IsPointer 0x8000000

@@ -37,6 +37,13 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
+##Placeholder
+[OpenMidRight][LoadDalvin]
+Chirp Chirp! I'm a squirrel.[A][X]
+
+##ClassicMode
+Ye olde mode enabled![A][X]
+
 ## StairsNameText
  Stairs[X]
 
@@ -117,7 +124,9 @@ a skill when used.[X]
 #include "Chapter Text/Prologue.txt"
 #include "Chapter Text/Chapter1.txt"
 #include "Chapter Text/Chapter2.txt"
-#include "Chapter Text/Chapter5.txt"
+#include "Chapter Text/Chapter3_2.txt"
+#include "Chapter Text/Chapter4.txt"
+#include "Chapter Text/Chapter_5.txt"
 
 #include "Objectives.txt"
 

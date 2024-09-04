@@ -72,6 +72,7 @@ Text(TalkingSoldier)
 MOVE 60 Palmarch [42,17]
 ENUN
 CAM1 [14,4]
+MUSC 0x14
 LOAD1 0x1 ElliotUnits
 ENUN
 Text(ElliotArrives)
@@ -82,11 +83,13 @@ MOVE 60 CrossKnight [15,10]
 CamOff
 MOVE 60 Elliot [14,10]
 ENUN
+ENUT 0x1
 StartBattle 
 CriticalHit(0,99)
 EndAttack
 FIG1 Elliot CrossKnight SilverLance
 SFXKillUnit(CrossKnight)
+ENUF 0x1
 MOVE 60 Elliot [10,4]
 ENUN
 MoveByCoords(60, 13, 4, 4, 5)
@@ -108,6 +111,7 @@ MoveByCoords(60, 13, 8, 22, 14)
 MoveByCoords(60, 14, 8, 24, 14)
 MoveByCoords(60, 15, 8, 26, 15)
 ENUN
+MUSC 0x24
 CleanText(0x10,BorderInvaded)
 CAM1 [10,9]
 LOAD1 0x1 NordionUnits
@@ -193,7 +197,7 @@ FADI 0x3C
 LOMA 0x9
 CAM1 [10,15]
 FADU 16
-Location(Name_Agusty)
+Location(Name_Agusti)
 LOAD 0x1 AgustriaBosses
 ENUN
 FlashCursor(Bordeaux,16)

@@ -21,6 +21,7 @@ ForceDeployEntry(Sigurd,0x14)
 ForceDeployEntry(Sigurd,0x15)
 ForceDeployEntry(Sigurd,0x16)
 //one off force deploys
+ForceDeployEntry(Dew,0x5)
 ForceDeployEntry(Lewyn,0x8)
 ForceDeployEntry(Lachesis,0xA)
 ForceDeployEntry(Erinys,0xD)

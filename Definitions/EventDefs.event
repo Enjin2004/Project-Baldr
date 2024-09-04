@@ -42,7 +42,7 @@
 #define EndgameQuote(unit,text) "CHECK_DEPLOYED unit; BEQ unit 0xc 0x0; Text(text); LABEL unit"
 
 #define Location(textid) "BROWNBOXTEXT textid [8,8]"
-#define StatBoost(textid) "BROWNBOXTEXT textid [70,50]"
+#define Notification(Text) "NOTIFY Text 0x5A 0x0"
 #define LocationText(bgid,textid,labelid) "SetBackground(bgid); Location(labelid) ; TEXTSTART; TEXTSHOW textid; TEXTEND; FADI 0x3C"
 #define LocationText(bgid,textid,labelid,musicid) "MUSC 0x0; SetBackground(bgid); Location(labelid) ; MUSC musicid; TEXTSTART; TEXTSHOW textid; TEXTEND; FADI 0x3C"
 

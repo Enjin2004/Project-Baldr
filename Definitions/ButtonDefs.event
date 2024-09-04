@@ -1,0 +1,10 @@
+#define KEY_BUTTON_A 0x1
+#define KEY_BUTTON_B 0x2
+#define KEY_BUTTON_START 0x4
+#define KEY_BUTTON_SELECT 0x8
+#define KEY_DPAD_RIGHT 0x10
+#define KEY_DPAD_LEFT 0x20
+#define KEY_DPAD_UP 0x40
+#define KEY_DPAD_DOWN 0x80
+#define KEY_BUTTON_R 0x0100
+#define KEY_BUTTON_L 0x0200
