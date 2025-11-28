@@ -1,0 +1,137 @@
+
+EventPointerTable(0x4B,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+LOAD1 0x0 PlayerUnits
+ENUN
+LOAD1 0x1 EnemyUnits
+LOAD1 0x1 SnevejrElites
+LOAD1 0x1 MyosGuards
+ENUN
+ENDA
+
+EndingScene:
+EndEvent
+
+PlayerUnits:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [5,25] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [0,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [2,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,22] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [0,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [2,23] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,24] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [0,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [2,25] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,27] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [6,28] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [8,28] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [10,28] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [3,29] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,29] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,29] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,29] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [11,29] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [4,30] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [6,30] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [8,30] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [10,30] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT
+
+MyosGuards:
+UNIT Myos Guardian Myos Level(22,Enemy,0) [39,9] 0x0 0x0 0x0 0x1 [Tornado] NeverMoveAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA37R10 [Javelin] AttackInRangeAI
+UNIT Tofa WMage Myos Level(17,Enemy,1) [39,9] 0x0 0x0 0x1 REDA38R10 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Myos Level(17,Enemy,1) [39,9] 0x0 0x0 0x1 REDA40R10 [Elwind] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA41R10 [Javelin] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA37R11 [Javelin] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA38R11 [Javelin] AttackInRangeAI
+UNIT Tofa WMage Myos Level(17,Enemy,1) [39,9] 0x0 0x0 0x1 REDA39R11 [Elwind] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA40R11 [Javelin] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA41R11 [Javelin] AttackInRangeAI
+UNIT Tofa LncArm Myos Level(19,Enemy,1) [39,9] 0x0 0x0 0x1 REDA39R11 [Javelin] AttackInRangeAI
+UNIT
+
+SnevejrElites:
+UNIT Snevejr MageFighter Myos Level(16,Enemy,0) [39,9] 0x0 0x0 0x1 REDA32R11 [Blizzard, SlimSword, Elwind] NeverMoveAI
+UNIT Tofa WMage Snevejr Level(18,Enemy,1) [39,9] 0x0 0x0 0x1 REDA32R10 [Blizzard, Elwind] NeverMoveAI
+UNIT Tofa WMage Snevejr Level(18,Enemy,1) [39,9] 0x0 0x0 0x1 REDA32R12 [Blizzard, Elwind] NeverMoveAI
+UNIT
+
+EnemyUnits:
+UNIT Tofa WMage Myos Level(8,Enemy,8) [28,24] 0x0 0x0 0x0 0x1 [Blizzard] NeverMoveAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [29,10] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [28,11] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [29,11] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [27,12] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [28,12] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [29,12] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [30,12] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [28,13] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [29,13] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Tofa WMage Snevejr Level(16,Enemy,1) [29,14] 0x0 0x0 0x0 0x1 [Elwind] AttackInRangeAI
+UNIT Marlon Hero Myos Level(23,Enemy,0) [25,14] 0x0 0x0 0x0 0x1 [BraveAxe, SteelBlade, HandAxe] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [25,13] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [25,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [20,14] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [21,14] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [22,14] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [20,15] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [21,15] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [22,15] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [20,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [21,16] 0x0 0x0 0x0 0x1 [IronBlade] NoAI
+UNIT Tofa Merc Marlon Level(15,Enemy,1) [22,16] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Ruffian Pirate Myos Level(20,Enemy,1) [31,1] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Myos Level(20,Enemy,1) [10,9] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Myos Level(20,Enemy,1) [19,25] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT

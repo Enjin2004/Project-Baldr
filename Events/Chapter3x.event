@@ -1,0 +1,128 @@
+
+EventPointerTable(0x37,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Chest(IronSword,3,2)
+Chest(IronSword,15,2)
+Chest(IronSword,9,10)
+Chest(IronSword,14,9)
+Escape(0,0)
+Escape(1,0)
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+DefeatBoss(PayneRekt)
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+TILECHANGE 0x4
+RemoveUnit(Sigurd)
+RemoveUnit(Alec)
+RemoveUnit(Noish)
+RemoveUnit(Arden)
+RemoveUnit(Lex)
+RemoveUnit(Azel)
+RemoveUnit(Quan)
+RemoveUnit(Finn)
+RemoveUnit(Ethlyn)
+RemoveUnit(Midir)
+RemoveUnit(Ayra)
+RemoveUnit(Dew)
+RemoveUnit(Edain)
+RemoveUnit(Jamke)
+RemoveUnit(Holyn)
+RemoveUnit(Lachesis)
+RemoveUnit(Beowolf)
+RemoveUnit(Lewyn)
+RemoveUnit(Sylvia)
+RemoveUnit(Erinys)
+RemoveUnit(Hopper)
+RemoveUnit(Clement)
+RemoveUnit(Indech)
+RemoveUnit(Callista)
+LOAD1 0x0 PlayerUnits
+ENUN
+LOAD1 0x1 EnemyUnits
+ENDA
+
+EndingScene:
+UnremoveUnit(Sigurd)
+UnremoveUnit(Alec)
+UnremoveUnit(Noish)
+UnremoveUnit(Arden)
+UnremoveUnit(Lex)
+UnremoveUnit(Azel)
+UnremoveUnit(Quan)
+UnremoveUnit(Finn)
+UnremoveUnit(Ethlyn)
+UnremoveUnit(Midir)
+UnremoveUnit(Ayra)
+UnremoveUnit(Dew)
+UnremoveUnit(Edain)
+UnremoveUnit(Jamke)
+UnremoveUnit(Holyn)
+UnremoveUnit(Lachesis)
+UnremoveUnit(Beowolf)
+UnremoveUnit(Lewyn)
+UnremoveUnit(Sylvia)
+UnremoveUnit(Erinys)
+UnremoveUnit(Hopper)
+UnremoveUnit(Clement)
+UnremoveUnit(Indech)
+UnremoveUnit(Callista)
+MNC2 0xD
+EndEvent
+
+PayneRekt:
+TILEREVERSE 0x4
+EndEvent
+
+PlayerUnits:
+UNIT Claud HPriest 0x0 Level(3,Ally,0) [9,0] 0x0 0x0 0x1 REDA9R2 [0x0] NoAI
+UNIT Tailtiu TMageF 0x0 Level(3,Ally,0) [10,0] 0x0 0x0 0x1 REDA10R2 [0x0] NoAI
+UNIT //Tells the game that the unit list has ended
+
+EnemyUnits:
+UNIT Payne Rogue Henson Level(3,Enemy,0) [17,5] DropItem 0x0 0x0 0x1 [SteelSword, ValkyrieStaff] NeverMoveAI
+UNIT

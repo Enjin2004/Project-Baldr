@@ -1,0 +1,142 @@
+
+EventPointerTable(0x47,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+TurnEventPlayer(0x0,DithorbaCometh,25)
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+DefeatAll(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+MUSC 0x4
+Narration(0x8,Ch4_Narration)
+CLEAN
+LOAD1 0x1 EnemyUnits
+GotoPrepScreen
+EndEvent
+
+EndingScene:
+CAM1 [38,12]
+MOVE 60 Sigurd [36,11]
+ENUN
+EndEvent
+
+DithorbaCometh:
+CAM1 [38,12]
+LOAD1 0x1 DithorbaSquad
+EndEvent
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [3,34] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [11,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [13,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [6,32] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [8,32] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [10,32] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [12,32] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [11,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [13,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [6,34] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [8,34] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [10,34] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [12,34] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [13,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Cuvuli Bishop Myos Level(22,Enemy,0) [26,16] 0x0 0x0 0x0 0x1 [Sleep, Physic, Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [27,13] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [24,14] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [28,14] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [29,15] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [25,16] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [29,16] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [23,17] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [24,18] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [28,18] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Tofa WMage Cuvuli Level(15,Enemy,1) [27,19] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Ruffian Pirate Henson Level(20,Enemy,1) [28,2] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Henson Level(20,Enemy,1) [15,10] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Henson Level(20,Enemy,1) [19,18] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Henson Level(20,Enemy,1) [37,18] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Pirate Henson Level(20,Enemy,1) [22,31] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ivan WMage Daccar Level(15,NPC,0) [18,37] 0x0 0x0 0x0 0x1 [Wind, RescueRing] NeverMoveAI
+UNIT
+
+FriendStoves:
+UNIT Beowolf Ranger 0x0 Level(20,Ally,0) [5,31] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Lewyn Bard 0x0 Level(19,Ally,0) [7,31] 0x0 0x0 0x0 0x1 [Wind] NoAI
+UNIT Brigid SniperF 0x0 Level(21,Ally,0) [9,31] 0x0 0x0 0x0 0x1 [Yewfelle] NoAI
+UNIT Sylvia Dancer 0x0 Level(23,Ally,0) [11,31] 0x0 0x0 0x0 0x1 [DefenseSwd] NoAI
+UNIT Erinys Falco 0x0 Level(22,Ally,0) [13,31] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Claud HPriest 0x0 Level(20,Ally,0) [6,32] 0x0 0x0 0x0 0x1 [Fortify] NoAI
+UNIT Tailtiu TMageF 0x0 Level(20,Ally,0) [8,32] 0x0 0x0 0x0 0x1 [Thunder] NoAI
+UNIT
+
+DithorbaSquad:
+UNIT Dithorba Falco Myos Level(21,Enemy,0) [38,8] 0x0 0x0 0x1 REDA37R12 [SilverSword, MiracleRing] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA36R10 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA36R11 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA36R12 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA36R13 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA36R14 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA35R11 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA35R12 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA35R13 [SlimLance, SlimSword] NoAI
+UNIT Tofa PegKnt Dithorba Level(18,Enemy,1) [38,8] 0x0 0x0 0x1 REDA34R12 [SlimLance, SlimSword] NoAI
+UNIT

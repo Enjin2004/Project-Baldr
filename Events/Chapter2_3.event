@@ -1,0 +1,141 @@
+
+EventPointerTable(0x27,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN PlayerUnits PlayerUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Seize(28,6)
+Seize(0x13,MackilyRekt,18,30)
+Village(0xC,VillageOne,15,23)
+Village(0xD,VillageTwo,10,27)
+Village(0xE,VillageThree,12,30)
+Village(0xF,VillageFour,9,33)
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+CAM1 [18,30]
+FADU 16
+CleanText(0x15,MackilyMobilizes)
+FADI 16
+CAM1 [28,6]
+FADU 16
+CleanText(0x15,ErinysReadyToGo)
+CAM1 [4,42]
+TILECHANGE 0x1C
+TILECHANGE 0x1D
+TILECHANGE 0x1E
+LOAD1 0x1 EnemyUnits
+ENUN
+GotoPrepScreen
+EndEvent
+
+EndingScene:
+MNC2 0x9
+//no 2x oops
+EndEvent
+
+ZaneCometh:
+CAM1 [28,6]
+CleanText(0x15,ZaneEntersBattle)
+FADI 16
+TILEREVERSE 0x1C
+TILEREVERSE 0x1D
+TILEREVERSE 0x1E
+LOAD1 0x1 ZaneUnits
+ENUN
+FADU 16
+Text(ZaneRally)
+EndEvent
+
+MackilyRekt:
+EndEvent
+
+VillageOne:
+VillageEventMoney(C2_2VillageOne, 0x2, 0x1388)
+
+VillageTwo:
+VillageEventMoney(C2_2VillageTwo, 0x2, 0x1388)
+
+VillageThree:
+VillageEventMoney(C2_2VillageThree, 0x2, 0x1388)
+
+VillageFour:
+VillageEventMoney(C2_2VillageFour, 0x2, 0x1388)
+
+PlayerUnits:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [4,42] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
+UNIT Lewyn Bard 0x0 Level(1,Ally,0) [6,34] 0x0 0x0 0x0 0x1 [Elwind] NoAI
+UNIT Arden SwdArm 0x0 Level(3,Ally,0) [7,35] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [3,41] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [7,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [2,42] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [3,43] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,41] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,32] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,34] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [2,36] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [6,36] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [9,35] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [4,36] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,41] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,43] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [0,40] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [0,42] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [1,43] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [5,33] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT //Tells the game that the unit list has ended
+
+EnemyUnits:
+UNIT Chagall Baron Manfroy Level(10,Enemy,0) [28,6] DropItem 0x0 0x0 0x1 [SilverBlade, EarthSwd, Physic] NeverMoveAI
+UNIT Clement Bishop Chagall Level(18,Enemy,0) [18,30] 0x0 0x0 0x0 0x1 [Thunder, Sleep] NeverMoveAI
+UNIT Elling FMage Clement Level(10,Enemy,0) [11,29] 0x0 0x0 0x0 0x1 [Elfire] NoAI
+UNIT Hopper BowArm Clement Level(12,Enemy,0) [16,27] 0x0 0x0 0x0 0x1 [BraveBow] NoAI
+UNIT Erinys PegKnt Lewyn Level(12,Enemy,0) [16,27] 0x0 0x0 0x0 0x1 [BraveBow] NoAI
+UNIT
+
+ZaneUnits:
+UNIT Zane DukeKnt Chagall Level(21,Enemy,0) [11,38] DropItem 0x0 0x0 0x1 [Horseslayer, Javelin] NoAI
+UNIT
