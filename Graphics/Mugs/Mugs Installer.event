@@ -722,7 +722,7 @@ RossPortrait:
 #incbin "Ross_frames.dmp"
 #incbin "Ross_palette.dmp"
 #incbin "Ross_minimug.dmp"
-setMugEntry(0xCD,RossPortrait,3,5,3,3)
+setMugEntry(0xCD,RossPortrait,2,5,3,3)
 
 ALIGN 4
 MacbethPortrait:
@@ -1006,7 +1006,7 @@ HaroldPortrait:
 #incbin "Harold_frames.dmp"
 #incbin "Harold_palette.dmp"
 #incbin "Harold_minimug.dmp"
-setMugEntry(0xEB,HaroldPortrait,3,5,3,3)
+setMugEntry(0xEB,HaroldPortrait,2,5,2,3)
 
 ALIGN 4
 SchmidtPortrait:
@@ -1991,3 +1991,35 @@ BaronPhotoPortrait:
 #incbin "BaronPhoto_palette.dmp"
 #incbin "BaronPhoto_minimug.dmp"
 setMugEntry(0x13F,BaronPhotoPortrait,2,5,3,3)
+
+ALIGN 4
+RissaPortrait:
+#incbin "Rissa_mug.dmp"
+#incbin "Rissa_frames.dmp"
+#incbin "Rissa_palette.dmp"
+#incbin "Rissa_minimug.dmp"
+setMugEntry(0x0168,RissaPortrait,2,5,2,3)
+
+ALIGN 4
+SchwartzPortrait:
+#incbin "Schwartz_mug.dmp"
+#incbin "Schwartz_frames.dmp"
+#incbin "Schwartz_palette.dmp"
+#incbin "Schwartz_minimug.dmp"
+setMugEntry(0x169,SchwartzPortrait,3,5,3,3)
+
+ALIGN 4
+HugoPortrait:
+#incbin "Hugo_mug.dmp"
+#incbin "Hugo_frames.dmp"
+#incbin "Hugo_palette.dmp"
+#incbin "Hugo_minimug.dmp"
+setMugEntry(0x16A,HugoPortrait,3,5,3,3)
+
+ALIGN 4
+BenoitPortrait:
+#incbin "Benoit_mug.dmp"
+#incbin "Benoit_frames.dmp"
+#incbin "Benoit_palette.dmp"
+#incbin "Benoit_minimug.dmp"
+setMugEntry(0x16B,BenoitPortrait,3,5,3,3)

@@ -217,7 +217,8 @@ CleanText(0x26,SeizingGenoa)
 GOTO 0x2
 LABEL 0x1
 //ayra dies
-CleanText(0x26,SeizingGenoa)
+MUSC 0x32
+CleanText(0x26,SeizingGenoaAyraDed)
 LABEL 0x2
 SetChapterObjectiveText(_Seize,_SeizeMarpha)
 EndEvent

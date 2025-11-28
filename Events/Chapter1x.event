@@ -276,15 +276,15 @@ UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R4 [SteelL
 UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R5 [SteelLance] NoAI
 UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R5 [SteelLance] NoAI
 UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R5 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R6 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R6 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R6 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R7 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R7 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R7 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R8 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R8 [SteelLance] NoAI
-UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R8 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R6 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R6 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R6 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R7 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R7 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R7 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R8 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R8 [SteelLance] CastleRaidAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R8 [SteelLance] CastleRaidAI
 UNIT
 
 ElliotBack:

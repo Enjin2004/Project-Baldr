@@ -127,6 +127,7 @@ a skill when used.[X]
 #include "Chapter Text/Chapter3_2.txt"
 #include "Chapter Text/Chapter4.txt"
 #include "Chapter Text/Chapter_5.txt"
+#include "Chapter Text/Chapter8.txt"
 
 #include "Objectives.txt"
 

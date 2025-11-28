@@ -615,7 +615,7 @@ It decays everything it touches. [X]
 
 ##DMystletainn ^
 Hodr's Legendary Sword.[N]
-Skl+10 Res+20.[X]
+Skl+20 Res+10.[X]
 
 
 ##DGaeBolg ^

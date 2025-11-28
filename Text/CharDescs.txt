@@ -36,7 +36,7 @@ relationship with his half-brother and caretaker.[X]
 
 ##Desc_Quan ^
 Prince of Leonster, descendant of the Crusader [N]
-Njourn and Ethlyn's husband. Very altruistic [N]
+Njorun and Ethlyn's husband. Very altruistic [N]
 for those he cares for, yet a bit shortsighted.[X]
 // Prince of Leonster and inheritor of the lance[N]
 // Gae Bolg. Husband of Ethlyn, the younger sister [N]
@@ -166,7 +166,7 @@ An old friend of Eldigan of House Nordion.[X]
 
 ##Desc_Indech ^
 Cross knight and confidant of Eldigan, [N]
-he follows the Lionheart's ambitions as his owns.[X]
+he follows the Lionheart's ambitions as his own.[X]
 
 ##Desc_Hopper ^
 A proud and young knight of Mackily, [N]
@@ -488,7 +488,7 @@ It is said he hails from a large family.[X]
 
 ##Desc_Sandima ^
 Priest of the Loptr church, sent to Verdane to [N]
-capture a certain Cigyun's daughter. The mastermind [N]
+capture a certain maiden's daughter. The mastermind [N]
 manipulating King Batu and his sons.[X]
 // Priest of the Loptr church, entrusted by Manfroy.
 // He was asked to capture Deirdre and uses
@@ -642,9 +642,9 @@ Comes to serve Lord Myos, [N]
 youngest brother of the late king.[X]
 
 ##Desc_Myos ^
-Youngest brother of the deceased King of Silesse. [NL]
-Adamant on obtaining the Silessean throne [N]
-for himself.[X]
+Youngest brother of the deceased [NL]
+King of Silesse. Adamant on obtaining [N]
+the Silessean throne for himself.[X]
 // In his hunger to succeed the Silessean throne
 // for himself, he opposed the right of succession
 // of the late king's son, Lewyn.
@@ -956,58 +956,87 @@ Trororo[X]
 
 
 ##Desc_Verdane ^
-Verdane[X]
+Unruly barbarians from Verdane [NL]
+united under the formerly [N]
+peaceful King Batur[X]
 
 ##Desc_Heirhein ^
-Heirhein[X]
+Soldiers of Agustria from [NL]
+the duchy of Bordeaux[X]
 
 ##Desc_Infini ^
-Infini[X]
+Soldiers of Agustria from [NL]
+the duchy of Macbeth[X]
 
 ##Desc_Mackily ^
-Mackily[X]
+Soldiers of Agustria from [NL]
+the duchy of Clement[X]
 
 ##Desc_Silesse ^
-Silesse[X]
+A squad of pegasus knights[N]
+from Silesse led by Erinys.[X]
 
 ##Desc_Agusti ^
-Agusti[X]
+Soldiers and knights under the [N]
+direct order of Chagall, [NL]
+the king of Agustria.[X]
 
 ##Desc_Madino ^
-Madino[X]
+Agustrian soldiers under [N]
+Jacoban's command, employed by [NL]
+King Chagall after his defeat.[X]
 
 ##Desc_Sylvale ^
-Sylvale[X]
+Agustrian soldiers rallied under [NL]
+King Chagall after the former's [N]
+defeat six months ago.[X]
 
 ##Desc_Orgahil ^
-Orgahil[X]
+Pirates that have made their [N]
+hideout in the island above Agustria, [NL]
+pillaging anyone that didn't incur them.[X]
 
 ##Desc_CrossKnight ^
-CrossKnight[X]
+An unit of elite knights led [N]
+by Eldigan, ruler of Nordion, whom [NL]
+fervently serve the royal family.[X]
 
 ##Desc_Tofa ^
-Tofa[X]
+Silesian soldiers led by Duke Maios,[N]
+the youngest brother of the late king.[X]
 
 ##Desc_Zaxon ^
-Zaxon[X]
+Silesian soldiers led by Duke Daccar,[N]
+the younger brother of the late king.[X]
 
 ##Desc_BeigeRitter ^
-BeigeRitter[X]
+The knight brigade of Yngvi, [N]
+comprised of elite mounted [NL]
+archers under their leige.[X]
 
 ##Desc_Assassin ^
-Assassin[X]
+Members of a mysterious guild[N]
+of female assassins.[X]
 
 ##Desc_Lubeck ^
-Lubeck[X]
+Grannvalian soldiers stationed at [NL]
+Lubeck under the command of Lombard, [N]
+Duke of Dozel.[X]
 
 ##Desc_Thracia ^
-Thracia[X]
+Wyvern-riding hounds from Thracia [N]
+hired by their employer to [NL]
+reinforce their army.[X]
 
 ##Desc_Velthomer ^
-Velthomer[X]
+Specialized mages under [NL]
+Velthomer's flag led by Aida, [N]
+Arvis' trusted companion.[X]
 
 ##Desc_Friege ^
-Friege[X]
+Mighty soldiers of Friege under direct [N]
+command of the current Duke Reptor, [NL]
+Chancellor of Grannvale.[X]
 
 ##Desc_Ganeishire ^
 Ganeishire[X]
@@ -1126,7 +1155,7 @@ Aida[X]
 
 ##Desc_Palmarch ^
 A bishop from the church of Bragi and a [N]
-confidante;of Sigurd's. Though unassuming at [N] 
+confidante of Sigurd's. Though unassuming at [N] 
 a glance, he's earned the trust of his lord.[X]
 
 ##Desc_Palmarch2 ^

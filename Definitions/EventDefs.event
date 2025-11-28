@@ -18,6 +18,7 @@
 #define Narration(bgid,textid) "SetBackground(bgid); STAL 120; NarrationText(textid); MUSC 0x0; FADI 0x3c"
 #define CamOn "EVBIT_T 9"
 #define CamOff "EVBIT_F 9"
+#define DefeatBoss(flag,offset) "AFEV flag offset 2"
 #define StartGameOver "ASMC 0x800D391" // Game over ASMC 
 #define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 #define CharacterEventBothWays(eventID,eventPtr,char1,char2,afterID) "CHAR eventID eventPtr [char1,char2] 3+afterID*0x10000; CHAR eventID eventPtr [char2,char1] 3+afterID*0x10000"

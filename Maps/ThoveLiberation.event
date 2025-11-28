@@ -30,51 +30,41 @@ SetChapterData(0x10, 1, 0, 0x38, 3, 0x49, MapData, 5, 0, 0x4A)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $740 $C40 $0 $C44
+  SHORT $E9C $EA0 $EA4 $F1C $DAC $F24
 
 ALIGN 4
 Map_Change_1:
-  SHORT $8A4 $C40 $7B0 $0 $C44 $0
+  SHORT $E28
 
 ALIGN 4
 Map_Change_2:
-  SHORT $4
+  SHORT $E1C
 
 ALIGN 4
 Map_Change_3:
-  SHORT $4
+  SHORT $E20
 
 ALIGN 4
 Map_Change_4:
-  SHORT $4
+  SHORT $E24
 
 ALIGN 4
 Map_Change_5:
-  SHORT $C40
+  SHORT $E9C
 
 ALIGN 4
 Map_Change_6:
-  SHORT $4
-
-ALIGN 4
-Map_Change_7:
-  SHORT $F68 $68C
-
-ALIGN 4
-Map_Change_8:
-  SHORT $FDC $0 $9C0 $C2C
+  SHORT $EA4
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 3, 3, 2, 2, 0, Map_Change_0)
-  TileMap(1, 2, 10, 3, 2, 0, Map_Change_1)
-  TileMap(2, 3, 12, 1, 1, 0, Map_Change_2)
-  TileMap(3, 20, 1, 1, 1, 0, Map_Change_3)
-  TileMap(4, 20, 3, 1, 1, 0, Map_Change_4)
-  TileMap(5, 1, 4, 1, 1, 0, Map_Change_5)
-  TileMap(6, 20, 5, 1, 1, 0, Map_Change_6)
-  TileMap(7, 13, 2, 1, 2, 0, Map_Change_7)
-  TileMap(8, 14, 2, 2, 2, 0, Map_Change_8)
+  TileMap(0, 26, 8, 3, 2, 0, Map_Change_0)
+  TileMap(1, 27, 9, 1, 1, 0, Map_Change_1)
+  TileMap(2, 26, 7, 1, 1, 0, Map_Change_2)
+  TileMap(3, 27, 7, 1, 1, 0, Map_Change_3)
+  TileMap(4, 28, 7, 1, 1, 0, Map_Change_4)
+  TileMap(5, 26, 8, 1, 1, 0, Map_Change_5)
+  TileMap(6, 28, 8, 1, 1, 0, Map_Change_6)
   TileMapEnd
 
 EventPointerTable(0x4A, MapChangesData)

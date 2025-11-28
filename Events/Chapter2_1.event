@@ -223,6 +223,7 @@ LOMA 0x8
 CAM1 [18,30]
 MUSC 0x18
 FADU 16
+STAL 60
 LOAD1 0x0 EltoCameo
 Location(Name_Mackily)
 CleanText(0x10,ClementReflexion)

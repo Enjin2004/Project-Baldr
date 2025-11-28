@@ -10,6 +10,7 @@
 #include "_BattleEvents.event"
 #include "_BattleQuotes.event"
 #include "_DeathQuotes.event"
+#include "_ForceDeployer.event"
 #include "_BossMusic.event"
 
 ALIGN 4
@@ -30,4 +31,55 @@ ALIGN 4
 }
 {
 #include "CastleNordion.event"
+}
+{
+#include "Chapter2_1.event"
+}
+{
+#include "Chapter2x.event"
+}
+{
+#include "Chapter2_2.event"
+}
+{
+#include "Chapter2_3.event"
+}
+{
+#include "Chapter2xx.event"
+}
+{
+#include "CastleAgusty.event"
+}
+{
+#include "Chapter3_1.event"
+}
+{
+#include "Chapter3_2.event"
+}
+{
+#include "Chapter3x.event"
+}
+{
+#include "Chapter3_3.event"
+}
+{
+#include "CastleSailane.event"
+}
+{
+#include "Chapter4_1.event"
+}
+{
+#include "Chapter4_2.event"
+}
+{
+#include "Chapter5_1.event"
+}
+{
+#include "Chapter5_2.event"
+}
+{
+#include "Chapter6_1.event"
+}
+{
+#include "Chapter8_1.event"
 }

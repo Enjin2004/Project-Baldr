@@ -138,7 +138,7 @@ MUSC 0x4
 SetBackground(0x8)
 STAL 120
 NarrationText(Prologue_Narration)
-CURSOR [9, 4]
+CURSOR [8, 7]
 STAL 60
 REMOVE_CURSORS
 NarrationText(Prologue_Narration2)
@@ -477,7 +477,7 @@ UNIT
 
 RodanCometh:
 UNIT Rodan Bishop Juphiel Level(14,NPC,1) [18,0] 0x0 0x0 0x1 REDA1R8 [Sleep, Elthunder] NoAI
-UNIT Grannvale UniCav Rodan Level(21,NPC,1) [18,0] 0x0 0x0 0x1 REDA1R9 [SilverLance] NoAI
+UNIT Roberto UniCav Rodan Level(21,NPC,1) [18,0] 0x0 0x0 0x1 REDA1R9 [SilverLance] NoAI
 UNIT
 
 FleeingBaldr:

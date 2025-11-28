@@ -64,8 +64,8 @@ cannot miss and nullifies the foe's Defense.[N]
 Chance: Skill%[X]
 
 ## SD_Sol
-Sol: On activation, this unit's attack cannot[N]
-miss and restores HP equal to the damage dealt.[N]
+Sol: On activation, attack can't miss,[N]
+and heals HP = damage dealt.[N]
 Chance: Skill%[X]
 
 ## SD_Aether
@@ -79,18 +79,18 @@ attack five times consecutively.[N]
 Chance: Skill%[X]
 
 ## SD_AstraPlus ^
-Glimmer: This unit can attack up to six times if[N]
-they have more Attack Speed than their foe.[N]
+Glimmer: This unit can[N]
+attack up to six times.[N]
 Trigger: Unit's AS > Foe's AS[X]
 
 ## SD_SolPlus ^
-Noontime: If this unit is below half HP, this unit's[N]
-attacks restore HP equal to half the damage dealt.[N]
-Trigger: Current HP > 50%[X]
+Noontime: This unit's attacks restore HP[N]
+equal to half the damage dealt.[N]
+Trigger: Current HP < 50%[X]
 
 ## SD_LunaPlus ^ 
-Moonbow: If the foe is at full HP, this unit's[N]
-attacks ignore half of the foe's Def/Res.[N]
+Moonbow: This unit's attacks ignore half[N]
+of the foe's Def/Res.[N]
 Trigger: Foe's current HP = 100%[X]
 
 ## SD_RenewalPlus

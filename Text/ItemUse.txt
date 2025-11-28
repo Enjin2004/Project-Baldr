@@ -334,8 +334,8 @@ other spaces.[X]
 
 
 ##URescue ^
-Warps allies to a space adjacent[N]
-to the staff wielder.[X]
+Warps allies to[N]
+the staff wielder.[X]
 
 
 ##UTorch ^
