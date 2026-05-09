@@ -149,3 +149,7 @@ your skill in the arena?[Yes][X]
 #0x8D6
 So you won, eh? Here's[N]
 your prize. Some gold.[A][X]
+
+#0x854
+You can't enter the[N]
+arena anymore.[X]

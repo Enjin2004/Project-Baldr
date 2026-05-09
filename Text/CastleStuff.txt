@@ -250,7 +250,8 @@ going to change![A][X]
 
 ##KeimosBattle
 [OpenMidLeft][LoadKeimos]
-You guys actually beat Chulainn?![A][N]
+You guys actually[N]
+beat Chulainn?![A][N]
 Not bad, let's see how[N]
 you fare against me![A][X]
 
