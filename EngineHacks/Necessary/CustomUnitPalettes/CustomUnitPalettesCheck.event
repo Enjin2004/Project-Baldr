@@ -107,11 +107,7 @@ POIN Lau_CustomForecastRoutine+0x3A+1
 
 ALIGN 0x4
 Lau_CustomBattleScreenRoutine:
-#incbin "Lau_CustomBattleScreenPalettes.bin"
-POIN Lau_CustomUniversalUnitPalettesCheck+1
-POIN Lau_CustomBattleScreenRoutine+0xC+1
-POIN Lau_CustomBattleScreenRoutine+0x22+1
-POIN Lau_CustomBattleScreenRoutine+0x2E+1
+#include "Lau_CustomBattleScreenPalettes.lyn.event"
 
 ALIGN 0x4
 Lau_CustomArrowRoutine:
@@ -155,6 +151,7 @@ SHORT AnnandSquad 0x0 0x1 0; WORD 0; POIN PaletteList_Greens
 SHORT Eve 0x0 0x1 0; WORD 0; POIN PaletteList_Greens
 SHORT Eva 0x0 0x1 0; WORD 0; POIN PaletteList_Greens
 SHORT Alva 0x0 0x1 0; WORD 0; POIN PaletteList_Greens
+SHORT Sigurd 0x0 0x1 0; WORD 0; POIN PaletteList_Verdane
 
 //palette set specifically for Lau
 //SHORT 0x1 0x0 0x1 0; WORD 0; POIN PaletteList_Lau
@@ -189,124 +186,162 @@ WORD 0
 WORD 0
 WORD 0
 
-PaletteList_Lau:	//list of pointers to palettes
-WORD 0xC	//Lau uses the currently loaded player map sprite palette
-POIN pal_HPBox_Lau
-POIN pal_forecast_Lau
-POIN pal_battle_Lau
-POIN pal_mapStats_Lau
-POIN pal_arrow_Lau
+ALIGN 4
+pal_mapStats_Augustria:
+#incbin "Palettes/Agustria.pal"
 
-pal_HPBox_Lau:
-#incbin "CustomUnitPalettes/HPBox_Lau.bin"
-pal_forecast_Lau:
-#incbin "CustomUnitPalettes/Forecast_Lau.bin"
-pal_battle_Lau:
-#incbin "CustomUnitPalettes/MapBattleStats_Lau.bin"
-pal_mapStats_Lau:
-#incbin "CustomUnitPalettes/MapBattleStats_Lau.bin"
-pal_arrow_Lau:
-#incbin "CustomUnitPalettes/arrow_Lau.bin"
+ALIGN 4
+pal_mapStats_Annand:
+#incbin "Palettes/AnnandSquad.pal"
 
+ALIGN 4
+pal_mapStats_Chalphy:
+#incbin "Palettes/Chalphy.pal"
 
-PaletteList_Brandon:
+ALIGN 4
+pal_mapStats_CrossKnights:
+#incbin "Palettes/CrossKnights.pal"
+
+ALIGN 4
+pal_mapStats_Generic:
+#incbin "Palettes/Generic.pal"
+
+ALIGN 4
+pal_mapStats_Grannvale:
+#incbin "Palettes/Grannvale.pal"
+
+ALIGN 4
+pal_mapStats_Isaach:
+#incbin "Palettes/Isaach.pal"
+
+ALIGN 4
+pal_mapStats_Leonster:
+#incbin "Palettes/Leonster.pal"
+
+ALIGN 4
+pal_mapStats_Loptous:
+#incbin "Palettes/Loptous.pal"
+
+ALIGN 4
+pal_mapStats_Miletos:
+#incbin "Palettes/Miletos.pal"
+
+ALIGN 4
+pal_mapStats_Silesse:
+#incbin "Palettes/Silesse.pal"
+
+ALIGN 4
+pal_mapStats_Thracia:
+#incbin "Palettes/Thracia.pal"
+
+ALIGN 4
+pal_mapStats_Verdane:
+#incbin "Palettes/Verdane.pal"
+
+ALIGN 4
+PaletteList_Augustria:
 WORD 0xC
-POIN pal_HPBox_Brandon
-POIN pal_forecast_Brandon
-POIN pal_battle_Brandon
-POIN pal_mapStats_Brandon
-POIN pal_arrow_Brandon
+POIN 0
+POIN 0
+POIN pal_mapStats_Augustria
+POIN pal_mapStats_Augustria
+WORD 0
 
-pal_HPBox_Brandon:
-#incbin "CustomUnitPalettes/HPBox_Brandon.bin"
-pal_forecast_Brandon:
-#incbin "CustomUnitPalettes/Forecast_Brandon.bin"
-pal_battle_Brandon:
-#incbin "CustomUnitPalettes/MapBattleStats_Brandon.bin"
-pal_mapStats_Brandon:
-#incbin "CustomUnitPalettes/MapBattleStats_Brandon.bin"
-pal_arrow_Brandon:
-#incbin "CustomUnitPalettes/arrow_Brandon.bin"
-
-
-PaletteList_LauLead:
+PaletteList_Annand:
 WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Annand
+POIN pal_mapStats_Annand
 WORD 0
-WORD 0
-WORD 0
-WORD 0
-POIN pal_arrow_Lau
 
-PaletteList_BrandonLead:
+PaletteList_Chalphy:
 WORD 0xC
-WORD 0
-WORD 0
-WORD 0
-WORD 0
-POIN pal_arrow_Brandon
-
-
-PaletteList_Lort:
-WORD 0xD
-POIN pal_HPBox_Lort
-POIN pal_forecast_Lort
-POIN pal_battle_Lort
-POIN pal_mapStats_Lort
+POIN 0
+POIN 0
+POIN pal_mapStats_Chalphy
+POIN pal_mapStats_Chalphy
 WORD 0
 
-PaletteList_Kak:
-WORD 0xD
-POIN pal_HPBox_Kak
-POIN pal_forecast_Kak
-POIN pal_battle_Kak
-POIN pal_mapStats_Kak
+PaletteList_CrossKnights:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_CrossKnights
+POIN pal_mapStats_CrossKnights
 WORD 0
 
+PaletteList_Generic:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Generic
+POIN pal_mapStats_Generic
+WORD 0
 
-pal_HPBox_Lort:
-#incbin "CustomUnitPalettes/HPBox_Lort.bin"
-pal_forecast_Lort:
-#incbin "CustomUnitPalettes/Forecast_Lort.bin"
-pal_battle_Lort:
-#incbin "CustomUnitPalettes/MapBattleStats_Lort.bin"
-pal_mapStats_Lort:
-#incbin "CustomUnitPalettes/MapBattleStats_Lort.bin"
+PaletteList_Grannvale:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Grannvale
+POIN pal_mapStats_Grannvale
+WORD 0
 
-pal_HPBox_Kak:
-#incbin "CustomUnitPalettes/HPBox_Kak.bin"
-pal_forecast_Kak:
-#incbin "CustomUnitPalettes/Forecast_Kak.bin"
-pal_battle_Kak:
-#incbin "CustomUnitPalettes/MapBattleStats_Kak.bin"
-pal_mapStats_Kak:
-#incbin "CustomUnitPalettes/MapBattleStats_Kak.bin"
+PaletteList_Isaach:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Isaach
+POIN pal_mapStats_Isaach
+WORD 0
 
+PaletteList_Leonster:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Leonster
+POIN pal_mapStats_Leonster
+WORD 0
 
-//CheckLauChapter:
-//#incbin "Lau_CheckIsLauChapter.bin"
-//CheckBrandonChapter:
-//#incbin "Lau_CheckIsBrandonChapter.bin"
+PaletteList_Loptous:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Loptous
+POIN pal_mapStats_Loptous
+WORD 0
 
-/***\
-//checks if chapter map ID falls between 0xC and 0x14, inclusive
-CheckChapterIDRange_Lort:
-#incbin "Lau_CheckMapIDRange.bin"
-WORD 0xC 0x14
+PaletteList_Miletos:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Miletos
+POIN pal_mapStats_Miletos
+WORD 0
 
-CheckChapterIDRange_Kak:
-#incbin "Lau_CheckMapIDRange.bin"
-WORD 0x17 0x1B
+PaletteList_Silesse:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Silesse
+POIN pal_mapStats_Silesse
+WORD 0
 
-//checks if character name text ID matches "nameLort" definition
-CheckCharacter_Lort:
-#incbin "Lau_CheckNameMatch.bin"
-WORD nameLort
+PaletteList_Thracia:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Thracia
+POIN pal_mapStats_Thracia
+WORD 0
 
-CheckCharacter_Kak:
-#incbin "Lau_CheckNameMatch.bin"
-WORD nameKakan
-\***/
-
+PaletteList_Verdane:
+WORD 0xC
+POIN 0
+POIN 0
+POIN pal_mapStats_Verdane
+POIN pal_mapStats_Verdane
+WORD 0
 
 
 PUSH
